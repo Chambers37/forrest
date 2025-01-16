@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --lightGreen: rgb(116, 143, 111)
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('/fonts/merriweather/Merriweather') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
