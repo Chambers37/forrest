@@ -1,6 +1,6 @@
 
 
-export default function Services() {
+export default function Quote() {
   return (
     <div>
       <p>quote</p>
