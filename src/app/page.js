@@ -22,7 +22,7 @@ export default function Homepage() {
 
       </div>
 
-      <div className="relative w-full max-w-[4000px] h-[500px] mx-auto overflow-hidden">
+      <div className="relative w-full max-w-[4000px] h-[500px] mx-auto overflow-hidden bg-red-500">
 
         <Image
           src='/images/pool-banner-cropped2.png'
@@ -45,17 +45,89 @@ export default function Homepage() {
         </div>
         
 
-        <div className="w-full bg-red-300 border-green border-solid border-lg">
-          <form className="text-center text-6xl ">
-            <label htmlFor="name" className="block text-5xl font-medium text-gray-700">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              className="block w-full max-w-md max-h- p-2 border rounded text-xs"
-              required
-            />
+        <div className="flex w-full mx-auto bg-red-300 p-3 items-center justify-center">
+
+          <form className="max-w-lg w-full text-2xl gap-7 grid grid-cols-1 md:grid-cols-2 gap-2 border-black border-lg border-solid">
+            
+            <div>
+              <label htmlFor="first-name" className="block text-gray-700">
+                First Name *
+              </label>
+              <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"
+                required
+              />        
+            </div>
+              
+            <div>
+              <label htmlFor="last-name" className="block text-gray-700">
+                Last Name *
+              </label>
+              <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"                required
+              />        
+            </div>
+          
+            <div>
+              <label htmlFor="city" className="block text-gray-700">
+                City
+              </label>
+              <input
+                type="text"
+                id="city"
+                name="city"
+                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"              />        
+            </div>
+
+            <div>
+              <label htmlFor="Email" className="block text-gray-700">
+                Email *
+              </label>
+              <input
+                type="email"
+                id="Email"
+                name="Email"
+                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"                required
+              />        
+            </div>
+          
+            <div>
+              <label htmlFor="Phone" className="block text-gray-700">
+                Phone
+              </label>
+              <input
+                type="tel"
+                id="Phone"
+                name="Phone"
+                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"              />        
+            </div>
+
+            <div>
+              <label htmlFor="service" className="block text-gray-700">
+                Type of Service
+              </label>
+              <ul>
+                <li>
+                  <a>
+                  </a>
+                </li>
+              </ul>       
+            </div>
+
+            <div className="col-span-1 md:col-span-2">
+              <button className="mt-10 bg-blue-300 w-full p-2 font-medium">
+                Submit
+              </button>
+            </div>
+            
           </form>
+
         </div>
 
       </div>
