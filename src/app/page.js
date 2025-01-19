@@ -110,14 +110,26 @@ export default function Homepage() {
 
             <div>
               <label htmlFor="service" className="block text-gray-700">
-                Type of Service
+                Type of Service *
               </label>
-              <ul>
-                <li>
-                  <a>
-                  </a>
-                </li>
-              </ul>       
+              <select
+                id="service-type"
+                name="service-type"
+                className="hover:bg-transparent  focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-transparent focus:self-center focus:mr-auto text-sm p-2"
+                defaultValue=""
+                required
+                >
+                <option value="" disabled>Please Choose One</option>
+                <option value="Patios">Patios</option>   
+                <option value="Walkways">Walkways</option> 
+                <option value="Pool Decks">Pool Decks</option> 
+                <option value="Outdoor Living Space">Outdoor Living Space</option> 
+                <option value="Landscape Design">Landscape Design</option> 
+                <option value="New Plant Installations">New Plant Instalations</option> 
+                <option value="Drainage Solutions">Drainage Solutions</option>            
+                <option value="Property Maintenance">Property Maintenance</option>            
+                <option value="Seasonal Services">Seasonal Services</option>            
+              </select>        
             </div>
 
             <div className="col-span-1 md:col-span-2">
