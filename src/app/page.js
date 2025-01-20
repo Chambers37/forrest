@@ -1,8 +1,17 @@
 'use client'
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Homepage() {
+
+  const images = [
+    "/images/site-logo.png",
+    "/images/site-logo.png",
+    "/images/site-logo.png",
+    "/images/site-logo.png",
+    "/images/site-logo.png",
+  ];
   return (
     <main>
 
@@ -34,7 +43,7 @@ export default function Homepage() {
       </div>
       
       {/* Request a quote*/}
-      <div className="flex bg-blue-400 border-green border-solid border-lg p-7 gap-7">
+      <section className="flex bg-blue-400 border-green border-solid border-lg p-7 gap-7">
 
         <div className="w-full bg-red-300 border-green border-solid border-lg">
           <p className="text-center text-6xl pt-20">Request</p>
@@ -47,7 +56,7 @@ export default function Homepage() {
 
         <div className="flex w-full mx-auto bg-red-300 p-3 items-center justify-center">
 
-          <form className="max-w-lg w-full text-2xl gap-7 grid grid-cols-1 md:grid-cols-2 gap-2 border-black border-lg border-solid">
+          <form className="max-w-lg w-full text-2xl gap-7 grid grid-cols-1 md:grid-cols-2 gap-2 border-black border-lg border-solid m-20">
             
             <div>
               <label htmlFor="first-name" className="block text-gray-700">
@@ -142,25 +151,43 @@ export default function Homepage() {
 
         </div>
 
-      </div>
+      </section>
 
       {/* services */}
-      <div className="flex bg-red border-green border-solid border-lg">
+      <section className="flex bg-red-500 p-7 border-green border-solid border-lg">
 
-        <div className="w-full bg-red-300 border-green border-solid border-lg">
-          <p className="text-center text-6xl pt-20">Request</p>
-          <p className="text-center text-6xl">A Quote</p>
-          <p className="text-center text-6xl">Today</p>
-          <p className="text-center text-xl px-14 pt-4 pb-20">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, at. Eius sunt esse quidem suscipit aut, adipisci voluptate maiores unde temporibus enim eveniet voluptatem incidunt harum sit deserunt minima beatae!
-          </p>
+        <div className="w-full bg-red-300 px-8 border-green border-solid border-lg">
+          <p className="p-2 text-2xl"><Link href="/services">Our Services</Link></p>
+          <h1 className="p-4 text-6xl"><Link href="/services">Walkways & Patios</Link></h1>
+          <hr className="m-1"></hr>
+          <h1 className="p-4 text-6xl"><Link href="/services">Natural Stone Work</Link></h1>
+          <hr className="m-1"></hr>
+          <h1 className="p-4 text-6xl"><Link href="/services">Outdoor Living Spaces</Link></h1>
+          <hr className="m-1"></hr>
+          <h1 className="p-4 text-6xl"><Link href="/services">Year-Round Property Care</Link></h1>
+          <hr className="m-1"></hr>
+          <Link href="/services">
+            <button className="w-1/4 bg-blue-500 p-4 mt-6 mb-5">View All Services</button>
+          </Link>
         </div>
-        
 
-        <div className="w-full bg-red-300 border-green border-solid border-lg">
-          <p className="text-center text-6xl">test 2</p>
-        </div>
+      </section>
 
+      {/* Image wheel*/}
+      <section>
+      <div className="w-full overflow-hidden bg-gray-200">
+      <div className="flex gap-4 animate-scroll">
+        {images.map((src, index) => (
+          <img
+            key={index}
+            src={src}
+            alt={`Collage Image ${index + 1}`}
+            className="w-64 h-40"
+          />
+        ))}
       </div>
+    </div>
+      </section>
 
     </main>
   );
