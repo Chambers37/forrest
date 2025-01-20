@@ -5,7 +5,11 @@
 :root {
   --lightGreen: rgb(116, 143, 111)
 }
-
+ html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+ }
 @font-face {
   font-family: 'Merriweather';
   src: url('/fonts/merriweather/Merriweather') format('ttf');
@@ -20,3 +24,31 @@
   font-style: normal;
 }
 
+.imagecarousel {
+  position: relative;
+  height: 233px;
+  margin: 0 auto;
+  display: flex;
+  gap: 0; /* No gaps to prevent visual breaks */
+  width: calc(200%); /* Double the width of the container for seamless scrolling */
+  animation: bannermove 40s linear infinite; /* Adjust duration for smoother scroll */
+}
+
+.imagecarousel img {
+  flex-shrink: 0;
+  width: auto; /* Ensure aspect ratio is preserved */
+  height: 100%; /* Match height */
+}
+
+@keyframes bannermove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Move exactly one full content width */
+  }
+}
+
+.imagecarousel:hover {
+  animation-play-state: paused;
+}

@@ -15,6 +15,7 @@ export default function Homepage() {
   return (
     <main>
 
+      {/** Main Hero Section */}
       <div className="bg-lightGreen w-full text-black text-center py-4">
 
         <p className="text-6xl">
@@ -31,6 +32,7 @@ export default function Homepage() {
 
       </div>
 
+      {/** Main Hero Section part2*/}
       <div className="relative w-full max-w-[4000px] h-[500px] mx-auto overflow-hidden bg-red-500">
 
         <Image
@@ -175,18 +177,43 @@ export default function Homepage() {
 
       {/* Image wheel*/}
       <section>
-      <div className="w-full overflow-hidden bg-gray-200">
-      <div className="flex gap-4 animate-scroll">
-        {images.map((src, index) => (
-          <img
-            key={index}
-            src={src}
-            alt={`Collage Image ${index + 1}`}
-            className="w-64 h-40"
-          />
-        ))}
-      </div>
-    </div>
+        <div className="imagecarousel p-10">
+          <img className="px-2" src="/images/site-logo.png" alt="" />
+
+          <img className="px-2" src="/images/site-logo.png" alt="" />
+
+          <img className="px-2" src="/images/site-logo.png" alt="" />
+
+          <img className="px-2" src="/images/site-logo.png" alt="" />
+          <img className="px-2" src="/images/site-logo.png" alt="" />
+
+          <img className="px-2" src="/images/site-logo.png" alt="" />
+
+          <img className="px-2" src="/images/site-logo.png" alt="" />
+
+          <img className="px-2" src="/images/site-logo.png" alt="" />
+
+        </div>
+      </section>
+
+      {/** Why Us */}
+      <section>
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          <div className="self-center justify-items-center">
+            <h1 className="text-6xl">Why Choose Us</h1>
+          </div>
+          <div>
+            <p>Forrest Hardscape & Landscape is a full-service company servicing the greater Chester County region.</p>
+            <p>Forrest Hardscape & Landscape is a full-service company servicing the greater Chester County region.</p>
+            <p>With 18 years of experience in the horticultural industry, Matt and his team, work with homeowners and businesses to design, install, and maintain landscape and hardscape projects, both big and small.</p>
+          </div>
+          <div className="text-3xl justify-center gap-10 mx-20 flex col-span-1 md:col-span-2">
+            <div><p>On Time, Every Time</p></div>
+            <div><p>Experienced Team Members</p></div>
+            <div><p>Eco-Friendly</p></div>
+            <div><p>Trusted and Insured</p></div>
+          </div>
+        </div>
       </section>
 
     </main>
