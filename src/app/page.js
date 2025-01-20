@@ -216,6 +216,29 @@ export default function Homepage() {
         </div>
       </section>
 
+      {/** What Clients Say */}
+      <section>
+        <div className="flex justify-center gap-10 my-10">
+          <div className="text-5xl">
+            <p>What Our Clients Say</p>
+          </div>
+          <div className="text-3xl">
+            <p>Blah Blah Blach</p>
+            <p>Patty</p>
+          </div>
+        </div>
+        <div className="relative w-full max-w-[4000px] h-[500px] mx-auto overflow-hidden bg-red-500">
+          <Image
+            src='/images/pool-banner.jpg'
+            width={1100}
+            height={400}
+            alt='Pool Deck and Retaining Wall'
+            className=""
+          />
+        </div>
+      </section>
+
+
     </main>
   );
 }
