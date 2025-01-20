@@ -228,13 +228,14 @@ export default function Homepage() {
           </div>
         </div>
         <div className="relative w-full max-w-[4000px] h-[500px] mx-auto overflow-hidden bg-red-500">
+
           <Image
-            src='/images/pool-banner.jpg'
-            width={1100}
-            height={400}
+            src='/images/pool-banner-cropped2.png'
+            fill
             alt='Pool Deck and Retaining Wall'
-            className=""
+            className="object-cover p-7"
           />
+
         </div>
       </section>
 
