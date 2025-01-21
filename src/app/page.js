@@ -16,7 +16,7 @@ export default function Homepage() {
     <main>
 
       {/** Main Hero Section */}
-      <div className="bg-lightGreen w-full text-black text-center mt-4 py-4">
+      <div className="bg-lightGreen w-full text-black text-center py-4">
 
         <p className="text-6xl">
         Professional
