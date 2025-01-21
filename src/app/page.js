@@ -130,7 +130,7 @@ export default function Homepage() {
                 defaultValue=""
                 required
                 >
-                <option value="" disabled>Please Choose One</option>
+                <option value="" disabled>-Please Choose One-</option>
                 <option value="Patios">Patios</option>   
                 <option value="Walkways">Walkways</option> 
                 <option value="Pool Decks">Pool Decks</option> 
