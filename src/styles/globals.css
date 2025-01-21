@@ -29,15 +29,15 @@
   height: 233px;
   margin: 0 auto;
   display: flex;
-  gap: 0; /* No gaps to prevent visual breaks */
-  width: calc(200%); /* Double the width of the container for seamless scrolling */
-  animation: bannermove 40s linear infinite; /* Adjust duration for smoother scroll */
+  gap: 0;
+  width: calc(200%);
+  animation: bannermove 40s linear infinite;
 }
 
 .imagecarousel img {
   flex-shrink: 0;
-  width: auto; /* Ensure aspect ratio is preserved */
-  height: 100%; /* Match height */
+  width: auto;
+  height: 100%; 
 }
 
 @keyframes bannermove {
@@ -45,7 +45,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%); /* Move exactly one full content width */
+    transform: translateX(-100%); 
   }
 }
 
