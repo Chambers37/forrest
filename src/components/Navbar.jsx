@@ -9,7 +9,7 @@ export default function Nabar() {
   const pathname = usePathname();
 
   return (
-    <main id='header' className='flex justify-between bg-gray-100 pt-4 pb-1'>
+    <main id='header' className='flex fixed z-50 top-0 w-full justify-between bg-gray-100 pt-4 pb-1'>
 
       <Image
         src="/images/site-logo.png"
