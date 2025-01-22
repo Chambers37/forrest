@@ -1,4 +1,4 @@
-
+'use client'
 
 export default function Footer() {
   
@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex-grow pb-10">
         </div>
         <footer className="absolute bottom-0 w-full h-10 bg-gray-800">
-          <p className="">testing 123</p>
+          <p>testing 123</p>
         </footer>
       </div>
     </body>
