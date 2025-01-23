@@ -47,12 +47,14 @@ export default function Homepage() {
       {/* Request a quote*/}
       <section className="flex bg-blue-400 border-green border-solid border-lg p-7 gap-7">
 
-        <div className="w-full bg-red-300 border-green border-solid border-lg">
-          <p className="text-center text-6xl pt-20">Request</p>
-          <p className="text-center text-6xl">A Quote</p>
-          <p className="text-center text-6xl">Today</p>
-          <p className="text-center text-xl px-14 pt-4 pb-20">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, at. Eius sunt esse quidem suscipit aut, adipisci voluptate maiores unde temporibus enim eveniet voluptatem incidunt harum sit deserunt minima beatae!
-          </p>
+        <div className="w-full bg-red-300 border-green border-solid border-lg justify-center">
+          <div className="max-w-xlg text-center">
+            <p className="text-center text-6xl pt-20">Request</p>
+            <p className="text-center text-6xl">A Quote</p>
+            <p className="text-center text-6xl">Today</p>
+            <p className="text-center text-xl px-14 pt-4 pb-20">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, at. Eius sunt esse quidem suscipit aut, adipisci voluptate maiores unde temporibus enim eveniet voluptatem incidunt harum sit deserunt minima beatae!
+            </p>
+          </div>
         </div>
         
 
@@ -81,7 +83,8 @@ export default function Homepage() {
                 type="text"
                 id="last-name"
                 name="last-name"
-                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"                required
+                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"
+                required
               />        
             </div>
           
@@ -93,7 +96,8 @@ export default function Homepage() {
                 type="text"
                 id="city"
                 name="city"
-                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"              />        
+                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"
+                />        
             </div>
 
             <div>
@@ -104,7 +108,8 @@ export default function Homepage() {
                 type="email"
                 id="Email"
                 name="Email"
-                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"                required
+                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"
+                required
               />        
             </div>
           
@@ -116,7 +121,8 @@ export default function Homepage() {
                 type="tel"
                 id="Phone"
                 name="Phone"
-                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"              />        
+                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"
+                />        
             </div>
 
             <div>
@@ -129,7 +135,7 @@ export default function Homepage() {
                 className="hover:bg-transparent  focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-transparent focus:self-center focus:mr-auto text-sm p-2"
                 defaultValue=""
                 required
-                >
+              >
                 <option value="" disabled>-Please Choose One-</option>
                 <option value="Patios">Patios</option>   
                 <option value="Walkways">Walkways</option> 
