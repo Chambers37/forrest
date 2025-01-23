@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 
@@ -11,13 +12,15 @@ export default function Nabar() {
   return (
     <main id='header' className='h-[90px] flex fixed z-50 top-0 w-full justify-between bg-gray-100 pt-4 pb-1'>
 
-      <Image
-        src="/images/site-logo.png"
-        width={300}
-        height={96}
-        alt="Forrest Hardscape and Landscape"
-        className="h-[72px] w-[225px] object-contain block ml-2 md:ml-3 lg:ml-5"
-      />
+      <Link href='/'>
+        <Image
+          src="/images/site-logo.png"
+          width={300}
+          height={96}
+          alt="Forrest Hardscape and Landscape"
+          className="h-[72px] w-[225px] object-contain block ml-2 md:ml-3 lg:ml-5"
+          />
+        </Link>
 
       <div className='flex flex-row-reverse'>
 
