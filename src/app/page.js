@@ -234,7 +234,7 @@ export default function Homepage() {
             <p>Patty</p>
           </div>
         </div>
-        <div className="relative w-full max-w-[4000px] h-[500px] mx-auto overflow-hidden bg-red-500">
+        <div className="relative w-full max-w-[4000px] h-[500px] mx-auto overflow-hidden">
 
           <Image
             src='/images/better-pool-banner.jpg'
