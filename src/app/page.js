@@ -185,18 +185,12 @@ export default function Homepage() {
       <section>
         <div className="imagecarousel p-10">
           <img className="px-2" src="/images/site-logo.png" alt="" />
-
-          <img className="px-2" src="/images/site-logo.png" alt="" />
-
-          <img className="px-2" src="/images/site-logo.png" alt="" />
-
           <img className="px-2" src="/images/site-logo.png" alt="" />
           <img className="px-2" src="/images/site-logo.png" alt="" />
-
           <img className="px-2" src="/images/site-logo.png" alt="" />
-
           <img className="px-2" src="/images/site-logo.png" alt="" />
-
+          <img className="px-2" src="/images/site-logo.png" alt="" />
+          <img className="px-2" src="/images/site-logo.png" alt="" />
           <img className="px-2" src="/images/site-logo.png" alt="" />
 
         </div>
