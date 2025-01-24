@@ -45,14 +45,14 @@ export default function Homepage() {
       </div>
       
       {/* Request a quote*/}
-      <section className="flex border-green border-solid border-lg p-7 gap-7">
+      <section className="grid grid-cols-1 md:grid-cols-2 flex border-green border-solid border-lg p-7 gap-7">
 
         <div className="w-full border-green border-solid border-lg justify-center">
-          <div className="max-w-xlg text-center">
-            <p className="text-center text-6xl pt-20">Request</p>
-            <p className="text-center text-6xl">A Quote</p>
-            <p className="text-center text-6xl">Today</p>
-            <p className="text-center text-xl px-14 pt-4 pb-20">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, at. Eius sunt esse quidem suscipit aut, adipisci voluptate maiores unde temporibus enim eveniet voluptatem incidunt harum sit deserunt minima beatae!
+          <div className="mx-auto max-w-[680px] text-center">
+            <p className="text-center text-darkGreen text-6xl pt-20">Request</p>
+            <p className="text-center text-darkGreen text-6xl">A Quote</p>
+            <p className="text-center text-darkGreen text-6xl">Today</p>
+            <p className="text-center text-darkGreen text-xl px-10 md:px-20 pt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, at. Eius sunt esse quidem suscipit aut, adipisci voluptate maiores unde temporibus enim eveniet voluptatem incidunt harum sit deserunt minima beatae!
             </p>
           </div>
         </div>
@@ -182,19 +182,25 @@ export default function Homepage() {
       </section>
 
       {/* Image wheel*/}
-      <section>
-        <div className="imagecarousel p-10">
-          <img className="px-2" src="/images/site-logo.png" alt="" />
-          <img className="px-2" src="/images/site-logo.png" alt="" />
-          <img className="px-2" src="/images/site-logo.png" alt="" />
-          <img className="px-2" src="/images/site-logo.png" alt="" />
-          <img className="px-2" src="/images/site-logo.png" alt="" />
-          <img className="px-2" src="/images/site-logo.png" alt="" />
-          <img className="px-2" src="/images/site-logo.png" alt="" />
-          <img className="px-2" src="/images/site-logo.png" alt="" />
-
+      {/* <section className="h-80 flex items-center justify-center">
+        <div className="flex items-center justify-center p-5 gap-5">
+          <div className="h-80 flex items-center justify-center overflow-hidden">
+            <img className="px-2 scale-150 w-full object-cover" src="/images/better-pool-banner.jpg" alt="" />
+          </div>        
+          <div className="h-80 flex items-center justify-center overflow-hidden">
+            <img className="px-2 scale-150 w-full object-cover" src="/images/pool-banner-cropped.png" alt="" />
+          </div>        
+          <div className="h-80 flex items-center justify-center overflow-hidden">
+            <img className="px-2 scale-150 w-full object-cover" src="/images/pool-banner.jpg" alt="" />
+          </div>        
+          <div className="h-80 flex items-center justify-center overflow-hidden">
+            <img className="px-2 scale-150 w-full object-cover" src="/images/site-logo.png" alt="" />
+          </div>        
+          <div className="h-80 flex items-center justify-center overflow-hidden">
+            <img className="px-2 scale-150 w-full object-cover" src="/images/pool-banner-cropped2.png" alt="" />
+          </div>              
         </div>
-      </section>
+      </section> */}
 
       {/** Why Us */}
       <section>
@@ -207,6 +213,7 @@ export default function Homepage() {
             <p>Forrest Hardscape & Landscape is a full-service company servicing the greater Chester County region.</p>
             <p>With 18 years of experience in the horticultural industry, Matt and his team, work with homeowners and businesses to design, install, and maintain landscape and hardscape projects, both big and small.</p>
           </div>
+          <hr className="col-span-2 border-darkGreen m-10"></hr>
           <div className="text-3xl justify-center gap-10 mx-20 flex col-span-1 md:col-span-2">
             <div><p>On Time, Every Time</p></div>
             <div><p>Experienced Team Members</p></div>

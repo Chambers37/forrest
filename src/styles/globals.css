@@ -10,7 +10,6 @@
  html, body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
  }
 @font-face {
   font-family: 'Merriweather';
@@ -26,31 +25,3 @@
   font-style: normal;
 }
 
-.imagecarousel {
-  position: relative;
-  height: 233px;
-  margin: 0 auto;
-  display: flex;
-  gap: 0;
-  width: calc(200%);
-  animation: bannermove 40s linear infinite;
-}
-
-.imagecarousel img {
-  flex-shrink: 0;
-  width: auto;
-  height: 100%; 
-}
-
-@keyframes bannermove {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%); 
-  }
-}
-
-.imagecarousel:hover {
-  animation-play-state: paused;
-}
