@@ -33,10 +33,10 @@ export default function Homepage() {
       </div>
 
       {/** Main Hero Section part2*/}
-      <div className="relative w-full max-w-[4000px] h-[500px] mx-auto overflow-hidden bg-red-500">
+      <div className="relative w-full max-w-[4000px] h-[500px] mx-auto overflow-hidden">
 
         <Image
-          src='/images/pool-banner-cropped2.png'
+          src='/images/better-pool-banner.jpg'
           fill
           alt='Pool Deck and Retaining Wall'
           className="object-cover p-7"
@@ -45,9 +45,9 @@ export default function Homepage() {
       </div>
       
       {/* Request a quote*/}
-      <section className="flex bg-blue-400 border-green border-solid border-lg p-7 gap-7">
+      <section className="flex border-green border-solid border-lg p-7 gap-7">
 
-        <div className="w-full bg-red-300 border-green border-solid border-lg justify-center">
+        <div className="w-full border-green border-solid border-lg justify-center">
           <div className="max-w-xlg text-center">
             <p className="text-center text-6xl pt-20">Request</p>
             <p className="text-center text-6xl">A Quote</p>
@@ -58,7 +58,7 @@ export default function Homepage() {
         </div>
         
 
-        <div className="flex w-full mx-auto bg-red-300 p-3 items-center justify-center">
+        <div className="flex w-full mx-auto p-3 items-center justify-center">
 
           <form className="max-w-lg w-full text-2xl gap-7 grid grid-cols-1 md:grid-cols-2 gap-2 border-black border-lg border-solid m-20">
             
@@ -150,7 +150,7 @@ export default function Homepage() {
             </div>
 
             <div className="col-span-1 md:col-span-2">
-              <button className="mt-10 bg-blue-300 w-full p-2 font-medium">
+              <button className="mt-10 bg-lightGreen rounded-full hover:bg-darkGreen hover:text-white transition duration-400 w-full p-2 font-medium">
                 Submit
               </button>
             </div>
@@ -162,20 +162,20 @@ export default function Homepage() {
       </section>
 
       {/* services */}
-      <section className="flex bg-red-500 p-7 border-green border-solid border-lg">
+      <section className="flex bg-greenWhite p-7 border-green border-solid border-lg">
 
-        <div className="w-full bg-red-300 px-8 border-green border-solid border-lg">
-          <p className="p-2 text-2xl"><Link href="/services">Our Services</Link></p>
-          <h1 className="p-4 text-6xl"><Link href="/services">Walkways & Patios</Link></h1>
-          <hr className="m-1"></hr>
-          <h1 className="p-4 text-6xl"><Link href="/services">Natural Stone Work</Link></h1>
-          <hr className="m-1"></hr>
-          <h1 className="p-4 text-6xl"><Link href="/services">Outdoor Living Spaces</Link></h1>
-          <hr className="m-1"></hr>
-          <h1 className="p-4 text-6xl"><Link href="/services">Year-Round Property Care</Link></h1>
-          <hr className="m-1"></hr>
+        <div className="w-full px-8 border-green border-solid border-lg">
+          <p className="p-2 text-2xl font-medium text-darkGreen"><Link href="/services">Our Services</Link></p>
+          <h1 className="p-4 text-6xl font-medium text-darkGreen"><Link href="/services">Walkways & Patios</Link></h1>
+          <hr className="m-1 border-darkGreen"></hr>
+          <h1 className="p-4 text-6xl font-medium text-darkGreen"><Link href="/services">Natural Stone Work</Link></h1>
+          <hr className="m-1 border-darkGreen"></hr>
+          <h1 className="p-4 text-6xl font-medium text-darkGreen"><Link href="/services">Outdoor Living Spaces</Link></h1>
+          <hr className="m-1 border-darkGreen"></hr>
+          <h1 className="p-4 text-6xl font-medium text-darkGreen"><Link href="/services">Year-Round Property Care</Link></h1>
+          <hr className="m-1 border-darkGreen"></hr>
           <Link href="/services">
-            <button className="w-1/4 bg-blue-500 p-4 mt-6 mb-5">View All Services</button>
+            <button className="w-1/4 bg-darkGreen hover:bg-lightGreen font-medium rounded-full text-white p-4 mt-6 mb-5 transition duration-400">View All Services</button>
           </Link>
         </div>
 
@@ -236,7 +236,7 @@ export default function Homepage() {
         <div className="relative w-full max-w-[4000px] h-[500px] mx-auto overflow-hidden bg-red-500">
 
           <Image
-            src='/images/pool-banner-cropped2.png'
+            src='/images/better-pool-banner.jpg'
             fill
             alt='Pool Deck and Retaining Wall'
             className="object-cover p-7"
