@@ -1,9 +1,17 @@
 'use client'
 
+import { applyFadeInEffect } from "@/utils/fadeInEffect";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
 
 export default function Homepage() {
+
+  useEffect(() => {
+      const observer = applyFadeInEffect('fade-hidden');
+
+      return () => observer.disconnect();
+  }, [])
 
   const images = [
     "/images/site-logo.png",
@@ -33,7 +41,7 @@ export default function Homepage() {
       </div>
 
       {/** Main Hero Section part2*/}
-      <div className="relative w-full max-w-[4000px] h-[500px] mx-auto overflow-hidden">
+      <div className="fade-hidden relative w-full max-w-[4000px] h-[500px] mx-auto overflow-hidden">
 
         <Image
           src='/images/better-pool-banner.jpg'
@@ -47,7 +55,7 @@ export default function Homepage() {
       {/* Request a quote*/}
       <section className="grid grid-cols-1 md:grid-cols-2 border-green border-solid border-lg p-7 gap-7">
 
-        <div className="w-full border-green border-solid border-lg justify-center">
+        <div className="fade-hidden w-full border-green border-solid border-lg justify-center">
           <div className="mx-auto max-w-[680px] text-center">
             <p className="text-center text-darkGreen text-6xl pt-20">Request</p>
             <p className="text-center text-darkGreen text-6xl">A Quote</p>
@@ -58,7 +66,7 @@ export default function Homepage() {
         </div>
         
 
-        <div className="flex w-full mx-auto p-3 items-center justify-center">
+        <div className="fade-hidden flex w-full mx-auto p-3 items-center justify-center">
 
           <form className="max-w-lg w-full text-2xl grid grid-cols-1 md:grid-cols-2 gap-7 border-black border-lg border-solid m-20">
             
@@ -164,7 +172,7 @@ export default function Homepage() {
       {/* services */}
       <section className="flex bg-greenWhite p-7 border-green border-solid border-lg">
 
-        <div className="w-full px-8 border-green border-solid border-lg">
+        <div className="fade-hidden w-full px-8 border-green border-solid border-lg">
           <p className="p-2 text-2xl font-medium text-darkGreen"><Link href="/services">Our Services</Link></p>
           <h1 className="p-4 text-6xl font-medium text-darkGreen"><Link href="/services">Walkways & Patios</Link></h1>
           <hr className="m-1 border-darkGreen"></hr>
@@ -204,7 +212,7 @@ export default function Homepage() {
 
       {/** Why Us */}
       <section>
-        <div className="grid grid-cols-1 md:grid-cols-2 pt-10">
+        <div className="fade-hidden grid grid-cols-1 md:grid-cols-2 pt-10">
           <div className="self-center pl-20">
             <h1 className="text-6xl text-darkGreen">Why Choose Us</h1>
           </div>
@@ -218,7 +226,7 @@ export default function Homepage() {
           <hr className="col-span-2 border-darkGreen m-10 mx-20"></hr>
       <section>
         <div>
-          <div className="text-3xl justify-center gap-10 md:gap-20 lg:gap-40 mx-20 flex col-span-1 md:col-span-2">
+          <div className="fade-hidden text-3xl justify-center gap-10 md:gap-20 lg:gap-40 mx-20 flex col-span-1 md:col-span-2">
             <div><p className="text-darkGreen">On Time, Every Time</p></div>
             <div><p className="text-darkGreen">Experienced Team Members</p></div>
             <div><p className="text-darkGreen">High Quality Materials</p></div>
@@ -229,7 +237,7 @@ export default function Homepage() {
 
       {/** What Clients Say */}
       <section>
-        <div className="flex justify-center gap-10 my-10">
+        <div className="fade-hidden flex justify-center gap-10 my-10">
           <div className="text-5xl">
             <p>What Our Clients Say</p>
           </div>
@@ -238,7 +246,7 @@ export default function Homepage() {
             <p>Patty</p>
           </div>
         </div>
-        <div className="relative w-full max-w-[4000px] h-[500px] mx-auto overflow-hidden">
+        <div className="fade-hidden relative w-full max-w-[4000px] h-[500px] mx-auto overflow-hidden">
 
           <Image
             src='/images/better-pool-banner.jpg'

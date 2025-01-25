@@ -26,3 +26,13 @@
   font-style: normal;
 }
 
+.fade-hidden {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.fade-visible {
+  opacity: 1;
+  transform: translateY(0px);
+}
