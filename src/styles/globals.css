@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --lightGreen: rgb(116, 143, 111);
-  --darkGreen: rgb(43, 60, 44);
-  --greenWhite: rgb(234, 244, 232);
+  --lightGreen: rgb(133, 158, 128);
+  --darkGreen: rgb(53, 81, 54);
+  --greenWhite: rgb(224, 242, 221);
 }
  html, body {
   margin: 0;
