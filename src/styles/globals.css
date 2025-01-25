@@ -28,7 +28,7 @@
 
 .fade-hidden {
   opacity: 0;
-  transform: translateY(40px);
+  transform: translateY(20px);
   transition: opacity 2s ease, transform 2s ease;
 }
 

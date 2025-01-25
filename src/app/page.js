@@ -65,7 +65,7 @@ export default function Homepage() {
           </div>
         </div>
         
-
+        {/*Quote Form*/}
         <div className="fade-hidden flex w-full mx-auto p-3 items-center justify-center">
 
           <form className="max-w-lg w-full text-2xl grid grid-cols-1 md:grid-cols-2 gap-7 border-black border-lg border-solid m-20">
@@ -237,7 +237,7 @@ export default function Homepage() {
 
       {/** What Clients Say */}
       <section>
-        <div className="fade-hidden flex justify-center gap-10 my-10">
+        {/* <div className="fade-hidden flex justify-center gap-10 my-10">
           <div className="text-5xl">
             <p>What Our Clients Say</p>
           </div>
@@ -245,7 +245,7 @@ export default function Homepage() {
             <p>Blah Blah Blach</p>
             <p>Patty</p>
           </div>
-        </div>
+        </div> */}
         <div className="fade-hidden relative w-full max-w-[4000px] h-[500px] mx-auto overflow-hidden">
 
           <Image
