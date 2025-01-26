@@ -5,11 +5,11 @@ export default function About() {
     <div className="grid grid-cols-1">
       <section>
         <div className="justify-between grid grid-cols-1 md:grid-cols-2">
-          <div><h1>About Us</h1></div>
-          <div>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tenetur voluptatem repudiandae dolorum aperiam, beatae, consectetur officia exercitationem repellendus officiis, delectus deserunt? Perferendis facilis ea fuga impedit, quae quos reiciendis!
+          <div className="text-6xl text-darkGreen flex justify-center items-center pt-4"><h1>About Us</h1></div>
+          <div className="py-4">
+            <div className="p-3 md:pb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tenetur voluptatem repudiandae dolorum aperiam, beatae, consectetur officia exercitationem repellendus officiis, delectus deserunt? Perferendis facilis ea fuga impedit, quae quos reiciendis!
             </div>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tenetur voluptatem repudiandae dolorum aperiam, beatae, consectetur officia exercitationem repellendus officiis, delectus deserunt? Perferendis facilis ea fuga impedit, quae quos reiciendis!
+            <div className="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tenetur voluptatem repudiandae dolorum aperiam, beatae, consectetur officia exercitationem repellendus officiis, delectus deserunt? Perferendis facilis ea fuga impedit, quae quos reiciendis!
             </div>
             <div></div>
           </div>
@@ -19,26 +19,26 @@ export default function About() {
       {/* Images */}
       <section>
         <div className="grid grid-cols-1 md:grid-cols-3">
-        <div>
+        <div className="flex justify-center py-2 md:justify-end">
           <Image
             src='/images/service-landscape.png'
-            width={200}
+            width={300}
             height={500}
             alt='test'
           />
         </div>
-        <div>
+        <div className="flex justify-center py-2 md:justify-center">
           <Image
             src='/images/service-landscape.png'
-            width={200}
+            width={300}
             height={500}
             alt='test'
           />
         </div>
-        <div>
+        <div className="flex justify-center py-2 md:justify-start">
           <Image
             src='/images/service-landscape.png'
-            width={200}
+            width={300}
             height={500}
             alt='test'
           />

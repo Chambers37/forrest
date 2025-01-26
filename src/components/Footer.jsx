@@ -5,11 +5,11 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="h-20 bg-greenWhite w-full">
-      <div className="grid grid-cols-1 md:grid-cols-3">
-        <div className="h-20 flex justify-center items-center w-full pl-10">
+      <div className="bg-greenWhite grid grid-cols-1 md:grid-cols-3">
+        <div className="bg-greenWhite h-30 flex justify-center items-center w-full md:pl-10">
           <div className="text-center text-darkGreen text-2xl font-medium">
-            <p>Get In Touch today to design your </p>
-            <p>outdoor oasis!</p>
+            <p className="pt-3">Get In Touch today to design your </p>
+            <p className="pb-3">outdoor oasis!</p>
           </div>
         </div>
         <div className="grid justify-center items-center">
