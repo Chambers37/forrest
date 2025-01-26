@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="h-20 bg-greenWhite w-full">
+    <footer className="w-full">
       <div className="bg-greenWhite grid grid-cols-1 md:grid-cols-3">
-        <div className="bg-greenWhite h-30 flex justify-center items-center w-full md:pl-10">
+        <div className="flex justify-center items-center w-full md:pl-20">
           <div className="text-center text-darkGreen text-2xl font-medium">
             <p className="pt-3">Get In Touch today to design your </p>
             <p className="pb-3">outdoor oasis!</p>
@@ -22,8 +22,8 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className="h-20 flex justify-center items-center w-full">
-          <div className="text-center text-darkGreen text-xl font-medium">
+        <div className="flex justify-center items-center w-full md:pr-20">
+          <div className="text-center text-darkGreen text-lg lg:text-xl font-medium">
             <p>Matthew@ForrestHardscape.com</p>
             <p>484-753-4434</p>
           </div>
