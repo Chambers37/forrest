@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="h-20 bg-greenWhite w-full">
       <div className="grid grid-cols-1 md:grid-cols-3">
-        <div className="h-20 flex justify-center items-center w-full">
+        <div className="h-20 flex justify-center items-center w-full pl-10">
           <div className="text-center text-darkGreen text-2xl font-medium">
             <p>Get In Touch today to design your </p>
             <p>outdoor oasis!</p>
