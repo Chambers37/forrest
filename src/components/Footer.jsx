@@ -1,13 +1,25 @@
 'use client'
 
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="h-20 bg-greenWhite w-full">
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 md:grid-cols-3">
         <div className="h-20 flex justify-center items-center w-full">
           <div className="text-center text-darkGreen text-2xl font-medium">
             <p>Get In Touch today to design your </p>
             <p>outdoor oasis!</p>
+          </div>
+        </div>
+        <div className="grid justify-center items-center">
+          <div>
+            <Link href={'/#quote-form'}
+            >
+              <button className="hover:bg-lightGreen hover:text-black py-3 px-9 rounded-full bg-darkGreen text-white font-medium text-xl">
+                Get In Touch
+              </button>
+            </Link>
           </div>
         </div>
         <div className="h-20 flex justify-center items-center w-full">

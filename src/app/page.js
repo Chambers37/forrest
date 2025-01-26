@@ -53,7 +53,7 @@ export default function Homepage() {
       </div>
       
       {/* Request a quote*/}
-      <section className="grid grid-cols-1 md:grid-cols-2 border-green border-solid border-lg p-7 gap-7">
+      <section id="quote-form" className="grid grid-cols-1 md:grid-cols-2 border-green border-solid border-lg p-7 gap-7">
 
         <div className="fade-hidden w-full border-green border-solid border-lg justify-center">
           <div className="mx-auto max-w-[680px] text-center">
