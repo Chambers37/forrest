@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { applyFadeInEffect } from "@/utils/fadeInEffect";
 import Image from "next/image";
+import Link from "next/link";
 
 
 

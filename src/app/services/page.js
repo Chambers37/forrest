@@ -2,10 +2,19 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
+import { applyFadeInEffect } from "@/utils/fadeInEffect";
 
 export default function Services() {
+
+  useEffect(() => {
+    const observer = applyFadeInEffect('fade-hidden');
+
+    return () => observer.disconnect();
+}, [])
+  
   return (
-    <div>
+    <div >
 
       {/* Image Banner */}
       <section className="relative">
@@ -22,7 +31,7 @@ export default function Services() {
         </h1>
       </section>
 
-      <section>
+      <section className="fade-hidden">
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 px-8 w-full">
           {/* Hardscaping */}
           <div className="text-center">
