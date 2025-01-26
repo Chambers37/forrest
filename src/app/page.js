@@ -68,7 +68,7 @@ export default function Homepage() {
         {/*Quote Form*/}
         <div className="fade-hidden flex w-full mx-auto p-3 items-center justify-center">
 
-          <form className="max-w-lg w-full text-2xl grid grid-cols-1 md:grid-cols-2 gap-7 border-black border-lg border-solid m-20">
+          <form className="max-w-lg w-full text-2xl grid grid-cols-1 md:grid-cols-2 gap-7 m-20">
             
             <div>
               <label htmlFor="first-name" className="block text-gray-700">
