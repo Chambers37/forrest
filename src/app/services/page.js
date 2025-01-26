@@ -1,10 +1,13 @@
 'use client'
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Services() {
   return (
     <div>
+
+      {/* Image Banner */}
       <section className="relative">
         <div className="relative w-full max-w-[4000px] h-[300px] overflow-hidden">
           <Image
@@ -18,7 +21,70 @@ export default function Services() {
           Available Services
         </h1>
       </section>
-      <section>3 lists of services</section>
+
+      <section>
+        <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 px-8 w-full">
+          {/* Hardscaping */}
+          <div className="text-center">
+            <div className="grid justify-center">
+              <Image 
+                src='/images/service-landscape.png'
+                width={100}
+                height={100}
+                alt='test'
+              />
+            </div>
+            <div>
+              <p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen">Hardscaping
+                </p>
+            </div>
+            <ul className="grid grid-cols-1 gap-3 pt-5">
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Walkways & Patios</Link>
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Pool Decks</Link>
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Fencing & Retaining Walls</Link>
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Natural Stone Work</Link>
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Pavilions & Pergolas</Link>
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Outdoor Living Spaces</Link>
+            </ul>
+          </div>
+
+          {/* Landscaping */}
+          <div className="text-center">
+            <div className="grid justify-center">
+                <Image 
+                  src='/images/service-landscape.png'
+                  width={100}
+                  height={100}
+                  alt='test'
+                />
+              </div>
+            <div><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen">Landscaping</p></div>
+            <ul className="grid grid-cols-1 gap-3 pt-5">
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Garden Design</Link>
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Tree & Shrub Care</Link>
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Drainage Solutions</Link>
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>New Plant Installations</Link>
+            </ul>
+          </div>
+
+          {/* Maintenanace */}
+          <div className="text-center">
+            <div className="grid justify-center">
+              <Image 
+                src='/images/service-landscape.png'
+                width={100}
+                height={100}
+                alt='test'
+              />
+            </div>
+            <div><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen">Maintenance</p></div>
+            <ul className="grid grid-cols-1 gap-3 pt-5">
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Seasonal Services</Link>
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Year Round Property Care</Link>
+            </ul>
+          </div>
+        </div>
+      </section>
       <section>Quote Form?</section>
     </div>
   );
