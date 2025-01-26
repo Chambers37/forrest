@@ -21,7 +21,7 @@ export default function Homepage() {
     "/images/site-logo.png",
   ];
   return (
-    <main>
+    <div>
 
       {/** Main Hero Section */}
       <div className="bg-lightGreen w-full text-black text-center py-4">
@@ -48,7 +48,7 @@ export default function Homepage() {
           fill
           alt='Pool Deck and Retaining Wall'
           className="object-cover p-7"
-          />
+        />
 
       </div>
       
@@ -259,6 +259,6 @@ export default function Homepage() {
       </section>
 
 
-    </main>
+    </div>
   );
 }
