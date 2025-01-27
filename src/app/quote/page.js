@@ -59,7 +59,7 @@ export default function Quote() {
                 type="text"
                 id="first-name"
                 name="first-name"
-                className="border-black hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 required
               />        
             </div>
@@ -72,7 +72,7 @@ export default function Quote() {
                 type="text"
                 id="last-name"
                 name="last-name"
-                className="border-black hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 required
               />        
             </div>
@@ -85,7 +85,7 @@ export default function Quote() {
                 type="text"
                 id="city"
                 name="city"
-                className="border-black hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 />        
             </div>
 
@@ -97,7 +97,7 @@ export default function Quote() {
                 type="email"
                 id="Email"
                 name="Email"
-                className="border-black hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 required
               />        
             </div>
@@ -110,7 +110,7 @@ export default function Quote() {
                 type="tel"
                 id="Phone"
                 name="Phone"
-                className="border-black hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 />        
             </div>
 
@@ -121,7 +121,7 @@ export default function Quote() {
               <select
                 id="service-type"
                 name="service-type"
-                className="border-black hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 defaultValue=""
                 required
               >
