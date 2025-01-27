@@ -34,9 +34,9 @@ export default function Quote() {
 
 
       {/* Request a quote*/}
-      <section id="quote-form" className="grid grid-cols-1 md:grid-cols-2 border-green border-solid border-lg p-7 py-[9vh] gap-7">
+      <section id="quote-form" className="grid grid-cols-1 md:grid-cols-2 border-green border-solid border-lg p-7 py-[9vh]">
 
-        <div className="fade-hidden w-full border-green border-solid border-lg justify-center">
+        <div className="bg-greenWhite fade-hidden w-full border-green border-solid border-lg justify-center">
           <div className="mx-auto max-w-[680px] text-center">
             <p className="text-center text-darkGreen text-6xl pt-20">Request</p>
             <p className="text-center text-darkGreen text-6xl">A Quote</p>
@@ -47,7 +47,7 @@ export default function Quote() {
         </div>
         
         {/*Quote Form*/}
-        <div className="fade-hidden flex w-full mx-auto p-3 items-center justify-center">
+        <div className="bg-greenWhite fade-hidden flex w-full mx-auto p-3 items-center justify-center">
 
           <form className="max-w-lg w-full text-2xl grid grid-cols-1 md:grid-cols-2 gap-7 m-20">
             
@@ -59,7 +59,7 @@ export default function Quote() {
                 type="text"
                 id="first-name"
                 name="first-name"
-                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"
+                className="border-black hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 required
               />        
             </div>
@@ -72,7 +72,7 @@ export default function Quote() {
                 type="text"
                 id="last-name"
                 name="last-name"
-                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"
+                className="border-black hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 required
               />        
             </div>
@@ -85,7 +85,7 @@ export default function Quote() {
                 type="text"
                 id="city"
                 name="city"
-                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"
+                className="border-black hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 />        
             </div>
 
@@ -97,12 +97,12 @@ export default function Quote() {
                 type="email"
                 id="Email"
                 name="Email"
-                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"
+                className="border-black hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 required
               />        
             </div>
           
-            <div className="flex flex-col">
+            <div>
               <label htmlFor="Phone" className="block text-gray-700">
                 Phone
               </label>
@@ -110,7 +110,7 @@ export default function Quote() {
                 type="tel"
                 id="Phone"
                 name="Phone"
-                className="focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-white focus:self-center focus:bg-lightGreen focus:mr-auto text-sm p-2"
+                className="border-black hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 />        
             </div>
 
@@ -121,7 +121,7 @@ export default function Quote() {
               <select
                 id="service-type"
                 name="service-type"
-                className="hover:bg-transparent  focus:outline-none focus:border-b-2 border-b-2 bg-transparent mt-1 block w-full focus:bg-transparent focus:self-center focus:mr-auto text-sm p-2"
+                className="border-black hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 defaultValue=""
                 required
               >
