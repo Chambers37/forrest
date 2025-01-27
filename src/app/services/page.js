@@ -48,12 +48,12 @@ export default function Services() {
                 </p>
             </div>
             <ul className="grid grid-cols-1 gap-3 pt-5">
-              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Walkways & Patios</Link>
-              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Pool Decks</Link>
-              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Fencing & Retaining Walls</Link>
-              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Natural Stone Work</Link>
-              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Pavilions & Pergolas</Link>
-              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Outdoor Living Spaces</Link>
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Walkways-Patios'}>Walkways & Patios</Link>
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Pool-Decks'}>Pool Decks</Link>
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Fencing-Retaining-Walls'}>Fencing & Retaining Walls</Link>
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Natural-Stone-Work'}>Natural Stone Work</Link>
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Pavilions-Pergolas'}>Pavilions & Pergolas</Link>
+              <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Outdoor-Living-Spaces'}>Outdoor Living Spaces</Link>
             </ul>
           </div>
 
