@@ -24,9 +24,13 @@ export default function Nabar() {
 
       <div className='flex flex-row-reverse'>
 
-        <button className='hover:bg-darkGreen hover:border-white hover:text-greenWhite hover:scale-110 transition duration-300 self-end rounded-lg bg-lightGreen border-lightGreen border-solid border-2 px-1 mr-2 md:mr-3 lg:mr-5 py-2 mb-1'>
-          <p>Call Today</p>
-        </button>
+        <Link
+          href='tel:+6103296293'
+        >
+          <button className='hover:bg-darkGreen hover:border-white hover:text-greenWhite hover:scale-110 transition duration-300 self-end rounded-lg bg-lightGreen border-lightGreen border-solid border-2 px-1 mr-2 md:mr-3 lg:mr-5 py-2 mb-1'>
+            <p>Call Today</p>
+          </button>
+        </Link>
 
         <nav className='flex flex-wrap items-end text-center space-x-3 mr-2 md:mr-3 lg:mr-5 pb-1'>
 
