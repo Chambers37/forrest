@@ -44,8 +44,7 @@ export default function Services() {
               />
             </div>
             <div>
-              <p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen">Hardscaping
-                </p>
+              <Link className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen" href={'/Hardscaping'}>Hardscaping</Link>
             </div>
             <ul className="grid grid-cols-1 gap-3 pt-5">
               <Link className="hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Walkways-Patios'}>Walkways & Patios</Link>
