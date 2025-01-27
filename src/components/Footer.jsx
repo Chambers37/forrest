@@ -14,7 +14,7 @@ export default function Footer() {
         </div>
         <div className="grid justify-center items-center">
           <div>
-            <Link href={'/#quote-form'}
+            <Link href='/quote'
             >
               <button className="hover:bg-lightGreen hover:text-black py-3 px-9 rounded-full bg-darkGreen text-white font-medium text-xl">
                 Get In Touch
