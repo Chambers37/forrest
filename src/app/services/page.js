@@ -93,7 +93,15 @@ export default function Services() {
           </div>
         </div>
       </section>
-      <section>Quote Form?</section>
+      <section>
+        <div className="grid justify-center">
+          <div>
+            <p className="text-6xl">
+            Quote Form?
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

@@ -40,7 +40,7 @@ export default function Quote() {
           <div className="mx-auto max-w-[680px] text-center">
             <p className="text-center text-darkGreen text-6xl">
             Contact us today <br /> to create your <br /> dream outdoor <br /> living space!</p>
-            <p className="text-center text-darkGreen text-xl px-10 md:px-20 pt-4 pb-20">Let us know some information about you and the project or area you are looking to transform. We will reach out to you shortly & look forward to working with you!
+            <p className="text-center text-darkGreen text-xl px-10 md:px-20 pt-4 pb-20">Let us know some information about you and the project or area you are looking to transform. We will reach out to you shortly & we look forward to working with you!
             </p>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function Quote() {
             </div>
               
             <div>
-              <label htmlFor="last-name" className="text-darkGreen">1
+              <label htmlFor="last-name" className="text-darkGreen">
                 Last Name *
               </label>
               <input
