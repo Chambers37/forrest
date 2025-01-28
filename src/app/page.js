@@ -157,6 +157,14 @@ export default function Homepage() {
               </select>        
             </div>
 
+            <div className="grid col-span-1 md:col-span-2">
+              <label htmlFor="Phone" className="text-darkGreen">
+                Please Tell Us About Your Project
+              </label>
+              <textarea placeholder="Write your message here" className="focus:bg-greenWhite hover:bg-greenWhite mt-2 h-[12vh] bg-transparent border-2 border-solid border-darkGreen p-2 text-sm">
+              </textarea>
+            </div>
+
             <div className="col-span-1 md:col-span-2">
               <button className="mt-10 bg-lightGreen rounded-full hover:bg-darkGreen hover:text-white transition duration-400 w-full p-2 font-medium">
                 Submit
