@@ -47,7 +47,7 @@ export default function Services() {
               </Link>
             </div>
             <div>
-              <Link className="" href={'/Hardscaping'}><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen hover:italic hover:scale-110">Hardscaping</p></Link>
+              <Link href={'/Hardscaping'}><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen hover:italic hover:scale-110">Hardscaping</p></Link>
             </div>
             <ul className="grid grid-cols-1 gap-3 pt-5">
               <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/WalkwaysAndPatios'}>Walkways & Patios</Link>
@@ -74,7 +74,7 @@ export default function Services() {
                   />
                 </Link>
               </div>
-              <Link className="" href={'/Landscaping'}><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen hover:italic hover:scale-110">Landscaping</p></Link>
+              <Link href={'/Landscaping'}><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen hover:italic hover:scale-110">Landscaping</p></Link>
             <ul className="grid grid-cols-1 gap-3 pt-5">
               <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/GardenDesign'}>Garden Design</Link>
               <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/TreeAndShrubCare'}>Tree & Shrub Care</Link>
@@ -86,17 +86,22 @@ export default function Services() {
           {/* Maintenanace */}
           <div className="text-center">
             <div className="grid justify-center">
-              <Image 
-                src='/images/service-landscape.png'
-                width={100}
-                height={100}
-                alt='test'
-              />
+              <Link
+                href={'/Maintenance'}
+              >
+                <Image 
+                  src='/images/service-landscape.png'
+                  width={100}
+                  height={100}
+                  alt='test'
+                  className="hover:scale-110"
+                />
+              </Link>
             </div>
-            <div><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen">Maintenance</p></div>
+            <Link href={'/Maintenance'}><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen hover:italic hover:scale-110">Maintenance</p></Link>
             <ul className="grid grid-cols-1 gap-3 pt-5">
-              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Seasonal Services</Link>
-              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Year Round Property Care</Link>
+              <Link href={'/SeasonalServices'}><p className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen">Seasonal Services</p></Link>
+              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/YearRoundPropertyCare'}>Year-Round Property Care</Link>
             </ul>
           </div>
         </div>
