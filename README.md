@@ -65,3 +65,9 @@
 - [ ] Add email opener to email link of footeer AND phone # to phone in footer
 
 
+### Future Ideas
+- [ ] Add Analytics
+- - [ ] Unique visits counter
+- - [ ] User location data
+- - [ ] Form Submissions Count
+- - [ ] Where did user come from / hear about us
