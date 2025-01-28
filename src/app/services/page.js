@@ -42,6 +42,7 @@ export default function Services() {
                   width={100}
                   height={100}
                   alt='test'
+                  className="hover:scale-110"
                 />
               </Link>
             </div>
@@ -61,16 +62,21 @@ export default function Services() {
           {/* Landscaping */}
           <div className="text-center">
             <div className="grid justify-center">
-                <Image 
-                  src='/images/service-landscape.png'
-                  width={100}
-                  height={100}
-                  alt='test'
-                />
+                <Link 
+                  href={'/landscaping'}
+                >
+                  <Image 
+                    src='/images/service-landscape.png'
+                    width={100}
+                    height={100}
+                    alt='test'
+                    className="hover:scale-110"
+                  />
+                </Link>
               </div>
-            <div><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen">Landscaping</p></div>
+              <Link className="" href={'/landscaping'}><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen hover:italic hover:scale-110">Landscaping</p></Link>
             <ul className="grid grid-cols-1 gap-3 pt-5">
-              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Garden Design</Link>
+              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Walkways-Patios'}>Garden Design</Link>
               <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Tree & Shrub Care</Link>
               <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Drainage Solutions</Link>
               <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>New Plant Installations</Link>
@@ -95,6 +101,8 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+      {/* Quote Form ?!?!?!? */}
       <section>
         <div className="grid justify-center">
           <div>

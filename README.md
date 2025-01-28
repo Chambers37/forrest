@@ -8,10 +8,20 @@
 
 ## Services
 - [ ] Add Landscaping and Maintenance Pages + Links
+- - [x] Add Hardscaping Title and Image Links
+- - [ ] Add Landscape Title and Image Links
+- - [ ] Add Maintenance title and image links
+- - [ ] Add garden design page
+- - [ ] Add tree and shrub care page
+- - [ ] Add drainage solutions page
+- - [ ] Add new plant installations page
+- - [ ] Add Seasonal services page
+- - [ ] Add yea rround care page
 - [ ] Change Images for Service Categories
 - [ ] Add Text above services to tell users what to do 'click links to learn'
 - [ ] Create Linksfor each catergory type, that shows each services along with an image
 - [ ] Add Scaling to each caterogy link
+- [ ] Figoure out wuote form on services page
 
 ## Quote
 - [ ] Change Banner Text

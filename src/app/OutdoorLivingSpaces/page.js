@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 
-export default function Hardscaping() {
+export default function OutdoorLivingSpaces() {
   return (
     <div>
       <div>
@@ -9,7 +9,7 @@ export default function Hardscaping() {
           <div className="justify-center flex items-center">
             <Link href='/services'>
               <button className="text-5xl text-darkGreen hover:text-greenWhite rounded-3xl hover:bg-darkGreen bg-lightGreen flex justify-center items-center h-[15vh] w-[30vw]">
-                Back To Services Hardscaping
+                Back To Services OutdoorLivingSpaces
               </button>
             </Link>
           </div>
