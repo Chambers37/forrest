@@ -38,10 +38,9 @@ export default function Quote() {
 
         <div className="bg-greenWhite fade-hidden w-full border-green border-solid border-lg justify-center">
           <div className="mx-auto max-w-[680px] text-center">
-            <p className="text-center text-darkGreen text-6xl pt-20">Request</p>
-            <p className="text-center text-darkGreen text-6xl">A Quote</p>
-            <p className="text-center text-darkGreen text-6xl">Today</p>
-            <p className="text-center text-darkGreen text-xl px-10 md:px-20 pt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, at. Eius sunt esse quidem suscipit aut, adipisci voluptate maiores unde temporibus enim eveniet voluptatem incidunt harum sit deserunt minima beatae!
+            <p className="text-center text-darkGreen text-6xl pt-20">
+            Contact us today <br /> to create your <br /> dream outdoor <br /> living space!</p>
+            <p className="text-center text-darkGreen text-xl px-10 md:px-20 pt-4">Let us know some information about you and the project or area you are looking to transform. We will reach out to you shortly & look forward to working with you!
             </p>
           </div>
         </div>
@@ -52,76 +51,76 @@ export default function Quote() {
           <form className="max-w-lg w-full text-2xl grid grid-cols-1 md:grid-cols-2 gap-7 m-20">
             
             <div>
-              <label htmlFor="first-name" className="block text-gray-700">
+              <label htmlFor="first-name" className="text-darkGreen">
                 First Name *
               </label>
               <input
                 type="text"
                 id="first-name"
                 name="first-name"
-                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 required
               />        
             </div>
               
             <div>
-              <label htmlFor="last-name" className="block text-gray-700">
+              <label htmlFor="last-name" className="text-darkGreen">
                 Last Name *
               </label>
               <input
                 type="text"
                 id="last-name"
                 name="last-name"
-                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 required
               />        
             </div>
           
             <div>
-              <label htmlFor="city" className="block text-gray-700">
+              <label htmlFor="city" className="text-darkGreen">
                 City
               </label>
               <input
                 type="text"
                 id="city"
                 name="city"
-                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 />        
             </div>
 
             <div>
-              <label htmlFor="Email" className="block text-gray-700">
+              <label htmlFor="Email" className="text-darkGreen">
                 Email *
               </label>
               <input
                 type="email"
                 id="Email"
                 name="Email"
-                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 required
               />        
             </div>
           
             <div>
-              <label htmlFor="Phone" className="block text-gray-700">
+              <label htmlFor="Phone" className="text-darkGreen">
                 Phone
               </label>
               <input
                 type="tel"
                 id="Phone"
                 name="Phone"
-                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 />        
             </div>
 
             <div>
-              <label htmlFor="service" className="block text-gray-700">
+              <label htmlFor="service" className="text-darkGreen">
                 Type of Service *
               </label>
               <select
                 id="service-type"
                 name="service-type"
-                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 block w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 defaultValue=""
                 required
               >
@@ -138,12 +137,11 @@ export default function Quote() {
               </select>        
             </div>
 
-            <div className="grid col-span-2">
-              <label htmlFor="Phone" className="block text-gray-700">
+            <div className="grid col-span-1 md:col-span-2">
+              <label htmlFor="Phone" className="text-darkGreen">
                 Please Tell Us About Your Project
               </label>
               <textarea placeholder="Write your message here" className="hover:bg-white mt-2 h-[12vh] bg-transparent border-2 border-solid border-darkGreen p-2 text-sm">
-
               </textarea>
             </div>
 
