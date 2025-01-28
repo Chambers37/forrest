@@ -31,5 +31,5 @@
 - [ ] Refactor quote form section into component
 - [ ] Finish Form Submission => Email
 - [ ] Add email opener to email link of footeer AND phone # to phone in footer
-- [ ] 
+
 

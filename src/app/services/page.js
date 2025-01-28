@@ -36,15 +36,17 @@ export default function Services() {
           {/* Hardscaping */}
           <div className="text-center">
             <div className="grid justify-center">
-              <Image 
-                src='/images/service-landscape.png'
-                width={100}
-                height={100}
-                alt='test'
-              />
+              <Link href={'/Hardscaping'}>
+                <Image 
+                  src='/images/service-landscape.png'
+                  width={100}
+                  height={100}
+                  alt='test'
+                />
+              </Link>
             </div>
             <div>
-              <Link className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen" href={'/Hardscaping'}>Hardscaping</Link>
+              <Link className="" href={'/Hardscaping'}><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen hover:italic hover:scale-110">Hardscaping</p></Link>
             </div>
             <ul className="grid grid-cols-1 gap-3 pt-5">
               <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Walkways-Patios'}>Walkways & Patios</Link>
