@@ -53,14 +53,13 @@ export default function Homepage() {
       </div>
       
       {/* Request a quote*/}
-      <section id="quote-form" className="grid grid-cols-1 md:grid-cols-2 border-green border-solid border-lg p-7 gap-7">
+      <section id="quote-form" className="grid grid-cols-1 md:grid-cols-2 p-7 gap-7 items-center">
 
-        <div className="fade-hidden w-full border-green border-solid border-lg justify-center">
+        <div className="grid fade-hidden h-full w-full justify-center items-center">
           <div className="mx-auto max-w-[680px] text-center">
-            <p className="text-center text-darkGreen text-6xl pt-20">Request</p>
-            <p className="text-center text-darkGreen text-6xl">A Quote</p>
-            <p className="text-center text-darkGreen text-6xl">Today</p>
-            <p className="text-center text-darkGreen text-xl px-10 md:px-20 pt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, at. Eius sunt esse quidem suscipit aut, adipisci voluptate maiores unde temporibus enim eveniet voluptatem incidunt harum sit deserunt minima beatae!
+            <p className="text-center text-darkGreen text-6xl">
+          Contact us today <br /> to create your <br /> dream outdoor <br /> living space!</p>
+            <p className="text-center text-darkGreen text-xl px-10 md:px-20 pt-4 pb-20">Let us know some information about you and the project or area you are looking to transform. We will reach out to you shortly & look forward to working with you!
             </p>
           </div>
         </div>
@@ -178,9 +177,9 @@ export default function Homepage() {
       </section>
 
       {/* services */}
-      <section className="flex bg-greenWhite p-7 border-green border-solid border-lg">
+      <section className="flex bg-greenWhite p-7">
 
-        <div className="fade-hidden w-full px-8 border-green border-solid border-lg">
+        <div className="fade-hidden w-full px-8">
           <p className="p-2 text-2xl font-medium text-darkGreen"><Link href="/services">Our Services</Link></p>
           <h1 className="p-4 text-6xl font-medium text-darkGreen"><Link href="/services">Walkways & Patios</Link></h1>
           <hr className="m-1 border-darkGreen"></hr>

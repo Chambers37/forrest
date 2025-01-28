@@ -19,28 +19,28 @@ export default function Quote() {
     <div>
       {/* Quote Banner */}
       <section className="relative">
-              <div className="relative w-full max-w-[4000px] h-[300px] overflow-hidden">
-                <Image
-                  src='/images/services-banner-cropped.png'
-                  fill
-                  alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
-                />
-              </div>
-              <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-bold text-7xl text-center">
-                Get Your<br />Quote Today
-              </h1>
-            </section>
+        <div className="relative w-full max-w-[4000px] h-[300px] overflow-hidden">
+          <Image
+            src='/images/services-banner-cropped.png'
+            fill
+            alt='Pool Deck and Retaining Wall'
+            className="object-cover"
+          />
+        </div>
+        <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-bold text-7xl text-center">
+          Get Your<br />Quote Today
+        </h1>
+      </section>
 
 
       {/* Request a quote*/}
-      <section id="quote-form" className="grid grid-cols-1 md:grid-cols-2 border-green border-solid border-lg p-7 py-[9vh]">
+      <section id="quote-form" className="grid grid-cols-1 md:grid-cols-2 p-7 py-[9vh]">
 
-        <div className="bg-greenWhite fade-hidden w-full border-green border-solid border-lg justify-center">
+        <div className="grid items-center bg-greenWhite fade-hidden w-full justify-center">
           <div className="mx-auto max-w-[680px] text-center">
-            <p className="text-center text-darkGreen text-6xl pt-20">
+            <p className="text-center text-darkGreen text-6xl">
             Contact us today <br /> to create your <br /> dream outdoor <br /> living space!</p>
-            <p className="text-center text-darkGreen text-xl px-10 md:px-20 pt-4">Let us know some information about you and the project or area you are looking to transform. We will reach out to you shortly & look forward to working with you!
+            <p className="text-center text-darkGreen text-xl px-10 md:px-20 pt-4 pb-20">Let us know some information about you and the project or area you are looking to transform. We will reach out to you shortly & look forward to working with you!
             </p>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function Quote() {
             </div>
               
             <div>
-              <label htmlFor="last-name" className="text-darkGreen">
+              <label htmlFor="last-name" className="text-darkGreen">1
                 Last Name *
               </label>
               <input
