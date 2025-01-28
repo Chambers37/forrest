@@ -31,8 +31,19 @@ export default function Services() {
         </h1>
       </section>
 
+      {}
+      <section>
+        <div className="grid justify-center mt-4">
+          <div>
+            <h1 className="text-darkGreen text-3xl">
+              Click a Service To Learn More
+            </h1>
+          </div>
+        </div>
+      </section>
+
       <section className="fade-hidden">
-        <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 px-8 w-full">
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 px-8 w-full">
           {/* Hardscaping */}
           <div className="text-center">
             <div className="grid justify-center">
