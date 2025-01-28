@@ -39,7 +39,7 @@ export default function Nabar() {
           }`}>Home</a>
 
           <span className='text-gray-400'>|</span>
-          <a href="/services" className={`text-l font-Merriweather hover:scale-110 font-bold italic transition duration-200 ${
+          <a href="/Services" className={`text-l font-Merriweather hover:scale-110 font-bold italic transition duration-200 ${
             pathname === '/Services' ? 'text-black' : 'text-green-800 hover:text-lightGreen'
           }`}>Our Services</a>
 
@@ -49,12 +49,12 @@ export default function Nabar() {
           }`}>Request A Quote</a>
 
           <span className='text-gray-400'>|</span>
-          <a href="/portfolio" className={`text-l font-Merriweather hover:scale-110 font-bold italic transition duration-200 ${
+          <a href="/Portfolio" className={`text-l font-Merriweather hover:scale-110 font-bold italic transition duration-200 ${
             pathname === '/Portfolio' ? 'text-black' : 'text-green-800 hover:text-lightGreen'
           }`}>Portfolio</a>
 
             <span className='text-gray-400'>|</span>
-          <a href="/about" className={`text-l font-Merriweather hover:scale-110 font-bold italic transition duration-200 ${
+          <a href="/About" className={`text-l font-Merriweather hover:scale-110 font-bold italic transition duration-200 ${
             pathname === '/About' ? 'text-black' : 'text-green-800 hover:text-lightGreen'
           }`}>About Us</a>
 
