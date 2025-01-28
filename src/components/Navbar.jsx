@@ -40,7 +40,7 @@ export default function Nabar() {
 
           <span className='text-gray-400'>|</span>
           <a href="/services" className={`text-l font-Merriweather hover:scale-110 font-bold italic transition duration-200 ${
-            pathname === '/services' ? 'text-black' : 'text-green-800 hover:text-lightGreen'
+            pathname === '/Services' ? 'text-black' : 'text-green-800 hover:text-lightGreen'
           }`}>Our Services</a>
 
           <span className='text-gray-400'>|</span>
@@ -50,12 +50,12 @@ export default function Nabar() {
 
           <span className='text-gray-400'>|</span>
           <a href="/portfolio" className={`text-l font-Merriweather hover:scale-110 font-bold italic transition duration-200 ${
-            pathname === '/portfolio' ? 'text-black' : 'text-green-800 hover:text-lightGreen'
+            pathname === '/Portfolio' ? 'text-black' : 'text-green-800 hover:text-lightGreen'
           }`}>Portfolio</a>
 
             <span className='text-gray-400'>|</span>
           <a href="/about" className={`text-l font-Merriweather hover:scale-110 font-bold italic transition duration-200 ${
-            pathname === '/about' ? 'text-black' : 'text-green-800 hover:text-lightGreen'
+            pathname === '/About' ? 'text-black' : 'text-green-800 hover:text-lightGreen'
           }`}>About Us</a>
 
         </nav>

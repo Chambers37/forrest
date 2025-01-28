@@ -180,16 +180,16 @@ export default function Homepage() {
       <section className="flex bg-greenWhite p-7">
 
         <div className="fade-hidden w-full px-8">
-          <p className="p-2 text-2xl font-medium text-darkGreen"><Link href="/services">Our Services</Link></p>
-          <h1 className="p-4 text-6xl font-medium text-darkGreen"><Link href="/services">Walkways & Patios</Link></h1>
+          <p className="p-2 text-2xl font-medium text-darkGreen"><Link href="/Services">Our Services</Link></p>
+          <h1 className="p-4 text-6xl font-medium text-darkGreen"><Link href="/Services">Walkways & Patios</Link></h1>
           <hr className="m-1 border-darkGreen"></hr>
-          <h1 className="p-4 text-6xl font-medium text-darkGreen"><Link href="/services">Natural Stone Work</Link></h1>
+          <h1 className="p-4 text-6xl font-medium text-darkGreen"><Link href="/Services">Natural Stone Work</Link></h1>
           <hr className="m-1 border-darkGreen"></hr>
-          <h1 className="p-4 text-6xl font-medium text-darkGreen"><Link href="/services">Outdoor Living Spaces</Link></h1>
+          <h1 className="p-4 text-6xl font-medium text-darkGreen"><Link href="/Services">Outdoor Living Spaces</Link></h1>
           <hr className="m-1 border-darkGreen"></hr>
-          <h1 className="p-4 text-6xl font-medium text-darkGreen"><Link href="/services">Year-Round Property Care</Link></h1>
+          <h1 className="p-4 text-6xl font-medium text-darkGreen"><Link href="/Services">Year-Round Property Care</Link></h1>
           <hr className="m-1 border-darkGreen"></hr>
-          <Link href="/services">
+          <Link href="/Services">
             <button className="w-1/4 bg-darkGreen hover:bg-lightGreen font-medium rounded-full text-white p-4 mt-6 mb-5 transition duration-400">View All Services</button>
           </Link>
         </div>

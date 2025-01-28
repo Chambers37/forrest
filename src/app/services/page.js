@@ -50,12 +50,12 @@ export default function Services() {
               <Link className="" href={'/Hardscaping'}><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen hover:italic hover:scale-110">Hardscaping</p></Link>
             </div>
             <ul className="grid grid-cols-1 gap-3 pt-5">
-              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Walkways-Patios'}>Walkways & Patios</Link>
-              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Pool-Decks'}>Pool Decks</Link>
-              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Fencing-Retaining-Walls'}>Fencing & Retaining Walls</Link>
-              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Natural-Stone-Work'}>Natural Stone Work</Link>
-              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Pavilions-Pergolas'}>Pavilions & Pergolas</Link>
-              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Outdoor-Living-Spaces'}>Outdoor Living Spaces</Link>
+              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/WalkwaysAndPatios'}>Walkways & Patios</Link>
+              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/PoolDecks'}>Pool Decks</Link>
+              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/FencingAndRetainingWalls'}>Fencing & Retaining Walls</Link>
+              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/NaturalStoneWork'}>Natural Stone Work</Link>
+              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/PavilionsAndPergolas'}>Pavilions & Pergolas</Link>
+              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/OutdoorLivingSpaces'}>Outdoor Living Spaces</Link>
             </ul>
           </div>
 
@@ -63,7 +63,7 @@ export default function Services() {
           <div className="text-center">
             <div className="grid justify-center">
                 <Link 
-                  href={'/landscaping'}
+                  href={'/Landscaping'}
                 >
                   <Image 
                     src='/images/service-landscape.png'
@@ -74,12 +74,12 @@ export default function Services() {
                   />
                 </Link>
               </div>
-              <Link className="" href={'/landscaping'}><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen hover:italic hover:scale-110">Landscaping</p></Link>
+              <Link className="" href={'/Landscaping'}><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen hover:italic hover:scale-110">Landscaping</p></Link>
             <ul className="grid grid-cols-1 gap-3 pt-5">
-              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Walkways-Patios'}>Garden Design</Link>
-              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Tree & Shrub Care</Link>
-              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>Drainage Solutions</Link>
-              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/'}>New Plant Installations</Link>
+              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/GardenDesign'}>Garden Design</Link>
+              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/TreeAndShrubCare'}>Tree & Shrub Care</Link>
+              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/DrainageSolutions'}>Drainage Solutions</Link>
+              <Link className="hover:scale-110 hover:font-bold hover:italic hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/NewPlantInstallations'}>New Plant Installations</Link>
             </ul>
           </div>
 
