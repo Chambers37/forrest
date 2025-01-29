@@ -5,6 +5,7 @@ import Image from "next/image"
 export default function WalkwaysAndPatios() {
   return (
     <div>
+      {/* Image Banner */}
       <section>
         <div className="relative w-full max-w-[4000px] h-[300px] overflow-hidden">
           <Image
@@ -15,17 +16,105 @@ export default function WalkwaysAndPatios() {
           />
         </div>
       </section>
-      <div>
-        <div className="h-[75vh] items-center flex justify-center">
+
+      {/* Back to Services Button */}
+      <section>
+        <div className="items-center flex justify-center">
           <div className="justify-center flex items-center">
             <Link href='/Services'>
-              <button className="text-5xl text-darkGreen hover:text-greenWhite rounded-3xl hover:bg-darkGreen bg-lightGreen flex justify-center items-center h-[15vh] w-[30vw]">
+              <button className="text-lg text-darkGreen hover:text-greenWhite rounded-3xl hover:bg-darkGreen bg-lightGreen flex justify-center items-center">
                 Back To Services WalkwaysAndPatios
               </button>
             </Link>
           </div>
         </div>
-      </div>
+      </section>
+
+      {/* Service Detail Section */}
+      <section>
+        <div></div>
+      </section>
+
+      {/* Photo Gallery */}
+      <section>
+        <div className="flex  justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="flex justify-center">
+              <Image
+                src='/images/service-landscape.png'
+                width={300}
+                height={500}
+                alt='test'
+              />
+              </div>
+            <div className="flex justify-center">
+              <Image
+                src='/images/service-landscape.png'
+                width={300}
+                height={500}
+                alt='test'
+              />
+              </div>
+           <div className="flex justify-center">
+              <Image
+                src='/images/service-landscape.png'
+                width={300}
+                height={500}
+                alt='test'
+              />
+              </div>
+            <div className="flex justify-center">
+              <Image
+                src='/images/service-landscape.png'
+                width={300}
+                height={500}
+                alt='test'
+              />
+              </div>
+            <div className="flex justify-center">
+              <Image
+                src='/images/service-landscape.png'
+                width={300}
+                height={500}
+                alt='test'
+              />
+              </div>
+            <div className="flex justify-center">
+              <Image
+                src='/images/service-landscape.png'
+                width={300}
+                height={500}
+                alt='test'
+              />
+              </div>
+            <div className="flex justify-center">
+              <Image
+                src='/images/service-landscape.png'
+                width={300}
+                height={500}
+                alt='test'
+              />
+              </div>
+            <div className="flex justify-center">
+              <Image
+                src='/images/service-landscape.png'
+                width={300}
+                height={500}
+                alt='test'
+              />
+              </div>
+            <div className="flex justify-center">
+              <Image
+                src='/images/service-landscape.png'
+                width={300}
+                height={500}
+                alt='test'
+              />
+              </div>
+
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
