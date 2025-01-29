@@ -139,7 +139,7 @@ export default function Homepage() {
               <select
                 id="service-type"
                 name="service-type"
-                className="focus:outline-none border-b-2 bg-transparent mt-1 w-full focus:bg-white hover:bg-greenWhite text-sm p-2"
+                className="focus:outline-none border-b-2 bg-transparent mt-1 w-full 43focus:bg-white hover:bg-greenWhite text-sm p-2"
                 defaultValue=""
                 required
               >
