@@ -22,8 +22,8 @@ export default function WalkwaysAndPatios() {
         <div className="items-center flex justify-center">
           <div className="justify-center flex items-center">
             <Link href='/Services'>
-              <button className="text-lg text-darkGreen hover:text-greenWhite rounded-3xl hover:bg-darkGreen bg-lightGreen flex justify-center items-center">
-                Back To Services WalkwaysAndPatios
+              <button className="text-lg text-darkGreen hover:text-greenWhite rounded-3xl hover:bg-darkGreen bg-lightGreen flex justify-center items-center px-3 py-1 my-4">
+                Back To Services
               </button>
             </Link>
           </div>
