@@ -22,7 +22,7 @@ export default function WalkwaysAndPatios() {
         <div className="items-center flex justify-center">
           <div className="justify-center flex items-center">
             <Link href='/Services'>
-              <button className="text-lg text-darkGreen hover:text-greenWhite hover:bg-darkGreen bg-transparent outline-dashed flex justify-center items-center px-3 py-1 my-4">
+              <button className="text-lg text-darkGreen hover:text-greenWhite hover:bg-darkGreen bg-transparent outline-dashed flex justify-center items-center outline-greenWhite px-3 py-1 my-4">
                 Back To Services
               </button>
             </Link>
@@ -32,9 +32,29 @@ export default function WalkwaysAndPatios() {
 
       {/* Service Detail Section */}
       <section>
-        <div>
+        <div className="grid grid-cols-1 md:grid-cols-2">
           <div>
-            
+            <div className="bg-red-300 text-4xl"><h1>Service Title</h1></div>
+            <div className="bg-blue-300">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae sapiente dignissimos tempore nisi earum non mollitia fugiat consequatur odit? Praesentium et reprehenderit dolore cupiditate asperiores, quidem sed veniam ex in!
+            </div>
+            <div className="bg-red-300 text-2xl">mini title</div>
+            <div className="bg-blue-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officia ipsa? Non commodi quisquam laborum natus facere, voluptas architecto alias, obcaecati quis saepe nam cupiditate atque vel distinctio totam ut!
+            </div>
+          </div>
+          <div className="col-span-1 flex justify-center">
+            <div className="w-full md:max-w-[500px] lg:max-w-[800px] aspect-[16/9] relative">
+              <Image
+                src="/images/service-landscape.png"
+                fill
+                alt="test"
+                className="object-cover rounded-lg p-5"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="mb-5">
+          <div className="bg-red-300 text-2xl">mini title 2</div>
+          <div className="bg-blue-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequatur harum iste voluptate quas animi, sed adipisci ipsa quasi? Eos, temporibus pariatur! Ducimus ipsa eum iusto iste placeat eligendi explicabo! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit vero eius ipsum alias cum consequuntur, natus nisi atque libero debitis omnis repudiandae, cumque vitae quos commodi soluta! Laborum, fugit fugiat!
           </div>
         </div>
       </section>
