@@ -31,8 +31,8 @@ export default function WalkwaysAndPatios() {
       </section>
 
       {/* Service Detail Section */}
-      <section>
-        <div className="grid grid-cols-1 md:grid-cols-2">
+      <section className="grid grid-cols-1 justify-center mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 w-full max-w-[1200px]">
           <div>
             <div className="bg-red-300 text-4xl"><h1>Service Title</h1></div>
             <div className="bg-blue-300">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae sapiente dignissimos tempore nisi earum non mollitia fugiat consequatur odit? Praesentium et reprehenderit dolore cupiditate asperiores, quidem sed veniam ex in!
