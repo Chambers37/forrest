@@ -7,7 +7,7 @@ export default function WalkwaysAndPatios() {
     <div>
       {/* Image Banner */}
       <section>
-        <div className="relative w-full max-w-[4000px] h-[300px] overflow-hidden">
+        <div className="relative w-full max-w-[4000px] h-[400px] overflow-hidden">
           <Image
             src='/images/services-banner-cropped.png'
             fill
@@ -31,14 +31,14 @@ export default function WalkwaysAndPatios() {
       </section>
 
       {/* Service Detail Section */}
-      <section className="grid grid-cols-1 justify-center mx-auto">
+      <section className="grid grid-cols-1 justify-center mx-auto max-w-screen-xl">
         <div className="grid grid-cols-1 md:grid-cols-2 w-full max-w-[1200px]">
           <div>
             <div className="bg-red-300 text-4xl"><h1>Service Title</h1></div>
-            <div className="bg-blue-300">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae sapiente dignissimos tempore nisi earum non mollitia fugiat consequatur odit? Praesentium et reprehenderit dolore cupiditate asperiores, quidem sed veniam ex in!
+            <div className="bg-blue-300 text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae sapiente dignissimos tempore nisi earum non mollitia fugiat consequatur odit? Praesentium et reprehenderit dolore cupiditate asperiores, quidem sed veniam ex in!
             </div>
-            <div className="bg-red-300 text-2xl">mini title</div>
-            <div className="bg-blue-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officia ipsa? Non commodi quisquam laborum natus facere, voluptas architecto alias, obcaecati quis saepe nam cupiditate atque vel distinctio totam ut!
+            <div className="bg-red-300 text-3xl">mini title</div>
+            <div className="bg-blue-300 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officia ipsa? Non commodi quisquam laborum natus facere, voluptas architecto alias, obcaecati quis saepe nam cupiditate atque vel distinctio totam ut!Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officia ipsa? Non commodi quisquam laborum natus facere, voluptas architecto alias, obcaecati quis saepe nam cupiditate atque vel distinctio totam ut!Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officia ipsa? Non commodi quisquam laborum natus facere, voluptas architecto alias, obcaecati quis saepe nam cupiditate atque vel distinctio totam ut!
             </div>
           </div>
           <div className="col-span-1 flex justify-center">
@@ -53,20 +53,20 @@ export default function WalkwaysAndPatios() {
           </div>
         </div>
         <div className="mb-5">
-          <div className="bg-red-300 text-2xl">mini title 2</div>
-          <div className="bg-blue-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequatur harum iste voluptate quas animi, sed adipisci ipsa quasi? Eos, temporibus pariatur! Ducimus ipsa eum iusto iste placeat eligendi explicabo! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit vero eius ipsum alias cum consequuntur, natus nisi atque libero debitis omnis repudiandae, cumque vitae quos commodi soluta! Laborum, fugit fugiat!
+          <div className="bg-red-300 text-3xl">mini title 2</div>
+          <div className="bg-blue-300 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequatur harum iste voluptate quas animi, sed adipisci ipsa quasi? Eos, temporibus pariatur! Ducimus ipsa eum iusto iste placeat eligendi explicabo! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit vero eius ipsum alias cum consequuntur, natus nisi atque libero debitis omnis repudiandae, cumque vitae quos commodi soluta! Laborum, fugit fugiat!Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officia ipsa? Non commodi quisquam laborum natus facere, voluptas architecto alias, obcaecati quis saepe nam cupiditate atque vel distinctio totam ut!Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officia ipsa? Non commodi quisquam laborum natus facere, voluptas architecto alias, obcaecati quis saepe nam cupiditate atque vel distinctio totam ut!
           </div>
         </div>
       </section>
 
       {/* Photo Gallery */}
       <section>
-        <div className="flex  justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="flex justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-14">
             <div className="flex justify-center">
               <Image
                 src='/images/service-landscape.png'
-                width={300}
+                width={400}
                 height={500}
                 alt='test'
               />
@@ -74,7 +74,7 @@ export default function WalkwaysAndPatios() {
             <div className="flex justify-center">
               <Image
                 src='/images/service-landscape.png'
-                width={300}
+                width={400}
                 height={500}
                 alt='test'
               />
@@ -82,7 +82,7 @@ export default function WalkwaysAndPatios() {
            <div className="flex justify-center">
               <Image
                 src='/images/service-landscape.png'
-                width={300}
+                width={400}
                 height={500}
                 alt='test'
               />
@@ -90,7 +90,7 @@ export default function WalkwaysAndPatios() {
             <div className="flex justify-center">
               <Image
                 src='/images/service-landscape.png'
-                width={300}
+                width={400}
                 height={500}
                 alt='test'
               />
@@ -98,7 +98,7 @@ export default function WalkwaysAndPatios() {
             <div className="flex justify-center">
               <Image
                 src='/images/service-landscape.png'
-                width={300}
+                width={400}
                 height={500}
                 alt='test'
               />
@@ -106,7 +106,7 @@ export default function WalkwaysAndPatios() {
             <div className="flex justify-center">
               <Image
                 src='/images/service-landscape.png'
-                width={300}
+                width={400}
                 height={500}
                 alt='test'
               />
@@ -114,7 +114,7 @@ export default function WalkwaysAndPatios() {
             <div className="flex justify-center">
               <Image
                 src='/images/service-landscape.png'
-                width={300}
+                width={400}
                 height={500}
                 alt='test'
               />
@@ -122,7 +122,7 @@ export default function WalkwaysAndPatios() {
             <div className="flex justify-center">
               <Image
                 src='/images/service-landscape.png'
-                width={300}
+                width={400}
                 height={500}
                 alt='test'
               />
@@ -130,7 +130,7 @@ export default function WalkwaysAndPatios() {
             <div className="flex justify-center">
               <Image
                 src='/images/service-landscape.png'
-                width={300}
+                width={400}
                 height={500}
                 alt='test'
               />
