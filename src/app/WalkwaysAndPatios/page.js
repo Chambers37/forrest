@@ -1,13 +1,48 @@
+'use client'
+
 import Link from "next/link";
 import Image from "next/image"
+import { useState } from "react";
 
 
 export default function WalkwaysAndPatios() {
+
+  const images = [
+    "/images/service-landscape.png",
+    "/images/service-landscape.png",
+    "/images/service-landscape.png",
+    "/images/service-landscape.png",
+    "/images/service-landscape.png",
+    "/images/service-landscape.png",
+    "/images/service-landscape.png",
+    "/images/service-landscape.png",
+    "/images/service-landscape.png",
+  ];
+
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = (index) => {
+    setSelectedImage(index);
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
+  const nextImage = () => {
+    setSelectedImage((prev) => (prev + 1) % images.length);
+  };
+
+  const prevImage = () => {
+    setSelectedImage((prev) => (prev - 1 + images.length) % images.length);
+  };
+
   return (
     <div>
-      {/* Image Banner */}
-      <section>
-        <div className="relative w-full max-w-[4000px] h-[400px] overflow-hidden">
+      <section className="w-full">
+        <div className="relative w-full h-[400px]">
           <Image
             src='/images/services-banner-cropped.png'
             fill
@@ -17,32 +52,29 @@ export default function WalkwaysAndPatios() {
         </div>
       </section>
 
-      {/* Back to Services Button */}
-      <section>
-        <div className="items-center flex justify-center">
-          <div className="justify-center flex items-center">
-            <Link href='/Services'>
-              <button className="text-lg text-darkGreen hover:text-greenWhite hover:bg-darkGreen bg-transparent outline-dashed flex justify-center items-center outline-greenWhite px-3 py-1 my-4">
-                Back To Services
-              </button>
-            </Link>
-          </div>
-        </div>
-      </section>
+      <div className="max-w-screen-xl mx-auto w-full px-4">
+        
+        {/* Back to Services Button */}
+        <section className="flex justify-center my-4">
+          <Link href='/Services'>
+            <button className="text-lg text-darkGreen hover:text-greenWhite hover:bg-darkGreen bg-transparent outline-dashed outline-greenWhite px-3 py-1">
+              Back To Services
+            </button>
+          </Link>
+        </section>
 
-      {/* Service Detail Section */}
-      <section className="grid grid-cols-1 justify-center mx-auto max-w-screen-xl">
-        <div className="grid grid-cols-1 md:grid-cols-2 w-full max-w-[1200px]">
+        {/* Service Detail Section */}
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
           <div>
             <div className="bg-red-300 text-4xl"><h1>Service Title</h1></div>
-            <div className="bg-blue-300 text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae sapiente dignissimos tempore nisi earum non mollitia fugiat consequatur odit? Praesentium et reprehenderit dolore cupiditate asperiores, quidem sed veniam ex in!
-            </div>
-            <div className="bg-red-300 text-3xl">mini title</div>
-            <div className="bg-blue-300 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officia ipsa? Non commodi quisquam laborum natus facere, voluptas architecto alias, obcaecati quis saepe nam cupiditate atque vel distinctio totam ut!Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officia ipsa? Non commodi quisquam laborum natus facere, voluptas architecto alias, obcaecati quis saepe nam cupiditate atque vel distinctio totam ut!Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officia ipsa? Non commodi quisquam laborum natus facere, voluptas architecto alias, obcaecati quis saepe nam cupiditate atque vel distinctio totam ut!
-            </div>
+            <div className="bg-blue-300 text-lg p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
+            <div className="bg-red-300 text-3xl p-2">mini title</div>
+            <div className="bg-blue-300 text-lg p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
           </div>
-          <div className="col-span-1 flex justify-center">
-            <div className="w-full md:max-w-[500px] lg:max-w-[800px] aspect-[16/9] relative">
+
+          {/* Image Section */}
+          <div className="flex justify-center">
+            <div className="w-full md:max-w-[600px] lg:max-w-[900px] aspect-[16/9] relative">
               <Image
                 src="/images/service-landscape.png"
                 fill
@@ -51,94 +83,75 @@ export default function WalkwaysAndPatios() {
               />
             </div>
           </div>
-        </div>
+        </section>
+
         <div className="mb-5">
-          <div className="bg-red-300 text-3xl">mini title 2</div>
-          <div className="bg-blue-300 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequatur harum iste voluptate quas animi, sed adipisci ipsa quasi? Eos, temporibus pariatur! Ducimus ipsa eum iusto iste placeat eligendi explicabo! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit vero eius ipsum alias cum consequuntur, natus nisi atque libero debitis omnis repudiandae, cumque vitae quos commodi soluta! Laborum, fugit fugiat!Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officia ipsa? Non commodi quisquam laborum natus facere, voluptas architecto alias, obcaecati quis saepe nam cupiditate atque vel distinctio totam ut!Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officia ipsa? Non commodi quisquam laborum natus facere, voluptas architecto alias, obcaecati quis saepe nam cupiditate atque vel distinctio totam ut!
-          </div>
+          <div className="bg-red-300 text-3xl p-2">mini title 2</div>
+          <div className="bg-blue-300 text-lg p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit qui aut tempore nemo modi pariatur ad, cum ab aliquid nobis? In soluta reprehenderit vitae iure repudiandae voluptatem sunt atque dolores.</div>
+        </div>
+
+        <div>
+
+      {/* Image Gallery */}
+      <section className="w-full">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+          {images.map((srcUrl, i) => (
+            <div key={i} className="flex justify-center">
+              <button
+                onClick={() => openModal(i)}
+                className="hover:opacity-60 transition duration-500"
+              >
+                <Image 
+                  src={srcUrl} 
+                  width={400} 
+                  height={500} 
+                  alt={`Gallery image ${i + 1}`} 
+                />
+              </button>
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* Photo Gallery */}
-      <section>
-        <div className="flex justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-14">
-            <div className="flex justify-center">
-              <Image
-                src='/images/service-landscape.png'
-                width={400}
-                height={500}
-                alt='test'
-              />
-              </div>
-            <div className="flex justify-center">
-              <Image
-                src='/images/service-landscape.png'
-                width={400}
-                height={500}
-                alt='test'
-              />
-              </div>
-           <div className="flex justify-center">
-              <Image
-                src='/images/service-landscape.png'
-                width={400}
-                height={500}
-                alt='test'
-              />
-              </div>
-            <div className="flex justify-center">
-              <Image
-                src='/images/service-landscape.png'
-                width={400}
-                height={500}
-                alt='test'
-              />
-              </div>
-            <div className="flex justify-center">
-              <Image
-                src='/images/service-landscape.png'
-                width={400}
-                height={500}
-                alt='test'
-              />
-              </div>
-            <div className="flex justify-center">
-              <Image
-                src='/images/service-landscape.png'
-                width={400}
-                height={500}
-                alt='test'
-              />
-              </div>
-            <div className="flex justify-center">
-              <Image
-                src='/images/service-landscape.png'
-                width={400}
-                height={500}
-                alt='test'
-              />
-              </div>
-            <div className="flex justify-center">
-              <Image
-                src='/images/service-landscape.png'
-                width={400}
-                height={500}
-                alt='test'
-              />
-              </div>
-            <div className="flex justify-center">
-              <Image
-                src='/images/service-landscape.png'
-                width={400}
-                height={500}
-                alt='test'
-              />
-              </div>
+      {/* Lightbox Modal */}
+      {isOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
+          <button
+            className="absolute top-5 right-5 text-white text-3xl"
+            onClick={closeModal}
+          >
+            ✖
+          </button>
 
+          {/* Previous Button */}
+          <div
+            className="absolute left-5 cursor-pointer text-white text-3xl p-3 hover:opacity-70"
+            onClick={prevImage}
+          >
+            Previous
           </div>
+
+          {/* Enlarged Image */}
+          <Image 
+            src={images[selectedImage]} 
+            width={1200} 
+            height={1500} 
+            alt={`Gallery image ${selectedImage + 1}`} 
+            className="rounded-lg"
+          />
+
+          {/* Next Button */}
+          <button
+            className="absolute right-5 cursor-pointer text-white text-3xl p-3 hover:opacity-70"
+            onClick={nextImage}
+          >
+            Next
+          </button>
         </div>
-      </section>
+      )}
     </div>
-  )
+
+      </div>
+    </div>
+  );
 }
