@@ -92,65 +92,65 @@ export default function WalkwaysAndPatios() {
 
         <div>
 
-      {/* Image Gallery */}
-      <section className="w-full">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-          {images.map((srcUrl, i) => (
-            <div key={i} className="flex justify-center">
-              <button
-                onClick={() => openModal(i)}
-                className="hover:opacity-60 transition duration-500"
-              >
-                <Image 
-                  src={srcUrl} 
-                  width={400} 
-                  height={500} 
-                  alt={`Gallery image ${i + 1}`} 
-                />
-              </button>
+          {/* Image Gallery */}
+          <section className="w-full">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+              {images.map((srcUrl, i) => (
+                <div key={i} className="flex justify-center">
+                  <button
+                    onClick={() => openModal(i)}
+                    className="hover:opacity-60 transition duration-500"
+                  >
+                    <Image 
+                      src={srcUrl} 
+                      width={400} 
+                      height={500} 
+                      alt={`Gallery image ${i + 1}`} 
+                    />
+                  </button>
+                </div>
+              ))}
             </div>
-          ))}
+          </section>
+
+          {/* Lightbox Modal */}
+          {isOpen && (
+            <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
+              <button
+                className="absolute top-5 right-5 text-white text-3xl hover:opacity-70"
+                onClick={closeModal}
+              >
+                ✖
+              </button>
+
+              {/* Previous Button */}
+              <div
+                className="absolute left-5 cursor-pointer text-white text-3xl p-3 hover:opacity-70"
+                onClick={prevImage}
+              >
+                Previous
+              </div>
+
+              {/* Enlarged Image */}
+              <Image 
+                src={images[selectedImage]} 
+                width={1200} 
+                height={1500} 
+                alt={`Gallery image ${selectedImage + 1}`} 
+                className="rounded-lg"
+              />
+
+              {/* Next Button */}
+              <div
+                className="absolute right-5 cursor-pointer text-white text-3xl p-3 hover:opacity-70"
+                onClick={nextImage}
+              >
+                Next
+              </div>
+            </div>
+          )}
+
         </div>
-      </section>
-
-      {/* Lightbox Modal */}
-      {isOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
-          <button
-            className="absolute top-5 right-5 text-white text-3xl"
-            onClick={closeModal}
-          >
-            ✖
-          </button>
-
-          {/* Previous Button */}
-          <div
-            className="absolute left-5 cursor-pointer text-white text-3xl p-3 hover:opacity-70"
-            onClick={prevImage}
-          >
-            Previous
-          </div>
-
-          {/* Enlarged Image */}
-          <Image 
-            src={images[selectedImage]} 
-            width={1200} 
-            height={1500} 
-            alt={`Gallery image ${selectedImage + 1}`} 
-            className="rounded-lg"
-          />
-
-          {/* Next Button */}
-          <button
-            className="absolute right-5 cursor-pointer text-white text-3xl p-3 hover:opacity-70"
-            onClick={nextImage}
-          >
-            Next
-          </button>
-        </div>
-      )}
-    </div>
-
       </div>
     </div>
   );
