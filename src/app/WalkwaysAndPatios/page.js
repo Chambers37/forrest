@@ -8,15 +8,15 @@ import { useState } from "react";
 export default function WalkwaysAndPatios() {
 
   const images = [
+    "/images/img1.jpg",
     "/images/service-landscape.png",
+    "/images/img2.jpg",
     "/images/service-landscape.png",
+    "/images/img3.jpg",
     "/images/service-landscape.png",
+    "/images/img4.jpg",
     "/images/service-landscape.png",
-    "/images/service-landscape.png",
-    "/images/service-landscape.png",
-    "/images/service-landscape.png",
-    "/images/service-landscape.png",
-    "/images/service-landscape.png",
+    "/images/img5.jpg",
   ];
 
   const [selectedImage, setSelectedImage] = useState(null);
@@ -99,7 +99,7 @@ export default function WalkwaysAndPatios() {
                 <div key={i} className="flex justify-center">
                   <button
                     onClick={() => openModal(i)}
-                    className="hover:opacity-60 transition duration-500 magnify-container"
+                    className="hover:opacity-60 hover:cursor-zoom-in transition duration-500"
                   >
                     <Image 
                       src={srcUrl} 
@@ -115,7 +115,7 @@ export default function WalkwaysAndPatios() {
 
           {/* Lightbox Modal */}
           {isOpen && (
-            <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
+            <div className="hover:cursor-zoom-out fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50" onClick={closeModal}>
               <button
                 className="absolute top-5 right-5 text-white text-3xl hover:opacity-70"
                 onClick={closeModal}
@@ -126,7 +126,7 @@ export default function WalkwaysAndPatios() {
               {/* Previous Button */}
               <div
                 className="absolute left-5 cursor-pointer text-white text-3xl p-3 hover:opacity-70"
-                onClick={prevImage}
+                onClick={(e) => { e.stopPropagation(); prevImage(); }}
               >
                 Previous
               </div>
@@ -137,13 +137,14 @@ export default function WalkwaysAndPatios() {
                 width={1200} 
                 height={1500} 
                 alt={`Gallery image ${selectedImage + 1}`} 
-                className="rounded-lg"
+                className="rounded-lg hover:cursor-pointer"
+                onClick={(e) => { e.stopPropagation(); nextImage(); }}
               />
 
               {/* Next Button */}
               <div
                 className="absolute right-5 cursor-pointer text-white text-3xl p-3 hover:opacity-70"
-                onClick={nextImage}
+                onClick={(e) => { e.stopPropagation(); nextImage(); }}
               >
                 Next
               </div>
