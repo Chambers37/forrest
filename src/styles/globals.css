@@ -40,3 +40,31 @@
 #quote-form {
   scroll-margin-top: 30vh;
 }
+
+.magnify-container {
+  position: relative;
+  display: inline-block;
+}
+
+.magnify-container::before {
+  content: "🔍"; /* Unicode magnifying glass emoji */
+  font-size: 2rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.magnify-container:hover::before {
+  opacity: 1; /* Show icon on hover */
+}

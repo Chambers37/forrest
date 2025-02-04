@@ -99,7 +99,7 @@ export default function WalkwaysAndPatios() {
                 <div key={i} className="flex justify-center">
                   <button
                     onClick={() => openModal(i)}
-                    className="hover:opacity-60 transition duration-500"
+                    className="hover:opacity-60 transition duration-500 magnify-container"
                   >
                     <Image 
                       src={srcUrl} 
