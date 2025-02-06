@@ -43,7 +43,7 @@ export default function Services() {
       </section>
 
       <section className="fade-hidden">
-        <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 px-8 w-full">
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-3 max-w-screen-2xl gap-8 px-8 w-full mx-auto">
           {/* Hardscaping */}
           <div className="text-center">
             <div className="grid justify-center">
