@@ -8,22 +8,34 @@ import { useState } from "react";
 export default function WalkwaysAndPatios() {
 
   const images = [
-    "/images/img1.jpg",
-    "/images/service-landscape.png",
-    "/images/img2.jpg",
-    "/images/service-landscape.png",
+    "/images/better-pool-banner.jpg",
+    "/images/services-banner.jpg",
+    "/images/better-pool-banner.jpg",
+    "/images/services-banner.jpg",
     "/images/img3.jpg",
-    "/images/service-landscape.png",
-    "/images/img4.jpg",
-    "/images/service-landscape.png",
-    "/images/img5.jpg",
+    "/images/services-banner.jpg",
+    "/images/better-pool-banner.jpg",
+    "/images/services-banner.jpg",
+    "/images/better-pool-banner.jpg",
   ];
 
-  const [selectedImage, setSelectedImage] = useState(null);
+  const enlargedImages = [
+    "/images/better-pool-banner.jpg",
+    "/images/services-banner.jpg",
+    "/images/better-pool-banner.jpg",
+    "/images/services-banner.jpg",
+    "/images/img3.jpg",
+    "/images/services-banner.jpg",
+    "/images/better-pool-banner.jpg",
+    "/images/services-banner.jpg",
+    "/images/better-pool-banner.jpg",
+  ];
+
   const [isOpen, setIsOpen] = useState(false);
+  const [enlargedImageIndex, setEnlargedImageIndex] = useState(null);
 
   const openModal = (index) => {
-    setSelectedImage(index);
+    setEnlargedImageIndex(index);
     setIsOpen(true);
   };
 
@@ -32,11 +44,11 @@ export default function WalkwaysAndPatios() {
   };
 
   const nextImage = () => {
-    setSelectedImage((prev) => (prev + 1) % images.length);
+    setEnlargedImageIndex((prev) => (prev + 1) % enlargedImages.length);
   };
 
   const prevImage = () => {
-    setSelectedImage((prev) => (prev - 1 + images.length) % images.length);
+    setEnlargedImageIndex((prev) => (prev - 1 + enlargedImages.length) % enlargedImages.length);
   };
 
   return (
@@ -99,13 +111,13 @@ export default function WalkwaysAndPatios() {
                 <div key={i} className="flex justify-center">
                   <button
                     onClick={() => openModal(i)}
-                    className="hover:opacity-60 hover:cursor-zoom-in transition duration-500"
+                    className="w-full h-[400px] relative hover:opacity-60 hover:cursor-zoom-in transition duration-500"
                   >
                     <Image 
                       src={srcUrl} 
-                      width={400} 
-                      height={500} 
-                      alt={`Gallery image ${i + 1}`} 
+                      fill
+                      className="object-cover"
+                      alt={`Gallery image ${i + 1}`}
                     />
                   </button>
                 </div>
@@ -133,10 +145,10 @@ export default function WalkwaysAndPatios() {
 
               {/* Enlarged Image */}
               <Image 
-                src={images[selectedImage]} 
-                width={1200} 
+                src={enlargedImages[enlargedImageIndex]} 
+                width={2000} 
                 height={1500} 
-                alt={`Gallery image ${selectedImage + 1}`} 
+                alt={`Gallery image ${enlargedImageIndex + 1}`} 
                 className="rounded-lg hover:cursor-pointer"
                 onClick={(e) => { e.stopPropagation(); nextImage(); }}
               />
