@@ -2,10 +2,17 @@
 
 import Link from "next/link";
 import Image from "next/image"
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { applyFadeInEffect } from "@/utils/fadeInEffect";
 
 
 export default function WalkwaysAndPatios() {
+
+    useEffect(() => {
+        const observer = applyFadeInEffect('fade-hidden');
+  
+        return () => observer.disconnect();
+    }, [])
 
   const images = [
     "/images/better-pool-banner.jpg",
@@ -67,7 +74,7 @@ export default function WalkwaysAndPatios() {
       <div className="max-w-screen-xl mx-auto w-full px-4">
         
         {/* Back to Services Button */}
-        <section className="flex justify-center my-4">
+        <section className="flex justify-center my-4 fade-hidden">
           <Link href='/Services'>
             <button className="text-lg text-darkGreen bg-transparent underline hover:outline hover:outline-black hover:outline-1 rounded px-1 py-1">
               Back To Services
@@ -76,7 +83,7 @@ export default function WalkwaysAndPatios() {
         </section>
 
         {/* Service Detail Section */}
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
             <div className="bg-red-300 text-4xl p-2"><h1>Service Title</h1></div>
             <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
@@ -97,7 +104,7 @@ export default function WalkwaysAndPatios() {
           </div>
         </section>
 
-        <div className="mb-5">
+        <div className="mb-5 fade-hidden">
           <div className="bg-red-300 text-3xl p-2">mini title 2</div>
           <div className="bg-blue-300 text-lg p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit qui aut tempore nemo modi pariatur ad, cum ab aliquid nobis? In soluta reprehenderit vitae iure repudiandae voluptatem sunt atque dolores.</div>
         </div>
@@ -105,13 +112,13 @@ export default function WalkwaysAndPatios() {
         <div>
 
           {/* Image Gallery */}
-          <section className="w-full">
+          <section className="w-full fade-hidden">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
               {images.map((srcUrl, i) => (
                 <div key={i} className="flex justify-center">
                   <button
                     onClick={() => openModal(i)}
-                    className="w-full h-[400px] relative hover:opacity-60 hover:cursor-zoom-in transition duration-500"
+                    className="w-[400px] h-[400px] relative hover:opacity-60 hover:cursor-zoom-in transition duration-500"
                   >
                     <Image 
                       src={srcUrl} 
