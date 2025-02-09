@@ -27,7 +27,7 @@ export default function Hardscaping() {
         </div>
       </section>
 
-      <div className="max-w-screen-xl mx-auto w-full px-4">
+      <div className="max-w-screen-lg mx-auto w-full px-4">
         
         {/* Back to Services Button */}
         <section className="flex justify-center my-4 mb-1 fade-hidden">
@@ -52,119 +52,137 @@ export default function Hardscaping() {
           {/* Image Gallery */}
           <section className="w-full fade-hidden">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-col md:items-start sm:items-center">
                   <Link
                     href={'/WalkwaysAndPatios'}
-                    className="w-[350px] h-[350px] relative hover:opacity-80"
-                  >
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
                     <Image 
                       src={'/images/img1.jpg'} 
                       fill
                       className="object-cover"
                       alt='test'
                     />
+                    
                   </Link>
-                  <Link
-                    href={'/WalkwaysAndPatios'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                        Walkways & Patios
-                      </h1>
-                  </Link>
+                  <div className="w-full md:text-left sm:text-center">
+                    <Link
+                      href={'/WalkwaysAndPatios'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                          Walkways & Patios
+                        </h1>
+                    </Link>
+                  </div>
                 </div>
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-col md:items-start sm:items-center">
                   <Link
                     href={'/PoolDecks'}
-                    className="w-[350px] h-[350px] relative hover:opacity-80"
-                  >
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
                     <Image 
                       src={'/images/img1.jpg'} 
                       fill
                       className="object-cover"
                       alt='test'
                     />
+                    
                   </Link>
-                  <Link
-                    href={'/PoolDecks'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                        Pool Decks
-                      </h1>
-                  </Link>
+                  <div className="w-full md:text-left sm:text-center">
+                    <Link
+                      href={'/PoolDecks'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                          Pool Decks
+                        </h1>
+                    </Link>
+                  </div>
                 </div>
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-col md:items-start sm:items-center">
                   <Link
                     href={'/FencingAndRetainingWalls'}
-                    className="w-[350px] h-[350px] relative hover:opacity-80"
-                  >
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
                     <Image 
                       src={'/images/img1.jpg'} 
                       fill
                       className="object-cover"
                       alt='test'
                     />
+                    
                   </Link>
-                  <Link
-                    href={'/FencingAndRetainingWalls'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                      Fencing & Retaining Walls
-                      </h1>
-                  </Link>
+                  <div className="w-full md:text-left sm:text-center">
+                    <Link
+                      href={'/FencingAndRetainingWalls'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                          Fencing & Retaining Walls
+                        </h1>
+                    </Link>
+                  </div>
                 </div>
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-col md:items-start sm:items-center">
                   <Link
                     href={'/NaturalStoneWork'}
-                    className="w-[350px] h-[350px] relative hover:opacity-80"
-                  >
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
                     <Image 
                       src={'/images/img1.jpg'} 
                       fill
                       className="object-cover"
                       alt='test'
                     />
+                    
                   </Link>
-                  <Link
-                    href={'/NaturalStoneWork'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                      Natural Stone Work
-                      </h1>
-                  </Link>
+                  <div className="w-full md:text-left sm:text-center">
+                    <Link
+                      href={'/NaturalStoneWork'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                        Natural Stone Work
+                        </h1>
+                    </Link>
+                  </div>
                 </div>
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-col md:items-start sm:items-center">
                   <Link
                     href={'/PavilionsAndPergolas'}
-                    className="w-[350px] h-[350px] relative hover:opacity-80"
-                  >
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
                     <Image 
                       src={'/images/img1.jpg'} 
                       fill
                       className="object-cover"
                       alt='test'
                     />
+                    
                   </Link>
-                  <Link
-                    href={'/PavilionsAndPergolas'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                      Pavilions & Pergolas
-                      </h1>
-                  </Link>
+                  <div className="w-full md:text-left sm:text-center">
+                    <Link
+                      href={'/PavilionsAndPergolas'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                        Pavilions & Pergolas
+                        </h1>
+                    </Link>
+                  </div>
                 </div>
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-col md:items-start sm:items-center">
                   <Link
                     href={'/OutdoorLivingSpaces'}
-                    className="w-[350px] h-[350px] relative hover:opacity-80"
-                  >
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
                     <Image 
                       src={'/images/img1.jpg'} 
                       fill
                       className="object-cover"
                       alt='test'
                     />
+                    
                   </Link>
-                  <Link
-                    href={'/OutdoorLivingSpaces'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                  <div className="w-full md:text-left sm:text-center">
+                    <Link
+                      href={'/OutdoorLivingSpaces'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
                         Outdoor Living Spaces
-                      </h1>
-                  </Link>
+                        </h1>
+                    </Link>
+                  </div>
                 </div>
             </div>
           </section>
