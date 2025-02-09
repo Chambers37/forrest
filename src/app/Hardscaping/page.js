@@ -54,7 +54,7 @@ export default function Hardscaping() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
                 <div className="grid justify-center">
                   <Link
-                    href={'/'}
+                    href={'/WalkwaysAndPatios'}
                     className="w-[350px] h-[350px] relative hover:opacity-90"
                   >
                     <Image 
@@ -65,15 +65,15 @@ export default function Hardscaping() {
                     />
                   </Link>
                   <Link
-                    href={'/'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2">
+                    href={'/WalkwaysAndPatios'}>
+                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
                         Walkways & Patios
                       </h1>
                   </Link>
                 </div>
                 <div className="grid justify-center">
                   <Link
-                    href={'/'}
+                    href={'/PoolDecks'}
                     className="w-[350px] h-[350px] relative hover:opacity-90"
                   >
                     <Image 
@@ -84,15 +84,15 @@ export default function Hardscaping() {
                     />
                   </Link>
                   <Link
-                    href={'/'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2">
+                    href={'/PoolDecks'}>
+                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
                         Pool Decks
                       </h1>
                   </Link>
                 </div>
                 <div className="grid justify-center">
                   <Link
-                    href={'/'}
+                    href={'/FencingAndRetainingWalls'}
                     className="w-[350px] h-[350px] relative hover:opacity-90"
                   >
                     <Image 
@@ -103,15 +103,15 @@ export default function Hardscaping() {
                     />
                   </Link>
                   <Link
-                    href={'/'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2">
-                        Service Name Here
+                    href={'/FencingAndRetainingWalls'}>
+                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                      Fencing & Retaining Walls
                       </h1>
                   </Link>
                 </div>
                 <div className="grid justify-center">
                   <Link
-                    href={'/'}
+                    href={'/NaturalStoneWork'}
                     className="w-[350px] h-[350px] relative hover:opacity-90"
                   >
                     <Image 
@@ -122,15 +122,15 @@ export default function Hardscaping() {
                     />
                   </Link>
                   <Link
-                    href={'/'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2">
-                        Service Name Here
+                    href={'/NaturalStoneWork'}>
+                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                      Natural Stone Work
                       </h1>
                   </Link>
                 </div>
                 <div className="grid justify-center">
                   <Link
-                    href={'/'}
+                    href={'/PavilionsAndPergolas'}
                     className="w-[350px] h-[350px] relative hover:opacity-90"
                   >
                     <Image 
@@ -141,15 +141,15 @@ export default function Hardscaping() {
                     />
                   </Link>
                   <Link
-                    href={'/'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2">
-                        Service Name Here
+                    href={'/PavilionsAndPergolas'}>
+                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                      Pavilions & Pergolas
                       </h1>
                   </Link>
                 </div>
                 <div className="grid justify-center">
                   <Link
-                    href={'/'}
+                    href={'/OutdoorLivingSpaces'}
                     className="w-[350px] h-[350px] relative hover:opacity-90"
                   >
                     <Image 
@@ -160,9 +160,9 @@ export default function Hardscaping() {
                     />
                   </Link>
                   <Link
-                    href={'/'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2">
-                        Service Name Here
+                    href={'/OutdoorLivingSpaces'}>
+                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                        Outdoor Living Spaces
                       </h1>
                   </Link>
                 </div>
