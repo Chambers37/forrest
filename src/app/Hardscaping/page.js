@@ -52,7 +52,7 @@ export default function Hardscaping() {
           {/* Image Gallery */}
           <section className="w-full fade-hidden">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-                <div className="grid justify-center">
+                <div className="flex flex-col justify-center">
                   <Link
                     href={'/WalkwaysAndPatios'}
                     className="w-[350px] h-[350px] relative hover:opacity-80"
@@ -71,7 +71,7 @@ export default function Hardscaping() {
                       </h1>
                   </Link>
                 </div>
-                <div className="grid justify-center">
+                <div className="flex flex-col justify-center">
                   <Link
                     href={'/PoolDecks'}
                     className="w-[350px] h-[350px] relative hover:opacity-80"
@@ -90,7 +90,7 @@ export default function Hardscaping() {
                       </h1>
                   </Link>
                 </div>
-                <div className="grid justify-center">
+                <div className="flex flex-col justify-center">
                   <Link
                     href={'/FencingAndRetainingWalls'}
                     className="w-[350px] h-[350px] relative hover:opacity-80"
@@ -109,7 +109,7 @@ export default function Hardscaping() {
                       </h1>
                   </Link>
                 </div>
-                <div className="grid justify-center">
+                <div className="flex flex-col justify-center">
                   <Link
                     href={'/NaturalStoneWork'}
                     className="w-[350px] h-[350px] relative hover:opacity-80"
@@ -128,7 +128,7 @@ export default function Hardscaping() {
                       </h1>
                   </Link>
                 </div>
-                <div className="grid justify-center">
+                <div className="flex flex-col justify-center">
                   <Link
                     href={'/PavilionsAndPergolas'}
                     className="w-[350px] h-[350px] relative hover:opacity-80"
@@ -147,7 +147,7 @@ export default function Hardscaping() {
                       </h1>
                   </Link>
                 </div>
-                <div className="grid justify-center">
+                <div className="flex flex-col justify-center">
                   <Link
                     href={'/OutdoorLivingSpaces'}
                     className="w-[350px] h-[350px] relative hover:opacity-80"
