@@ -27,7 +27,7 @@ export default function Maintenance() {
         </div>
       </section>
 
-      <div className="max-w-screen-xl mx-auto w-full px-4">
+      <div className="max-w-screen-md mx-auto w-full px-4">
         
         {/* Back to Services Button */}
         <section className="flex justify-center my-4 mb-1 fade-hidden">
@@ -50,45 +50,51 @@ export default function Maintenance() {
         <div>
 
           {/* Image Gallery */}
-          <section className="max-w-screen-xl fade-hidden">
+          <section className="w-full fade-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                <div className="grid justify-end mr-4">
+                <div className="flex flex-col items-center">
                   <Link
                     href={'/SeasonalServices'}
-                    className="w-[350px] h-[350px] relative hover:opacity-80"
-                  >
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
                     <Image 
                       src={'/images/img1.jpg'} 
                       fill
                       className="object-cover"
                       alt='test'
                     />
+                    
                   </Link>
-                  <Link
-                    href={'/SeasonalServices'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                      Seasonal Services
-                      </h1>
-                  </Link>
+                  <div className="w-full text-center">
+                    <Link
+                      href={'/SeasonalServices'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                         Seasonal Services
+                        </h1>
+                    </Link>
+                  </div>
                 </div>
-                <div className="grid justify-start ml-4">
+                <div className="flex flex-col items-center">
                   <Link
                     href={'/YearRoundPropertyCare'}
-                    className="w-[350px] h-[350px] relative hover:opacity-80"
-                  >
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
                     <Image 
                       src={'/images/img1.jpg'} 
                       fill
                       className="object-cover"
                       alt='test'
                     />
+                    
                   </Link>
-                  <Link
-                    href={'/YearRoundPropertyCare'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                      Year-Round Property Care
-                      </h1>
-                  </Link>
+                  <div className="w-full text-center">
+                    <Link
+                      href={'/YearRoundPropertyCare'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                          Year-Round Property Care
+                        </h1>
+                    </Link>
+                  </div>
                 </div>
             </div>
           </section>
