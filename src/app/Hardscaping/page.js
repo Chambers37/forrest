@@ -55,7 +55,7 @@ export default function Hardscaping() {
                 <div className="grid justify-center">
                   <Link
                     href={'/WalkwaysAndPatios'}
-                    className="w-[350px] h-[350px] relative hover:opacity-90"
+                    className="w-[350px] h-[350px] relative hover:opacity-80"
                   >
                     <Image 
                       src={'/images/img1.jpg'} 
@@ -74,7 +74,7 @@ export default function Hardscaping() {
                 <div className="grid justify-center">
                   <Link
                     href={'/PoolDecks'}
-                    className="w-[350px] h-[350px] relative hover:opacity-90"
+                    className="w-[350px] h-[350px] relative hover:opacity-80"
                   >
                     <Image 
                       src={'/images/img1.jpg'} 
@@ -93,7 +93,7 @@ export default function Hardscaping() {
                 <div className="grid justify-center">
                   <Link
                     href={'/FencingAndRetainingWalls'}
-                    className="w-[350px] h-[350px] relative hover:opacity-90"
+                    className="w-[350px] h-[350px] relative hover:opacity-80"
                   >
                     <Image 
                       src={'/images/img1.jpg'} 
@@ -112,7 +112,7 @@ export default function Hardscaping() {
                 <div className="grid justify-center">
                   <Link
                     href={'/NaturalStoneWork'}
-                    className="w-[350px] h-[350px] relative hover:opacity-90"
+                    className="w-[350px] h-[350px] relative hover:opacity-80"
                   >
                     <Image 
                       src={'/images/img1.jpg'} 
@@ -131,7 +131,7 @@ export default function Hardscaping() {
                 <div className="grid justify-center">
                   <Link
                     href={'/PavilionsAndPergolas'}
-                    className="w-[350px] h-[350px] relative hover:opacity-90"
+                    className="w-[350px] h-[350px] relative hover:opacity-80"
                   >
                     <Image 
                       src={'/images/img1.jpg'} 
@@ -150,7 +150,7 @@ export default function Hardscaping() {
                 <div className="grid justify-center">
                   <Link
                     href={'/OutdoorLivingSpaces'}
-                    className="w-[350px] h-[350px] relative hover:opacity-90"
+                    className="w-[350px] h-[350px] relative hover:opacity-80"
                   >
                     <Image 
                       src={'/images/img1.jpg'} 
