@@ -61,12 +61,12 @@ export default function Services() {
               <Link href={'/Hardscaping'}><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen hover:scale-105">Hardscaping</p></Link>
             </div>
             <ul className="grid grid-cols-1 gap-3 pt-5">
-              <Link className="hover:scale-105 hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/WalkwaysAndPatios'}>Walkways & Patios</Link>
-              <Link className="hover:scale-105 hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/PoolDecks'}>Pool Decks</Link>
-              <Link className="hover:scale-105 hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/FencingAndRetainingWalls'}>Fencing & Retaining Walls</Link>
-              <Link className="hover:scale-105 hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/NaturalStoneWork'}>Natural Stone Work</Link>
-              <Link className="hover:scale-105 hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/PavilionsAndPergolas'}>Pavilions & Pergolas</Link>
-              <Link className="hover:scale-105 hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/OutdoorLivingSpaces'}>Outdoor Living Spaces</Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/WalkwaysAndPatios'}>Walkways & Patios</Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/PoolDecks'}>Pool Decks</Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/FencingAndRetainingWalls'}>Fencing & Retaining Walls</Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/NaturalStoneWork'}>Natural Stone Work</Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/PavilionsAndPergolas'}>Pavilions & Pergolas</Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/OutdoorLivingSpaces'}>Outdoor Living Spaces</Link>
             </ul>
           </div>
 
@@ -87,10 +87,10 @@ export default function Services() {
               </div>
               <Link href={'/Landscaping'}><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen hover:scale-105">Landscaping</p></Link>
             <ul className="grid grid-cols-1 gap-3 pt-5">
-              <Link className="hover:scale-105 hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/GardenDesign'}>Garden Design</Link>
-              <Link className="hover:scale-105 hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/TreeAndShrubCare'}>Tree & Shrub Care</Link>
-              <Link className="hover:scale-105 hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/DrainageSolutions'}>Drainage Solutions</Link>
-              <Link className="hover:scale-105 hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/NewPlantInstallations'}>New Plant Installations</Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/GardenDesign'}>Garden Design</Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/TreeAndShrubCare'}>Tree & Shrub Care</Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/DrainageSolutions'}>Drainage Solutions</Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/NewPlantInstallations'}>New Plant Installations</Link>
             </ul>
           </div>
 
@@ -111,8 +111,8 @@ export default function Services() {
             </div>
             <Link href={'/Maintenance'}><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen hover:scale-105">Maintenance</p></Link>
             <ul className="grid grid-cols-1 gap-3 pt-5">
-              <Link href={'/SeasonalServices'}><p className="hover:scale-105 hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen">Seasonal Services</p></Link>
-              <Link className="hover:scale-105 hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/YearRoundPropertyCare'}>Year-Round Property Care</Link>
+              <Link href={'/SeasonalServices'}><p className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen">Seasonal Services</p></Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/YearRoundPropertyCare'}>Year-Round Property Care</Link>
             </ul>
           </div>
         </div>
