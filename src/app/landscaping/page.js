@@ -27,7 +27,7 @@ export default function Landscaping() {
         </div>
       </section>
 
-      <div className="max-w-screen-xl mx-auto w-full px-4">
+      <div className="max-w-screen-md mx-auto w-full px-4">
         
         {/* Back to Services Button */}
         <section className="flex justify-center my-4 mb-1 fade-hidden">
@@ -50,83 +50,95 @@ export default function Landscaping() {
         <div>
 
           {/* Image Gallery */}
-          <section className="max-w-screen-xl fade-hidden">
+          <section className="w-full fade-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                <div className="grid justify-end mr-4">
+                <div className="flex flex-col items-center">
                   <Link
-                    href={'/GardenDesign'}
-                    className="w-[350px] h-[350px] relative hover:opacity-80"
-                  >
+                    href={'/WalkwaysAndPatios'}
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
                     <Image 
                       src={'/images/img1.jpg'} 
                       fill
                       className="object-cover"
                       alt='test'
                     />
+                    
                   </Link>
-                  <Link
-                    href={'/GardenDesign'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                        Garden Design
-                      </h1>
-                  </Link>
+                  <div className="w-full text-center">
+                    <Link
+                      href={'/WalkwaysAndPatios'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                          Walkways & Patios
+                        </h1>
+                    </Link>
+                  </div>
                 </div>
-                <div className="grid justify-start ml-4">
+                <div className="flex flex-col items-center">
                   <Link
-                    href={'/TreeAndShrubCare'}
-                    className="w-[350px] h-[350px] relative hover:opacity-80"
-                  >
+                    href={'/PoolDecks'}
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
                     <Image 
                       src={'/images/img1.jpg'} 
                       fill
                       className="object-cover"
                       alt='test'
                     />
+                    
                   </Link>
-                  <Link
-                    href={'/TreeAndShrubCare'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                        Tree & Shrub Care
-                      </h1>
-                  </Link>
+                  <div className="w-full text-center">
+                    <Link
+                      href={'/PoolDecks'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                          Pool Decks
+                        </h1>
+                    </Link>
+                  </div>
                 </div>
-                <div className="grid justify-end mr-4">
+                <div className="flex flex-col items-center">
                   <Link
-                    href={'/DrainageSolutions'}
-                    className="w-[350px] h-[350px] relative hover:opacity-80"
-                  >
+                    href={'/FencingAndRetainingWalls'}
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
                     <Image 
                       src={'/images/img1.jpg'} 
                       fill
                       className="object-cover"
                       alt='test'
                     />
+                    
                   </Link>
-                  <Link
-                    href={'/DrainageSolutions'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                      Drainage Solutions
-                      </h1>
-                  </Link>
+                  <div className="w-full text-center">
+                    <Link
+                      href={'/FencingAndRetainingWalls'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                          Fencing & Retaining Walls
+                        </h1>
+                    </Link>
+                  </div>
                 </div>
-                <div className="grid justify-start ml-4">
+                <div className="flex flex-col items-center">
                   <Link
-                    href={'/NewPlantInstallations'}
-                    className="w-[350px] h-[350px] relative hover:opacity-80"
-                  >
+                    href={'/NaturalStoneWork'}
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
                     <Image 
                       src={'/images/img1.jpg'} 
                       fill
                       className="object-cover"
                       alt='test'
                     />
+                    
                   </Link>
-                  <Link
-                    href={'/NaturalStoneWork'}>
-                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                      New Plant Installations
-                      </h1>
-                  </Link>
+                  <div className="w-full text-center">
+                    <Link
+                      href={'/NaturalStoneWork'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                        Natural Stone Work
+                        </h1>
+                    </Link>
+                  </div>
                 </div>
             </div>
           </section>

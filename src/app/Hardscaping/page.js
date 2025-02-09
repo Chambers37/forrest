@@ -27,7 +27,7 @@ export default function Hardscaping() {
         </div>
       </section>
 
-      <div className="max-w-screen-lg mx-auto w-full px-4">
+      <div className="max-w-screen-xl mx-auto w-full px-4">
         
         {/* Back to Services Button */}
         <section className="flex justify-center my-4 mb-1 fade-hidden">
@@ -52,7 +52,7 @@ export default function Hardscaping() {
           {/* Image Gallery */}
           <section className="w-full fade-hidden">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-                <div className="flex flex-col md:items-start sm:items-center">
+                <div className="flex flex-col items-center">
                   <Link
                     href={'/WalkwaysAndPatios'}
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
@@ -65,7 +65,7 @@ export default function Hardscaping() {
                     />
                     
                   </Link>
-                  <div className="w-full md:text-left sm:text-center">
+                  <div className="w-full text-center">
                     <Link
                       href={'/WalkwaysAndPatios'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
@@ -74,7 +74,7 @@ export default function Hardscaping() {
                     </Link>
                   </div>
                 </div>
-                <div className="flex flex-col md:items-start sm:items-center">
+                <div className="flex flex-col items-center">
                   <Link
                     href={'/PoolDecks'}
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
@@ -87,7 +87,7 @@ export default function Hardscaping() {
                     />
                     
                   </Link>
-                  <div className="w-full md:text-left sm:text-center">
+                  <div className="w-full text-center">
                     <Link
                       href={'/PoolDecks'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
@@ -96,7 +96,7 @@ export default function Hardscaping() {
                     </Link>
                   </div>
                 </div>
-                <div className="flex flex-col md:items-start sm:items-center">
+                <div className="flex flex-col items-center">
                   <Link
                     href={'/FencingAndRetainingWalls'}
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
@@ -109,7 +109,7 @@ export default function Hardscaping() {
                     />
                     
                   </Link>
-                  <div className="w-full md:text-left sm:text-center">
+                  <div className="w-full text-center">
                     <Link
                       href={'/FencingAndRetainingWalls'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
@@ -118,7 +118,7 @@ export default function Hardscaping() {
                     </Link>
                   </div>
                 </div>
-                <div className="flex flex-col md:items-start sm:items-center">
+                <div className="flex flex-col items-center">
                   <Link
                     href={'/NaturalStoneWork'}
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
@@ -131,7 +131,7 @@ export default function Hardscaping() {
                     />
                     
                   </Link>
-                  <div className="w-full md:text-left sm:text-center">
+                  <div className="w-full text-center">
                     <Link
                       href={'/NaturalStoneWork'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
@@ -140,7 +140,7 @@ export default function Hardscaping() {
                     </Link>
                   </div>
                 </div>
-                <div className="flex flex-col md:items-start sm:items-center">
+                <div className="flex flex-col items-center">
                   <Link
                     href={'/PavilionsAndPergolas'}
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
@@ -153,7 +153,7 @@ export default function Hardscaping() {
                     />
                     
                   </Link>
-                  <div className="w-full md:text-left sm:text-center">
+                  <div className="w-full text-center">
                     <Link
                       href={'/PavilionsAndPergolas'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
@@ -162,7 +162,7 @@ export default function Hardscaping() {
                     </Link>
                   </div>
                 </div>
-                <div className="flex flex-col md:items-start sm:items-center">
+                <div className="flex flex-col items-center">
                   <Link
                     href={'/OutdoorLivingSpaces'}
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
@@ -175,7 +175,7 @@ export default function Hardscaping() {
                     />
                     
                   </Link>
-                  <div className="w-full md:text-left sm:text-center">
+                  <div className="w-full text-center">
                     <Link
                       href={'/OutdoorLivingSpaces'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
