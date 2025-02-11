@@ -77,7 +77,7 @@ export default function Homepage() {
                 type="text"
                 id="first-name"
                 name="first-name"
-                className="focus:outline-none border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
+                className="focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
                 required
               />        
             </div>
@@ -90,7 +90,7 @@ export default function Homepage() {
                 type="text"
                 id="last-name"
                 name="last-name"
-                className="focus:outline-none border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
+                className="focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
                 required
               />        
             </div>
@@ -103,7 +103,7 @@ export default function Homepage() {
                 type="text"
                 id="city"
                 name="city"
-                className="focus:outline-none border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
+                className="focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
                 />        
             </div>
 
@@ -115,7 +115,7 @@ export default function Homepage() {
                 type="email"
                 id="Email"
                 name="Email"
-                className="focus:outline-none border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
+                className="focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
                 required
               />        
             </div>
@@ -128,7 +128,7 @@ export default function Homepage() {
                 type="tel"
                 id="Phone"
                 name="Phone"
-                className="focus:outline-none border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
+                className="focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
                 />        
             </div>
 
@@ -139,7 +139,7 @@ export default function Homepage() {
               <select
                 id="service-type"
                 name="service-type"
-                className="focus:outline-none border-b-2 bg-transparent mt-1 w-full 43focus:bg-white hover:bg-greenWhite text-sm p-2"
+                className="focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full 43focus:bg-white hover:bg-greenWhite text-sm p-2"
                 defaultValue=""
                 required
               >
@@ -191,7 +191,7 @@ export default function Homepage() {
           <h1 className="p-4 text-6xl font-medium text-darkGreen"><Link href="/Services">Year-Round Property Care</Link></h1>
           <hr className="m-1 border-black"></hr>
           <Link href="/Services">
-            <button className="w-1/4 bg-darkGreen hover:bg-lightGreen font-medium rounded-full text-white p-4 mt-6 mb-5 transition duration-400">View All Services</button>
+            <button className="min-w-[150px] w-1/4 bg-darkGreen hover:bg-lightGreen font-medium rounded-full text-white p-4 mt-6 mb-5 transition duration-400">View All Services</button>
           </Link>
         </div>
 
