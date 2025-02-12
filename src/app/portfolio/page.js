@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image"
 import { useEffect } from "react";
 import { applyFadeInEffect } from "@/utils/fadeInEffect";
+import QuoteForm from "@/components/QuoteForm";
 
 
 export default function Portfolio() {
@@ -180,6 +181,8 @@ export default function Portfolio() {
 
         </div>
       </div>
+
+      <QuoteForm />
     </div>
   );
 }
