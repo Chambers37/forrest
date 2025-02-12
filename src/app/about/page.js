@@ -4,9 +4,21 @@ export default function About() {
   return (
     <div className="grid grid-cols-1">
 
+      {/* Image Banner */}
+            <section className="relative">
+              <div className="relative w-full max-w-[4000px] h-[300px] overflow-hidden">
+                <Image
+                  src='/images/services-banner-cropped.png'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+            </section>
+
       {/* About Us Text */}
-      <section>
-        <div className="grid grid-cols-1 md:grid-cols-2">
+      <section className="flex justify-center">
+        <div className="text-center max-w-screen-2xl grid grid-cols-1 md:grid-cols-2">
           <div className="text-6xl text-darkGreen flex justify-center items-center pt-4"><h1>About Us</h1></div>
           <div className="py-4">
             <div className="p-3 md:pb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tenetur voluptatem repudiandae dolorum aperiam, beatae, consectetur officia exercitationem repellendus officiis, delectus deserunt? Perferendis facilis ea fuga impedit, quae quos reiciendis!
