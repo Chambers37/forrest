@@ -15,15 +15,15 @@ export default function GardenDesign() {
     }, [])
 
   const images = [
-    "/images/better-pool-banner.jpg",
+    "/images/testing.gif",
     "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
+    "/images/testing.gif",
     "/images/services-banner.jpg",
     "/images/img3.jpg",
     "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
+    "/images/testing.gif",
     "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
+    "/images/testing.gif",
   ];
 
   const enlargedImages = [
@@ -95,7 +95,7 @@ export default function GardenDesign() {
           <div className="flex justify-center">
             <div className="w-full aspect-[16/9] relative">
               <Image
-                src="/images/service-landscape.png"
+                src="/images/testing.gif"
                 fill
                 alt="test"
                 className="object-cover rounded-lg p-5"
