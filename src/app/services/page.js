@@ -61,6 +61,7 @@ export default function Services() {
               <Link href={'/Hardscaping'}><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen hover:scale-105">Hardscaping</p></Link>
             </div>
             <ul className="grid grid-cols-1 gap-3 pt-5">
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/DesignRendering'}>3D Design Rendering</Link>
               <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/WalkwaysAndPatios'}>Walkways & Patios</Link>
               <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/PoolDecks'}>Pool Decks</Link>
               <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/FencingAndRetainingWalls'}>Fencing & Retaining Walls</Link>
