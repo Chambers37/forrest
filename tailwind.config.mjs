@@ -16,6 +16,7 @@ export default {
         lightGreen: "var(--lightGreen)",
         darkGreen: "var(--darkGreen)",
         greenWhite: "var(--greenWhite)",
+        darkerGreen: "var(--darkerGreen)",
       },
     },
   },
