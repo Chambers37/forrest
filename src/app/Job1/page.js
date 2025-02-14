@@ -74,10 +74,15 @@ export default function Job1() {
       <div className="max-w-screen-xl mx-auto w-full px-4">
         
         {/* Back to Services Button */}
-        <section className="flex justify-center my-4 fade-hidden">
+        <section className="flex justify-between my-4 fade-hidden">
           <Link href='/Portfolio'>
             <button className="text-lg text-darkGreen bg-transparent underline hover:outline hover:outline-black hover:outline-1 rounded px-1 py-1">
               Back To Portfolio
+            </button>
+          </Link>
+          <Link href='/Job2'>
+            <button className="text-lg text-darkGreen bg-transparent underline hover:outline hover:outline-black hover:outline-1 rounded px-1 py-1">
+              Next Project
             </button>
           </Link>
         </section>
