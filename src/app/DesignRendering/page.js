@@ -61,11 +61,13 @@ export default function DesignRendering() {
   return (
     <div>
       <section className="w-full">
-        <div className="relative w-full h-[400px]">
-        <video autoPlay loop playsInline controls className="w-full max-w-3xl mx-auto">
-          <source src="/videos/longTesting.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <div className="relative w-full max-w-[4000px] h-[300px] overflow-hidden">
+          <Image
+            src='/images/services-banner-cropped.png'
+            fill
+            alt='Pool Deck and Retaining Wall'
+            className="object-cover"
+          />
         </div>
       </section>
 
@@ -91,13 +93,11 @@ export default function DesignRendering() {
 
           {/* Image Section */}
           <div className="flex justify-center">
-            <div className="w-full aspect-[16/9] relative">
-              <Image
-                src="/images/service-landscape.png"
-                fill
-                alt="test"
-                className="object-cover rounded-lg p-5"
-              />
+            <div className="relative w-full h-[400px]">
+              <video autoPlay loop playsInline controls className="w-full max-w-3xl mx-auto">
+                <source src="/videos/longTesting.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </section>
