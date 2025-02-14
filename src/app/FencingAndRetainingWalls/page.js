@@ -105,8 +105,13 @@ export default function FencingAndRetainingWalls() {
         </section>
 
         <div className="mb-5 fade-hidden">
-          <div className="bg-red-300 text-3xl p-2">mini title 2</div>
-          <div className="bg-blue-300 text-lg p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit qui aut tempore nemo modi pariatur ad, cum ab aliquid nobis? In soluta reprehenderit vitae iure repudiandae voluptatem sunt atque dolores.</div>
+          <div className="bg-red-300 text-3xl p-2">
+            mini title 2
+          </div>
+          <div className="bg-blue-300 text-lg p-4">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit qui aut tempore nemo modi pariatur ad, cum ab aliquid nobis? In soluta reprehenderit vitae iure repudiandae voluptatem sunt atque dolores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis earum deserunt placeat eaque blanditiis porro vero nostrum, magnam expedita. Ipsam sapiente tenetur aliquid nulla magnam voluptatem cupiditate minima tempora ducimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam deleniti porro nam non unde cum accusantium autem illo? Laudantium ipsum beatae temporibus provident fuga officia nobis, pariatur possimus iste voluptatem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorem ipsam incidunt amet consectetur fugit, odio ea dolore eius tempore magni ullam omnis reiciendis nam sit autem blanditiis maxime. Ipsum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas facere optio similique quis sapiente molestiae cupiditate laborum officiis alias nam quae maiores debitis saepe, reprehenderit quaerat doloremque provident dolore voluptas.
+          </div>
+          
         </div>
 
         <div>
