@@ -85,10 +85,10 @@ export default function WalkwaysAndPatios() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="bg-red-300 text-4xl p-2"><h1>Walkways And Patios</h1></div>
-            <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
-            <div className="bg-red-300 text-3xl p-2">mini title</div>
-            <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
+            <div className="bg-transparent text-4xl p-2"><h1>Walkways And Patios</h1></div>
+            <div className="bg-transparent text-lg p-2">Our team installs pavors to the highest standards based upon ABCD and EFGH Guidelines. Along with having over 30 years of practical experience, we will happily stand behind our work and give you a product that stands the test of time. Let us handle everything from the removal, grading, and sitework.</div>
+            <div className="bg-transparent text-3xl p-2">mini title</div>
+            <div className="bg-transparent text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
           </div>
 
           {/* Image Section */}
@@ -105,8 +105,8 @@ export default function WalkwaysAndPatios() {
         </section>
 
         <div className="mb-5 fade-hidden">
-          <div className="bg-red-300 text-3xl p-2">mini title 2</div>
-          <div className="bg-blue-300 text-lg p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit qui aut tempore nemo modi pariatur ad, cum ab aliquid nobis? In soluta reprehenderit vitae iure repudiandae voluptatem sunt atque dolores.</div>
+          <div className="bg-transparent text-3xl p-2">mini title 2</div>
+          <div className="bg-transparent text-lg p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit qui aut tempore nemo modi pariatur ad, cum ab aliquid nobis? In soluta reprehenderit vitae iure repudiandae voluptatem sunt atque dolores.</div>
         </div>
 
         <div>
