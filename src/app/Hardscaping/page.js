@@ -54,6 +54,28 @@ export default function Hardscaping() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
                 <div className="flex flex-col items-center">
                   <Link
+                    href={'/DesignRendering'}
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
+                    <Image 
+                      src={'/images/testing.gif'} 
+                      fill
+                      className="object-cover"
+                      alt='test'
+                    />
+                    
+                  </Link>
+                  <div className="w-full text-center">
+                    <Link
+                      href={'/DesignRendering'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                          3D Design Rendering
+                        </h1>
+                    </Link>
+                  </div>
+                </div>
+                <div className="flex flex-col items-center">
+                  <Link
                     href={'/WalkwaysAndPatios'}
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
