@@ -26,7 +26,7 @@ export default function QuoteForm() {
                 type="text"
                 id="first-name"
                 name="first-name"
-                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="transition duration-300 border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 required
               />        
             </div>
@@ -39,7 +39,7 @@ export default function QuoteForm() {
                 type="text"
                 id="last-name"
                 name="last-name"
-                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="transition duration-300 border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 required
               />        
             </div>
@@ -52,7 +52,7 @@ export default function QuoteForm() {
                 type="text"
                 id="city"
                 name="city"
-                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="transition duration-300 border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 />        
             </div>
 
@@ -64,7 +64,7 @@ export default function QuoteForm() {
                 type="email"
                 id="Email"
                 name="Email"
-                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="transition duration-300 border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 required
               />        
             </div>
@@ -77,7 +77,7 @@ export default function QuoteForm() {
                 type="tel"
                 id="Phone"
                 name="Phone"
-                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="transition duration-300 border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 />        
             </div>
 
@@ -88,7 +88,7 @@ export default function QuoteForm() {
               <select
                 id="service-type"
                 name="service-type"
-                className="border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
+                className="transition duration-300 border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
                 defaultValue=""
                 required
               >
@@ -109,7 +109,7 @@ export default function QuoteForm() {
               <label htmlFor="Phone" className="text-darkGreen">
                 Please Tell Us About Your Project
               </label>
-              <textarea placeholder="Write your message here" className="hover:bg-white mt-2 h-[12vh] bg-transparent border-2 border-solid border-darkGreen p-2 text-sm">
+              <textarea placeholder="Write your message here" className="hover:bg-white mt-2 h-[12vh] bg-transparent border-2 border-solid transition duration-300 border-darkGreen p-2 text-sm">
               </textarea>
             </div>
 
