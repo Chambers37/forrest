@@ -21,9 +21,9 @@ export default function FencingAndRetainingWalls() {
     "/images/services-banner.jpg",
     "/images/img3.jpg",
     "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
+    // "/images/better-pool-banner.jpg",
+    // "/images/services-banner.jpg",
+    // "/images/better-pool-banner.jpg",
   ];
 
   const enlargedImages = [
@@ -33,9 +33,9 @@ export default function FencingAndRetainingWalls() {
     "/images/services-banner.jpg",
     "/images/img3.jpg",
     "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
+    // "/images/better-pool-banner.jpg",
+    // "/images/services-banner.jpg",
+    // "/images/better-pool-banner.jpg",
   ];
 
   const [isOpen, setIsOpen] = useState(false);
