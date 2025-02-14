@@ -177,6 +177,140 @@ export default function Portfolio() {
                   </div>
                 </div>
             </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                <div className="flex flex-col items-center">
+                  <Link
+                    href={'/Job1'}
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
+                    <Image 
+                      src={'/images/img1.jpg'} 
+                      fill
+                      className="object-cover"
+                      alt='test'
+                    />
+                    
+                  </Link>
+                  <div className="w-full text-center">
+                    <Link
+                      href={'/Job1'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                          Job1
+                        </h1>
+                    </Link>
+                  </div>
+                </div>
+                <div className="flex flex-col items-center">
+                  <Link
+                    href={'/Job2'}
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
+                    <Image 
+                      src={'/images/img1.jpg'} 
+                      fill
+                      className="object-cover"
+                      alt='test'
+                    />
+                    
+                  </Link>
+                  <div className="w-full text-center">
+                    <Link
+                      href={'/Job2'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                          Job2
+                        </h1>
+                    </Link>
+                  </div>
+                </div>
+                <div className="flex flex-col items-center">
+                  <Link
+                    href={'/Job3'}
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
+                    <Image 
+                      src={'/images/img1.jpg'} 
+                      fill
+                      className="object-cover"
+                      alt='test'
+                    />
+                    
+                  </Link>
+                  <div className="w-full text-center">
+                    <Link
+                      href={'/Job3'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                          Job3
+                        </h1>
+                    </Link>
+                  </div>
+                </div>
+                <div className="flex flex-col items-center">
+                  <Link
+                    href={'/Job4'}
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
+                    <Image 
+                      src={'/images/img1.jpg'} 
+                      fill
+                      className="object-cover"
+                      alt='test'
+                    />
+                    
+                  </Link>
+                  <div className="w-full text-center">
+                    <Link
+                      href={'/Job4'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                          Job4
+                        </h1>
+                    </Link>
+                  </div>
+                </div>
+                <div className="flex flex-col items-center">
+                  <Link
+                    href={'/Job5'}
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
+                    <Image 
+                      src={'/images/img1.jpg'} 
+                      fill
+                      className="object-cover"
+                      alt='test'
+                    />
+                    
+                  </Link>
+                  <div className="w-full text-center">
+                    <Link
+                      href={'/Job5'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                          Job5
+                        </h1>
+                    </Link>
+                  </div>
+                </div>
+                <div className="flex flex-col items-center">
+                  <Link
+                    href={'/Job6'}
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
+                    <Image 
+                      src={'/images/img1.jpg'} 
+                      fill
+                      className="object-cover"
+                      alt='test'
+                    />
+                    
+                  </Link>
+                  <div className="w-full text-center">
+                    <Link
+                      href={'/Job6'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                          Job6
+                        </h1>
+                    </Link>
+                  </div>
+                </div>
+            </div>
           </section>
 
         </div>
