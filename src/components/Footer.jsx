@@ -16,7 +16,7 @@ export default function Footer() {
           <div>
             <Link href='/quote'
             >
-              <button className="hover:bg-lightGreen hover:text-black py-3 px-9 rounded-full bg-darkGreen text-white font-medium text-xl">
+              <button className="transition duration-300 hover:bg-lightGreen hover:text-black py-3 px-9 rounded-full bg-darkGreen text-white font-medium text-xl">
                 Get In Touch
               </button>
             </Link>
