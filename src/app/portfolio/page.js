@@ -61,7 +61,7 @@ export default function Portfolio() {
                     <Link
                       href={'/Job1'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                          Job1
+                          Pitcherella
                         </h1>
                     </Link>
                   </div>
@@ -83,7 +83,7 @@ export default function Portfolio() {
                     <Link
                       href={'/Job2'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                          Job2
+                          Jim McGills
                         </h1>
                     </Link>
                   </div>
@@ -105,7 +105,7 @@ export default function Portfolio() {
                     <Link
                       href={'/Job3'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                          Job3
+                          Fred Bow
                         </h1>
                     </Link>
                   </div>
@@ -127,7 +127,7 @@ export default function Portfolio() {
                     <Link
                       href={'/Job4'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                          Job4
+                          Rob Achamanbauch
                         </h1>
                     </Link>
                   </div>
@@ -149,7 +149,7 @@ export default function Portfolio() {
                     <Link
                       href={'/Job5'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                          Job5
+                          Angela Holten
                         </h1>
                     </Link>
                   </div>
@@ -171,7 +171,7 @@ export default function Portfolio() {
                     <Link
                       href={'/Job6'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                          Job6
+                          Sue and Asa
                         </h1>
                     </Link>
                   </div>
