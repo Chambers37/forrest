@@ -5,25 +5,28 @@ export default function About() {
     <div className="grid grid-cols-1">
 
       {/* Image Banner */}
-      <section className="relative">
-        <div className="relative w-full max-w-[4000px] h-[300px] overflow-hidden">
-          <Image
-            src='/images/services-banner-cropped.png'
-            fill
-            alt='Pool Deck and Retaining Wall'
-            className="object-cover"
-          />
-        </div>
-        <h1 className="text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-bold text-7xl">
+        <section className="relative">
+          <div className="relative w-full max-w-[4000px] h-[300px] overflow-hidden">
+            <Image
+              src='/images/services-banner-cropped.png'
+              fill
+              alt='Pool Deck and Retaining Wall'
+              className="object-cover"
+            />
+          </div>
+          <h1 className="text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-bold text-7xl">
           Our Team
-        </h1>
-      </section>
+          </h1>
+        </section>
 
       {/* About Us Text */}
-      <section className="flex justify-center">
-        <div className="w-full bg-darkGreen  flex justify-center">
-          <div className="bg-lightGreen text-center max-w-screen-2xl grid grid-cols-1 md:grid-cols-2">
-            <div className="text-6xl text-darkGreen flex justify-center items-center pt-4"><h1>About Us</h1></div>
+      <section className="flex flex-col justify-center">
+        <div className="text-center  justify-center mx-auto max-w-screen-2xl grid grid-cols-1 md:grid-cols-2">
+          <div className="flex justify-center w-full">
+            <div className="text-6xl text-darkGreen w-4/5 flex justify-center items-center pt-4">
+              <h1>About Us</h1>
+            </div>
+          </div>
             <div className="py-4">
               <div className="p-3 md:pb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tenetur voluptatem repudiandae dolorum aperiam, beatae, consectetur officia exercitationem repellendus officiis, delectus deserunt? Perferendis facilis ea fuga impedit, quae quos reiciendis!
               </div>
@@ -31,41 +34,38 @@ export default function About() {
               </div>
               <div></div>
             </div>
+        </div>
+        {/* Images */}
+        <div>
+          <div className="grid grid-cols-1 md:grid-cols-3">
+          <div className="flex justify-center py-2 md:justify-end">
+            <Image
+              src='/images/service-landscape.png'
+              width={300}
+              height={500}
+              alt='test'
+            />
+          </div>
+          <div className="flex justify-center py-2 md:justify-center">
+            <Image
+              src='/images/testing.gif'
+              width={300}
+              height={500}
+              alt='test'
+            />
+          </div>
+          <div className="flex justify-center py-2 md:justify-start">
+            <Image
+              src='/images/service-landscape.png'
+              width={300}
+              height={500}
+              alt='test'
+            />
+          </div>
           </div>
         </div>
       </section>
 
-      {/* Images */}
-      <section>
-        
-          <div className="grid max-w-screen-2xl bg-red-500 grid-cols-1 md:grid-cols-3">
-            <div className="flex justify-center py-2 md:justify-end">
-              <Image
-                src='/images/service-landscape.png'
-                width={300}
-                height={500}
-                alt='test'
-              />
-            </div>
-            <div className="flex justify-center py-2 md:justify-center">
-              <Image
-                src='/images/service-landscape.png'
-                width={300}
-                height={500}
-                alt='test'
-              />
-            </div>
-            <div className="flex justify-center py-2 md:justify-start">
-              <Image
-                src='/images/service-landscape.png'
-                width={300}
-                height={500}
-                alt='test'
-              />
-            </div>
-          </div>
-        
-      </section>
 
       {/* Meet The Team */}
       <section>
