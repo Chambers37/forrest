@@ -49,9 +49,9 @@ export default function Services() {
             <div className="grid justify-center">
               <Link href={'/Hardscaping'}>
                 <Image 
-                  src='/images/service-landscape.png'
-                  width={100}
-                  height={100}
+                  src='/images/design-rendering.png'
+                  width={200}
+                  height={200}
                   alt='test'
                   className="hover:opacity-80"
                 />
@@ -78,9 +78,9 @@ export default function Services() {
                   href={'/Landscaping'}
                 >
                   <Image 
-                    src='/images/service-landscape.png'
-                    width={100}
-                    height={100}
+                    src='/images/landscaping-category.png'
+                    width={200}
+                    height={200}
                     alt='test'
                     className="hover:opacity-80"
                   />
@@ -102,9 +102,9 @@ export default function Services() {
                 href={'/Maintenance'}
               >
                 <Image 
-                  src='/images/service-landscape.png'
-                  width={100}
-                  height={100}
+                  src='/images/maintenance-category.png'
+                  width={200}
+                  height={200}
                   alt='test'
                   className="hover:opacity-80"
                 />
