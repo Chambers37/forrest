@@ -77,7 +77,7 @@ export default function Homepage() {
                 type="text"
                 id="first-name"
                 name="first-name"
-                className="focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
+                className="transition duration-300 focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
                 required
               />        
             </div>
@@ -90,7 +90,7 @@ export default function Homepage() {
                 type="text"
                 id="last-name"
                 name="last-name"
-                className="focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
+                className="transition duration-300 focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
                 required
               />        
             </div>
@@ -103,7 +103,7 @@ export default function Homepage() {
                 type="text"
                 id="city"
                 name="city"
-                className="focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
+                className="transition duration-300 focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
                 />        
             </div>
 
@@ -115,7 +115,7 @@ export default function Homepage() {
                 type="email"
                 id="Email"
                 name="Email"
-                className="focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
+                className="transition duration-300 focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
                 required
               />        
             </div>
@@ -128,7 +128,7 @@ export default function Homepage() {
                 type="tel"
                 id="Phone"
                 name="Phone"
-                className="focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
+                className="transition duration-300 focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
                 />        
             </div>
 
@@ -139,7 +139,7 @@ export default function Homepage() {
               <select
                 id="service-type"
                 name="service-type"
-                className="focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full 43focus:bg-white hover:bg-greenWhite text-sm p-2"
+                className="transition duration-300 focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full 43focus:bg-white hover:bg-greenWhite text-sm p-2"
                 defaultValue=""
                 required
               >
@@ -160,12 +160,12 @@ export default function Homepage() {
               <label htmlFor="Phone" className="text-darkGreen">
                 Please Tell Us About Your Project
               </label>
-              <textarea placeholder="Write your message here" className="focus:bg-greenWhite hover:bg-greenWhite mt-2 h-[12vh] bg-transparent border-2 border-solid border-darkGreen p-2 text-sm">
+              <textarea placeholder="Write your message here" className="transition duration-300 focus:bg-greenWhite hover:bg-greenWhite mt-2 h-[12vh] bg-transparent border-2 border-solid border-darkGreen p-2 text-sm">
               </textarea>
             </div>
 
             <div className="col-span-1 md:col-span-2">
-              <button className="mt-10 bg-lightGreen rounded-full hover:bg-darkGreen hover:text-white transition duration-400 w-full p-2 font-medium">
+              <button className="mt-10 bg-lightGreen rounded-full hover:bg-darkGreen hover:text-white transition duration-300 w-full p-2 font-medium">
                 Submit
               </button>
             </div>
@@ -178,20 +178,20 @@ export default function Homepage() {
 
       {/* services */}
       <section className="flex bg-gradient-to-r from-greenWhite via-lightGreen
-               to-darkGreen p-7">
+               to-darkerGreen p-7">
 
         <div className="fade-hidden w-full px-8">
           <p className="p-2 text-2xl font-medium text-darkGreen"><Link href="/Services">Our Services</Link></p>
-          <h1 className="hover:text-black transition duration-300 p-4 text-6xl font-medium text-darkGreen"><Link href="/DesignRendering">3D Design Rendering</Link></h1>
+          <h1 className="hover:text-darkerGreen transition duration-300 p-4 text-6xl font-medium text-darkGreen"><Link href="/DesignRendering">3D Design Rendering</Link></h1>
           <hr className="m-1 border-black"></hr>
-          <h1 className="hover:text-black transition duration-300 p-4 text-6xl font-medium text-darkGreen"><Link href="/Services">Natural Stone Work</Link></h1>
+          <h1 className="hover:text-darkerGreen transition duration-300 p-4 text-6xl font-medium text-darkGreen"><Link href="/Services">Natural Stone Work</Link></h1>
           <hr className="m-1 border-black"></hr>
-          <h1 className="hover:text-black transition duration-300 p-4 text-6xl font-medium text-darkGreen"><Link href="/Services">Outdoor Living Spaces</Link></h1>
+          <h1 className="hover:text-darkerGreen transition duration-300 p-4 text-6xl font-medium text-darkGreen"><Link href="/Services">Outdoor Living Spaces</Link></h1>
           <hr className="m-1 border-black"></hr>
-          <h1 className="hover:text-black transition duration-300 p-4 text-6xl font-medium text-darkGreen"><Link href="/Services">Year-Round Property Care</Link></h1>
+          <h1 className="hover:text-darkerGreen transition duration-300 p-4 text-6xl font-medium text-darkGreen"><Link href="/Services">Year-Round Property Care</Link></h1>
           <hr className="m-1 border-black"></hr>
           <Link href="/Services">
-            <button className="min-w-[150px] w-1/4 bg-darkGreen hover:bg-lightGreen font-medium rounded-full text-white p-4 mt-6 mb-5 transition duration-400">View All Services</button>
+            <button className="min-w-[150px] w-1/4 bg-darkGreen hover:bg-lightGreen font-medium rounded-full text-white p-4 mt-6 mb-5 transition duration-300">View All Services</button>
           </Link>
         </div>
 
@@ -257,7 +257,7 @@ export default function Homepage() {
         <div className="fade-hidden relative w-full max-w-[4000px] h-[500px] mx-auto overflow-hidden">
 
           <Image
-            src='/images/better-pool-banner.jpg'
+            src='/images/finished-pool-deck.png'
             fill
             alt='Pool Deck and Retaining Wall'
             className="object-cover p-7"
