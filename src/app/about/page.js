@@ -81,7 +81,7 @@ export default function About() {
         {/* Team Photos */}
         <div className="my-8 grid grid-cols-1 md:grid-cols-3 justify-center mx-auto max-w-screen-2xl gap-6"> 
           {/* Matt Siter */}
-          <div className="flex flex-col h-full bg-white shadow-2xl">
+          <div className="flex flex-col h-full bg-white shadow-2xl rounded-3xl">
             <div className="h-[400px] flex justify-center">
               <Image
                 src='/images/matt.jpg'
@@ -107,7 +107,7 @@ export default function About() {
           </div>
 
           {/* Maureciio */}
-          <div className="flex flex-col h-full bg-white shadow-2xl">
+          <div className="flex flex-col h-full bg-white shadow-2xl rounded-3xl">
             <div className="h-[400px] flex justify-center">
               <Image
                 src='/images/matt.jpg'
@@ -133,7 +133,7 @@ export default function About() {
           </div>
 
           {/* Jeff */}
-          <div className="flex flex-col h-full bg-white shadow-2xl">
+          <div className="flex flex-col h-full bg-white shadow-2xl rounded-3xl">
             <div className="h-[400px] flex justify-center">
               <Image
                 src='/images/matt.jpg'
@@ -159,7 +159,7 @@ export default function About() {
           </div>
 
           {/* Jeff Again */}
-          <div className="flex flex-col h-full bg-white shadow-2xl">
+          <div className="flex flex-col h-full bg-white shadow-2xl rounded-3xl">
             <div className="h-[400px] flex justify-center">
               <Image
                 src='/images/matt.jpg'
