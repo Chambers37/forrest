@@ -41,9 +41,9 @@
 - - [ ] Format And Edit year round care page
 - [ ] Change Images for Service Categories
 - [ ] Add Text above services to tell users what to do 'click links to learn'
-- [ ] Create Linksfor each catergory type, that shows each services along with an image
-- [ ] Add Scaling to each caterogy link
-- [ ] Figure out quote form on services page
+- [ ] Create Links for each catergory type, that shows each services along with an image
+- [x] ~~Add Scaling to each caterogy link~~
+- [x] ~~Figure out quote form on services page~~
 
 ## Quote
 - [ ] Change Banner Text
