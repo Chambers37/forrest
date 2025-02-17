@@ -58,7 +58,7 @@ export default function Hardscaping() {
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
-                      src={'/images/testing.gif'} 
+                      src={'/images/hardscaping/design-rendering.png'} 
                       fill
                       className="object-cover"
                       alt='test'
@@ -80,7 +80,7 @@ export default function Hardscaping() {
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
-                      src={'/images/img1.jpg'} 
+                      src={'/images/hardscaping/walkways.png'} 
                       fill
                       className="object-cover"
                       alt='test'
@@ -102,7 +102,7 @@ export default function Hardscaping() {
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
-                      src={'/images/img1.jpg'} 
+                      src={'/images/hardscaping/pool-deck.png'} 
                       fill
                       className="object-cover"
                       alt='test'
