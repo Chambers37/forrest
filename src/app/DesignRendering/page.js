@@ -85,27 +85,43 @@ export default function DesignRendering() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="font-medium text-4xl p-2"><h1>3D Design Rendering</h1></div>
-            <div className="text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
-            <div className="text-3xl p-2">mini title</div>
-            <div className="text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
+            <div className="font-medium text-4xl p-2">
+              <h1>
+                3D Design Rendering
+              </h1>
+            </div>
+            <div className="text-lg p-2">
+              <p>
+                Have a dream for your outdoor living space but need help seeing it come to life? Our team uses Uvision, a realistic 3D Landscape Creator software. After we discuss your vision and take a look at the space, we create a lifelike design plan that you will be able to virtually walk though before our work begins.
+              </p>
+            </div>
+            {/* <div className="text-3xl p-2">
+              <p>
+                mini title
+              </p>
+            </div> */}
+            <div className="text-lg p-2">
+              <p>
+                Want to adjust the pavers, or choose a different color stone? We can easily change the options so you can truly visualize what would look best in your space! Our team wants to help you bring your dream outdoor space to life!
+              </p>
+            </div>
           </div>
 
-          {/* Image Section */}
+          {/* Video Section */}
           <div className="flex justify-center">
             <div className="relative w-full h-[400px]">
               <video autoPlay loop playsInline controls className="w-full max-w-3xl mx-auto">
                 <source src="/videos/longTesting.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
+                  Your browser does not support the video tag.
               </video>
             </div>
           </div>
         </section>
 
-        <div className="mb-5 fade-hidden">
+        {/* <div className="mb-5 fade-hidden">
           <div className="text-3xl p-2">mini title 2</div>
           <div className="text-lg p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit qui aut tempore nemo modi pariatur ad, cum ab aliquid nobis? In soluta reprehenderit vitae iure repudiandae voluptatem sunt atque dolores.</div>
-        </div>
+        </div> */}
 
         <div>
 
