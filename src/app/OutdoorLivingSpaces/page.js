@@ -83,94 +83,280 @@ export default function OutdoorLivingSpaces() {
         </section>
 
         {/* Service Detail Section */}
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
+        <section className="w-full fade-hidden mb-10">
           <div>
-            <div className="bg-red-300 text-4xl p-2"><h1>Outdoor Living Spaces</h1></div>
-            <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
-            <div className="bg-red-300 text-3xl p-2">mini title</div>
-            <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
-          </div>
-
-          {/* Image Section */}
-          <div className="flex justify-center">
-            <div className="w-full aspect-[16/9] relative">
-              <Image
-                src="/images/service-landscape.png"
-                fill
-                alt="test"
-                className="object-cover rounded-lg p-5"
-              />
+            <div className="text-center text-4xl p-2">
+              <h1>
+                Outdoor Living Spaces
+              </h1>
+            </div>
+            <div className="text-lg p-2 text-center">
+              <p className="md:px-20">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quia tempore esse cumque quo vero doloremque possimus quod! Fuga fugiat non blanditiis. Voluptas iure tempora ipsum qui possimus nobis! Voluptatibus.
+              </p>
             </div>
           </div>
         </section>
 
-        <div className="mb-5 fade-hidden">
-          <div className="bg-red-300 text-3xl p-2">mini title 2</div>
-          <div className="bg-blue-300 text-lg p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit qui aut tempore nemo modi pariatur ad, cum ab aliquid nobis? In soluta reprehenderit vitae iure repudiandae voluptatem sunt atque dolores.</div>
-        </div>
+        <hr className="border-2 fade-hidden mb-3 border-darkGreen"/>
 
-        <div>
-
-          {/* Image Gallery */}
-          <section className="w-full fade-hidden">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-              {images.map((srcUrl, i) => (
-                <div key={i} className="flex justify-center">
-                  <button
-                    onClick={() => openModal(i)}
-                    className="w-[400px] h-[400px] relative hover:opacity-60 hover:cursor-zoom-in transition duration-500"
-                  >
-                    <Image 
-                      src={srcUrl} 
-                      fill
-                      className="object-cover"
-                      alt={`Gallery image ${i + 1}`}
-                    />
-                  </button>
-                </div>
-              ))}
+        {/* Firepits */}
+        <section className="flex flex-col fade-hidden mb-3">
+          <div>
+            <div>
+              <h1 className="text-2xl font-medium pl-2 text-center md:text-left">
+                Firepits
+              </h1>
             </div>
-          </section>
-
-          {/* Lightbox Modal */}
-          {isOpen && (
-            <div className="hover:cursor-zoom-out fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50" onClick={closeModal}>
-              <button
-                className="absolute top-5 right-5 text-white text-3xl hover:opacity-70"
-                onClick={closeModal}
-              >
-                ✖
-              </button>
-
-              {/* Previous Button */}
-              <div
-                className="absolute left-5 cursor-pointer text-white text-3xl p-3 hover:opacity-70"
-                onClick={(e) => { e.stopPropagation(); prevImage(); }}
-              >
-                Previous
-              </div>
-
-              {/* Enlarged Image */}
-              <Image 
-                src={enlargedImages[enlargedImageIndex]} 
-                width={2000} 
-                height={1500} 
-                alt={`Gallery image ${enlargedImageIndex + 1}`} 
-                className="rounded-lg hover:cursor-pointer"
-                onClick={(e) => { e.stopPropagation(); nextImage(); }}
-              />
-
-              {/* Next Button */}
-              <div
-                className="absolute right-5 cursor-pointer text-white text-3xl p-3 hover:opacity-70"
-                onClick={(e) => { e.stopPropagation(); nextImage(); }}
-              >
-                Next
+          </div>
+          <div className="grid sm:grid-cols-1 md:grid-cols-4">
+            <div className="p-2">
+              <div className="text-center md:text-left">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quo. Nesciunt error ullam debitis cupiditate odio veniam sunt quisquam cum ipsa atque, voluptas neque iste perspiciatis laudantium. Iste, ex mollitia?
+                </p>
               </div>
             </div>
-          )}
+            <div className="p-2 flex items-center">
+              <div className="relative w-full h-[200px]">
+                <Image
+                  src='/images/services-banner-cropped.png'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+            </div>
+            <div className="p-2 flex items-center">
+              <div className="relative w-full h-[200px]">
+                <Image
+                  src='/images/services-banner-cropped.png'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+            </div>
+            <div className="p-2 flex items-center">
+            <div className="relative w-full h-[200px]">
+                <Image
+                  src='/images/services-banner-cropped.png'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
 
-        </div>
+        <hr className="border-2 fade-hidden mb-3 border-darkGreen"/>
+
+        {/* Pavilions & Pergolas */}
+        <section className="flex flex-col fade-hidden mb-3">
+          <div>
+            <div>
+              <h1 className="text-2xl font-medium pl-2 text-center md:text-left">
+                Pavilions & Pergolas
+              </h1>
+            </div>
+          </div>
+          <div className="grid sm:grid-cols-1 md:grid-cols-4">
+            <div className="p-2">
+              <div className="text-center md:text-left">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quo. Nesciunt error ullam debitis cupiditate odio veniam sunt quisquam cum ipsa atque, voluptas neque iste perspiciatis laudantium. Iste, ex mollitia?
+                </p>
+              </div>
+            </div>
+            <div className="p-2 flex items-center">
+              <div className="relative w-full h-[200px]">
+                <Image
+                  src='/images/services-banner-cropped.png'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+            </div>
+            <div className="p-2 flex items-center">
+              <div className="relative w-full h-[200px]">
+                <Image
+                  src='/images/services-banner-cropped.png'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+            </div>
+            <div className="p-2 flex items-center">
+              <div className="relative w-full h-[200px]">
+                <Image
+                  src='/images/services-banner-cropped.png'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr className="border-2 fade-hidden mb-3 border-darkGreen"/>
+
+        {/* Outdoor Kitchen & Dining Area */}
+        <section className="flex flex-col fade-hidden mb-3">
+          <div>
+            <div>
+              <h1 className="text-2xl font-medium pl-2 text-center md:text-left">
+                Outdoor Kitchen & Dining Area
+              </h1>
+            </div>
+          </div>
+          <div className="grid sm:grid-cols-1 md:grid-cols-4">
+            <div className="p-2">
+              <div className="text-center md:text-left">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quo. Nesciunt error ullam debitis cupiditate odio veniam sunt quisquam cum ipsa atque, voluptas neque iste perspiciatis laudantium. Iste, ex mollitia?
+                </p>
+              </div>
+            </div>
+            <div className="p-2 flex items-center">
+              <div className="relative w-full h-[200px]">
+                <Image
+                  src='/images/services-banner-cropped.png'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+            </div>
+            <div className="p-2 flex items-center">
+              <div className="relative w-full h-[200px]">
+                <Image
+                  src='/images/services-banner-cropped.png'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+            </div>
+            <div className="p-2 flex items-center">
+            <div className="relative w-full h-[200px]">
+                <Image
+                  src='/images/services-banner-cropped.png'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr className="border-2 fade-hidden mb-3 border-darkGreen"/>
+
+        {/* Deck Installations */}
+        <section className="flex flex-col fade-hidden mb-3">
+          <div>
+            <div>
+              <h1 className="text-2xl font-medium pl-2 text-center md:text-left">
+                Deck Installations
+              </h1>
+            </div>
+          </div>
+          <div className="grid sm:grid-cols-1 md:grid-cols-4">
+            <div className="p-2">
+              <div className="text-center md:text-left">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quo. Nesciunt error ullam debitis cupiditate odio veniam sunt quisquam cum ipsa atque, voluptas neque iste perspiciatis laudantium. Iste, ex mollitia?
+                </p>
+              </div>
+            </div>
+            <div className="p-2 flex items-center">
+              <div className="relative w-full h-[200px]">
+                <Image
+                  src='/images/services-banner-cropped.png'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+            </div>
+            <div className="p-2 flex items-center">
+              <div className="relative w-full h-[200px]">
+                <Image
+                  src='/images/services-banner-cropped.png'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+            </div>
+            <div className="p-2 flex items-center">
+            <div className="relative w-full h-[200px]">
+                <Image
+                  src='/images/services-banner-cropped.png'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr className="border-2 fade-hidden mb-3 border-darkGreen"/>
+
+        {/* Outdoor Lighting */}
+        <section className="flex flex-col fade-hidden mb-3">
+          <div>
+            <div>
+              <h1 className="text-2xl font-medium pl-2 text-center md:text-left">
+                Outdoor Lighting
+              </h1>
+            </div>
+          </div>
+          <div className="grid sm:grid-cols-1 md:grid-cols-4">
+            <div className="p-2">
+              <div className="text-center md:text-left">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quo. Nesciunt error ullam debitis cupiditate odio veniam sunt quisquam cum ipsa atque, voluptas neque iste perspiciatis laudantium. Iste, ex mollitia?
+                </p>
+              </div>
+            </div>
+            <div className="p-2 flex items-center">
+              <div className="relative w-full h-[200px]">
+                <Image
+                  src='/images/services-banner-cropped.png'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+            </div>
+            <div className="p-2 flex items-center">
+              <div className="relative w-full h-[200px]">
+                <Image
+                  src='/images/services-banner-cropped.png'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+            </div>
+            <div className="p-2 flex items-center">
+            <div className="relative w-full h-[200px]">
+                <Image
+                  src='/images/services-banner-cropped.png'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );
