@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import { applyFadeInEffect } from "@/utils/fadeInEffect";
 
 
-export default function DrainageSolutions() {
+export default function DrainageAndGradingSolutions() {
 
     useEffect(() => {
         const observer = applyFadeInEffect('fade-hidden');
@@ -85,7 +85,7 @@ export default function DrainageSolutions() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="bg-red-300 text-4xl p-2"><h1>Drainage Solutions</h1></div>
+            <div className="bg-red-300 text-4xl p-2"><h1>Drainage & Grading Solutions</h1></div>
             <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
             <div className="bg-red-300 text-3xl p-2">mini title</div>
             <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
