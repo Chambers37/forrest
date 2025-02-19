@@ -4,6 +4,7 @@ import { applyFadeInEffect } from "@/utils/fadeInEffect";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
+import QuoteForm from "@/components/QuoteForm";
 
 export default function Homepage() {
 
@@ -53,128 +54,7 @@ export default function Homepage() {
       </div>
       
       {/* Request a quote*/}
-      <section id="quote-form" className="grid grid-cols-1 md:grid-cols-2 p-7 gap-7 items-center">
-
-        <div className="grid fade-hidden h-full w-full justify-center items-center">
-          <div className="mx-auto max-w-[680px] text-center">
-            <p className="text-center text-darkGreen text-6xl">
-          Contact us today <br /> to create your <br /> dream outdoor <br /> living space!</p>
-            <p className="text-center text-darkGreen text-xl px-10 md:px-20 pt-4 pb-20">Let us know some information about you and the project or area you are looking to transform. We will reach out to you shortly & look forward to working with you!
-            </p>
-          </div>
-        </div>
-        
-        {/*Quote Form*/}
-        <div className="fade-hidden flex w-full mx-auto p-3 items-center justify-center">
-
-          <form className="max-w-lg w-full text-2xl grid grid-cols-1 md:grid-cols-2 gap-7 m-20">
-            
-            <div>
-              <label htmlFor="first-name" className="block text-gray-700">
-                First Name *
-              </label>
-              <input
-                type="text"
-                id="first-name"
-                name="first-name"
-                className="transition duration-300 focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
-                required
-              />        
-            </div>
-              
-            <div>
-              <label htmlFor="last-name" className="block text-gray-700">
-                Last Name *
-              </label>
-              <input
-                type="text"
-                id="last-name"
-                name="last-name"
-                className="transition duration-300 focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
-                required
-              />        
-            </div>
-          
-            <div>
-              <label htmlFor="city" className="block text-gray-700">
-                City
-              </label>
-              <input
-                type="text"
-                id="city"
-                name="city"
-                className="transition duration-300 focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
-                />        
-            </div>
-
-            <div>
-              <label htmlFor="Email" className="block text-gray-700">
-                Email *
-              </label>
-              <input
-                type="email"
-                id="Email"
-                name="Email"
-                className="transition duration-300 focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
-                required
-              />        
-            </div>
-          
-            <div>
-              <label htmlFor="Phone" className="block text-gray-700">
-                Phone
-              </label>
-              <input
-                type="tel"
-                id="Phone"
-                name="Phone"
-                className="transition duration-300 focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full focus:bg-greenWhite hover:bg-greenWhite text-sm p-2"
-                />        
-            </div>
-
-            <div>
-              <label htmlFor="service" className="block text-gray-700">
-                Type of Service *
-              </label>
-              <select
-                id="service-type"
-                name="service-type"
-                className="transition duration-300 focus:outline-none border-darkGreen border-b-2 bg-transparent mt-1 w-full 43focus:bg-white hover:bg-greenWhite text-sm p-2"
-                defaultValue=""
-                required
-              >
-                <option value="" disabled>-Please Choose One-</option>
-                <option value="Patios">Patios</option>   
-                <option value="Walkways">Walkways</option> 
-                <option value="Pool Decks">Pool Decks</option> 
-                <option value="Outdoor Living Space">Outdoor Living Space</option> 
-                <option value="Landscape Design">Landscape Design</option> 
-                <option value="New Plant Installations">New Plant Instalations</option> 
-                <option value="Drainage Solutions">Drainage Solutions</option>            
-                <option value="Property Maintenance">Property Maintenance</option>            
-                <option value="Seasonal Services">Seasonal Services</option>            
-              </select>        
-            </div>
-
-            <div className="grid col-span-1 md:col-span-2">
-              <label htmlFor="Phone" className="text-darkGreen">
-                Please Tell Us About Your Project
-              </label>
-              <textarea placeholder="Write your message here" className="transition duration-300 focus:bg-greenWhite hover:bg-greenWhite mt-2 h-[12vh] bg-transparent border-2 border-solid border-darkGreen p-2 text-sm">
-              </textarea>
-            </div>
-
-            <div className="col-span-1 md:col-span-2">
-              <button className="mt-10 bg-lightGreen rounded-full hover:bg-darkGreen hover:text-white transition duration-300 w-full p-2 font-medium">
-                Submit
-              </button>
-            </div>
-            
-          </form>
-
-        </div>
-
-      </section>
+      <QuoteForm />
 
       {/* services */}
       <section className="flex bg-gradient-to-r from-greenWhite via-lightGreen

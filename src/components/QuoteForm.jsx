@@ -141,7 +141,6 @@ export default function QuoteForm() {
                 id="serviceType"
                 name="serviceType"
                 className="transition duration-300 border-darkGreen hover:bg-white focus:outline-none focus:border-b-2 border-b-2 bg-greenWhite mt-1 w-full focus:bg-white focus:self-center focus:mr-auto text-sm p-2"
-                defaultValue=""
                 required
                 value={formData.serviceType}
                 onChange={handleChange}
