@@ -1,22 +1,16 @@
-import nodemailer from "nodemailer";
+import { Resend } from "resend";
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req) {
   try {
     const body = await req.json();
     const { firstName, lastName, city, email, phone, serviceType, message } = body;
 
-    let transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-      },
-    });
-
-    let mailOptions = {
-      from: process.env.EMAIL_USER,
-      to: process.env.EMAIL_RECEIVER || process.env.EMAIL_USER,
-      subject: "New Quote Request",
+    const response = await resend.emails.send({
+      from: 'onboarding@resend.dev',
+      to: 'chambers3737@gmail.com',
+      subject: 'New Quote Request',
       text: `
         Name: ${firstName} ${lastName}
         City: ${city}
@@ -25,11 +19,10 @@ export async function POST(req) {
         Service Type: ${serviceType}
 
         Message: ${message}
-      `,
-    };
+      `
+    })
 
-    let info = await transporter.sendMail(mailOptions);
-    console.log("Email sent:", info.response);
+    console.log("Email sent:", response);
 
     return Response.json({ message: "Email sent successfully!" });
   } catch (error) {
