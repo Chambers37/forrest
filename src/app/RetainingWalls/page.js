@@ -15,12 +15,10 @@ export default function RetainingWalls() {
     }, [])
 
   const images = [
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/img3.jpg",
-    "/images/services-banner.jpg",
+    "/images/hardscaping/RetainingWalls/BleachersWallFront.jpg",
+    "/images/hardscaping/RetainingWalls/BleachersWallBack.jpg",
+    "/images/hardscaping/RetainingWalls/SmallWall.jpg",
+    "/images/hardscaping/RetainingWalls/LargeGrayWall.jpg",
     // "/images/better-pool-banner.jpg",
     // "/images/services-banner.jpg",
     // "/images/better-pool-banner.jpg",
@@ -63,7 +61,7 @@ export default function RetainingWalls() {
       <section className="w-full">
         <div className="relative w-full h-[400px]">
           <Image
-            src='/images/services-banner-cropped.png'
+            src="/images/hardscaping/RetainingWalls/LargeGrayWall.jpg"
             fill
             alt='Pool Deck and Retaining Wall'
             className="object-cover"
@@ -85,17 +83,24 @@ export default function RetainingWalls() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="bg-red-300 text-4xl p-2"><h1>Retaining Walls</h1></div>
-            <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
-            <div className="bg-red-300 text-3xl p-2">mini title</div>
-            <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
+            <div className="text-4xl p-2"><h1>Retaining Walls</h1></div>
+            <div className="text-lg p-2">
+              <p>
+                Retaining walls are an essential solution for maximizing your outdoor space, creating new elevations, and leveling your lawn. We design and build retaining walls that are not only highly functional but also enhance the beauty of your landscape, all while meeting the highest industry standards. 
+              </p>
+            </div>
+            <div className="text-lg p-2">
+              <p>
+                With expert craftsmanship and durable materials, our retaining walls provide long-lasting stability and seamless integration with your outdoor environment. Whether you need structural support, erosion control, or a visually striking feature, we customize every project to suit your property’s unique needs, ensuring both strength and style. 
+              </p>
+            </div>
           </div>
 
           {/* Image Section */}
           <div className="flex justify-center">
             <div className="w-full aspect-[16/9] relative">
               <Image
-                src="/images/service-landscape.png"
+                src="/images/hardscaping/RetainingWalls/WallWithPipe.jpg"
                 fill
                 alt="test"
                 className="object-cover rounded-lg p-5"
@@ -104,20 +109,20 @@ export default function RetainingWalls() {
           </div>
         </section>
 
-        <div className="mb-5 fade-hidden">
-          <div className="bg-red-300 text-3xl p-2">
+        {/* <div className="mb-5 fade-hidden">
+          <div className="text-3xl p-2">
             mini title 2
           </div>
-          <div className="bg-blue-300 text-lg p-4">
+          <div className="text-lg p-4">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit qui aut tempore nemo modi pariatur ad, cum ab aliquid nobis? In soluta reprehenderit vitae iure repudiandae voluptatem sunt atque dolores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis earum deserunt placeat eaque blanditiis porro vero nostrum, magnam expedita. Ipsam sapiente tenetur aliquid nulla magnam voluptatem cupiditate minima tempora ducimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam deleniti porro nam non unde cum accusantium autem illo? Laudantium ipsum beatae temporibus provident fuga officia nobis, pariatur possimus iste voluptatem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorem ipsam incidunt amet consectetur fugit, odio ea dolore eius tempore magni ullam omnis reiciendis nam sit autem blanditiis maxime. Ipsum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas facere optio similique quis sapiente molestiae cupiditate laborum officiis alias nam quae maiores debitis saepe, reprehenderit quaerat doloremque provident dolore voluptas.
           </div>
           
-        </div>
+        </div> */}
 
         <div>
 
           {/* Image Gallery */}
-          <section className="w-full fade-hidden">
+          <section className="w-full fade-hidden mt-5">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
               {images.map((srcUrl, i) => (
                 <div key={i} className="flex justify-center">

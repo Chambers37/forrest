@@ -15,24 +15,20 @@ export default function Fencing() {
     }, [])
 
   const images = [
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/img3.jpg",
-    "/images/services-banner.jpg",
+    "/images/hardscaping/fencing/CedarFencing.jpg",
+    "/images/hardscaping/fencing/AluminumFence2.jpg",
+    "/images/hardscaping/fencing/AluminumFence3.jpg",
+    "/images/hardscaping/fencing/AluminumFence4.jpg",
     // "/images/better-pool-banner.jpg",
     // "/images/services-banner.jpg",
     // "/images/better-pool-banner.jpg",
   ];
 
   const enlargedImages = [
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/img3.jpg",
-    "/images/services-banner.jpg",
+    "/images/hardscaping/fencing/CedarFencing.jpg",
+    "/images/hardscaping/fencing/AluminumFence2.jpg",
+    "/images/hardscaping/fencing/AluminumFence3.jpg",
+    "/images/hardscaping/fencing/AluminumFence4.jpg",
     // "/images/better-pool-banner.jpg",
     // "/images/services-banner.jpg",
     // "/images/better-pool-banner.jpg",
@@ -63,7 +59,7 @@ export default function Fencing() {
       <section className="w-full">
         <div className="relative w-full h-[400px]">
           <Image
-            src='/images/services-banner-cropped.png'
+            src="/images/hardscaping/fencing/CedarFencing.jpg"
             fill
             alt='Pool Deck and Retaining Wall'
             className="object-cover"
@@ -85,17 +81,24 @@ export default function Fencing() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="bg-red-300 text-4xl p-2"><h1>Fencing</h1></div>
-            <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
-            <div className="bg-red-300 text-3xl p-2">mini title</div>
-            <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
+            <div className="text-4xl p-2"><h1>Fencing</h1></div>
+            <div className="text-lg p-2">
+              <p>
+                Looking to define your space? We offer a range of fencing solutions, including vinyl privacy fencing, aluminum pool fencing, cedar, pressure-treated wood, and iron fencing and railings. Whether your property is large or small, we’ll design and install a fence that’s both stylish and functional.
+              </p>
+            </div>
+            <div className="text-lg p-2">
+              <p>
+                Our expert team ensures every fence is built with durability and craftsmanship in mind, enhancing security while complementing your landscape. From classic to modern designs, we tailor each installation to suit your needs, providing a seamless blend of privacy, safety, and curb appeal. Let us help you create a boundary that stands the test of time.
+              </p>
+            </div>
           </div>
 
           {/* Image Section */}
           <div className="flex justify-center">
             <div className="w-full aspect-[16/9] relative">
               <Image
-                src="/images/service-landscape.png"
+                src="/images/hardscaping/fencing/AluminumFence1.jpg"
                 fill
                 alt="test"
                 className="object-cover rounded-lg p-5"
@@ -104,20 +107,20 @@ export default function Fencing() {
           </div>
         </section>
 
-        <div className="mb-5 fade-hidden">
-          <div className="bg-red-300 text-3xl p-2">
+        {/* <div className="mb-5 fade-hidden">
+          <div className="text-3xl p-2">
             mini title 2
           </div>
-          <div className="bg-blue-300 text-lg p-4">
+          <div className="text-lg p-4">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit qui aut tempore nemo modi pariatur ad, cum ab aliquid nobis? In soluta reprehenderit vitae iure repudiandae voluptatem sunt atque dolores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis earum deserunt placeat eaque blanditiis porro vero nostrum, magnam expedita. Ipsam sapiente tenetur aliquid nulla magnam voluptatem cupiditate minima tempora ducimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam deleniti porro nam non unde cum accusantium autem illo? Laudantium ipsum beatae temporibus provident fuga officia nobis, pariatur possimus iste voluptatem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorem ipsam incidunt amet consectetur fugit, odio ea dolore eius tempore magni ullam omnis reiciendis nam sit autem blanditiis maxime. Ipsum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas facere optio similique quis sapiente molestiae cupiditate laborum officiis alias nam quae maiores debitis saepe, reprehenderit quaerat doloremque provident dolore voluptas.
           </div>
           
-        </div>
+        </div> */}
 
         <div>
 
           {/* Image Gallery */}
-          <section className="w-full fade-hidden">
+          <section className="w-full fade-hidden mt-5">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
               {images.map((srcUrl, i) => (
                 <div key={i} className="flex justify-center">
