@@ -58,7 +58,7 @@ export default function Hardscaping() {
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
-                      src={'/images/hardscaping/design-rendering.png'} 
+                      src={"/images/hardscaping/3DDesignRendering/3dDiningArea.jpg"} 
                       fill
                       className="object-cover"
                       alt='test'
@@ -120,7 +120,29 @@ export default function Hardscaping() {
                 </div>
                 <div className="flex flex-col items-center">
                   <Link
-                    href={'/FencingAndRetainingWalls'}
+                    href={'/Fencing'}
+                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                  >                    
+                    <Image 
+                      src={"/images/hardscaping/fencing/CedarFencing.jpg"} 
+                      fill
+                      className="object-cover"
+                      alt='test'
+                    />
+                    
+                  </Link>
+                  <div className="w-full text-center">
+                    <Link
+                      href={'/Fencing'}>
+                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                          Fencing
+                        </h1>
+                    </Link>
+                  </div>
+                </div>
+                <div className="flex flex-col items-center">
+                  <Link
+                    href={'/RetainingWalls'}
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
@@ -133,9 +155,9 @@ export default function Hardscaping() {
                   </Link>
                   <div className="w-full text-center">
                     <Link
-                      href={'/FencingAndRetainingWalls'}>
+                      href={'/RetainingWalls'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                          Fencing & Retaining Walls
+                          Retaining Walls
                         </h1>
                     </Link>
                   </div>
@@ -158,28 +180,6 @@ export default function Hardscaping() {
                       href={'/NaturalStoneWork'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
                         Natural Stone Work
-                        </h1>
-                    </Link>
-                  </div>
-                </div>
-                <div className="flex flex-col items-center">
-                  <Link
-                    href={'/PavilionsAndPergolas'}
-                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
-                  >                    
-                    <Image 
-                      src={'/images/img1.jpg'} 
-                      fill
-                      className="object-cover"
-                      alt='test'
-                    />
-                    
-                  </Link>
-                  <div className="w-full text-center">
-                    <Link
-                      href={'/PavilionsAndPergolas'}>
-                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                        Pavilions & Pergolas
                         </h1>
                     </Link>
                   </div>
