@@ -15,27 +15,27 @@ export default function DesignRendering() {
     }, [])
 
   const images = [
-    "/images/testing.gif",
-    "/images/services-banner.jpg",
-    "/images/testing.gif",
-    "/images/services-banner.jpg",
-    "/images/img3.jpg",
-    "/images/services-banner.jpg",
-    "/images/testing.gif",
-    "/images/services-banner.jpg",
-    "/images/testing.gif",
+    "/images/hardscaping/3DDesignRendering/3DPatio.jpg",
+    "/images/hardscaping/3DDesignRendering/3dPoolDeck1.jpg",
+    "/images/hardscaping/3DDesignRendering/3dPoolDeck2.jpg",
+    // "/images/services-banner.jpg",
+    // "/images/img3.jpg",
+    // "/images/services-banner.jpg",
+    // "/images/testing.gif",
+    // "/images/services-banner.jpg",
+    // "/images/testing.gif",
   ];
 
   const enlargedImages = [
-    "/images/testing.gif",
-    "/images/services-banner.jpg",
-    "/images/testing.gif",
-    "/images/services-banner.jpg",
-    "/images/img3.jpg",
-    "/images/services-banner.jpg",
-    "/images/testing.gif",
-    "/images/services-banner.jpg",
-    "/images/testing.gif",
+    "/images/hardscaping/3DDesignRendering/3DPatio.jpg",
+    "/images/hardscaping/3DDesignRendering/3dPoolDeck1.jpg",
+    "/images/hardscaping/3DDesignRendering/3dPoolDeck2.jpg",
+    // "/images/services-banner.jpg",
+    // "/images/img3.jpg",
+    // "/images/services-banner.jpg",
+    // "/images/testing.gif",
+    // "/images/services-banner.jpg",
+    // "/images/testing.gif",
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -107,15 +107,17 @@ export default function DesignRendering() {
             </div>
           </div>
 
-          {/* Video Section */}
-          <div className="flex justify-center">
-            <div className="relative w-full h-[400px]">
-              <video autoPlay loop playsInline controls className="w-full max-w-3xl mx-auto">
-                <source src="/videos/longTesting.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-              </video>
+          {/* Image Section */}
+            <div className="flex justify-center">
+              <div className="w-full aspect-[16/9] relative">
+                <Image
+                  src="/images/hardscaping/3DDesignRendering/3dDiningArea.jpg"
+                  fill
+                  alt="test"
+                  className="object-cover rounded-lg p-5"
+                />
+              </div>
             </div>
-          </div>
         </section>
 
         {/* <div className="mb-5 fade-hidden">
@@ -126,7 +128,7 @@ export default function DesignRendering() {
         <div>
 
           {/* Image Gallery */}
-          <section className="w-full fade-hidden">
+          <section className="w-full fade-hidden mt-5">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
               {images.map((srcUrl, i) => (
                 <div key={i} className="flex justify-center">
