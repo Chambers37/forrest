@@ -118,7 +118,7 @@ export default function OutdoorLivingSpaces() {
               </div>
             </div>
             <div className="p-2 flex items-center">
-              <div className="relative w-full h-[200px]">
+              <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -128,7 +128,7 @@ export default function OutdoorLivingSpaces() {
               </div>
             </div>
             <div className="p-2 flex items-center">
-              <div className="relative w-full h-[200px]">
+              <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -138,7 +138,7 @@ export default function OutdoorLivingSpaces() {
               </div>
             </div>
             <div className="p-2 flex items-center">
-            <div className="relative w-full h-[200px]">
+            <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -170,7 +170,7 @@ export default function OutdoorLivingSpaces() {
               </div>
             </div>
             <div className="p-2 flex items-center">
-              <div className="relative w-full h-[200px]">
+              <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -180,7 +180,7 @@ export default function OutdoorLivingSpaces() {
               </div>
             </div>
             <div className="p-2 flex items-center">
-              <div className="relative w-full h-[200px]">
+              <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -190,7 +190,7 @@ export default function OutdoorLivingSpaces() {
               </div>
             </div>
             <div className="p-2 flex items-center">
-              <div className="relative w-full h-[200px]">
+              <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -222,7 +222,7 @@ export default function OutdoorLivingSpaces() {
               </div>
             </div>
             <div className="p-2 flex items-center">
-              <div className="relative w-full h-[200px]">
+              <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -232,7 +232,7 @@ export default function OutdoorLivingSpaces() {
               </div>
             </div>
             <div className="p-2 flex items-center">
-              <div className="relative w-full h-[200px]">
+              <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -242,7 +242,7 @@ export default function OutdoorLivingSpaces() {
               </div>
             </div>
             <div className="p-2 flex items-center">
-            <div className="relative w-full h-[200px]">
+            <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -274,7 +274,7 @@ export default function OutdoorLivingSpaces() {
               </div>
             </div>
             <div className="p-2 flex items-center">
-              <div className="relative w-full h-[200px]">
+              <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -284,7 +284,7 @@ export default function OutdoorLivingSpaces() {
               </div>
             </div>
             <div className="p-2 flex items-center">
-              <div className="relative w-full h-[200px]">
+              <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -294,7 +294,7 @@ export default function OutdoorLivingSpaces() {
               </div>
             </div>
             <div className="p-2 flex items-center">
-            <div className="relative w-full h-[200px]">
+            <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -326,7 +326,7 @@ export default function OutdoorLivingSpaces() {
               </div>
             </div>
             <div className="p-2 flex items-center">
-              <div className="relative w-full h-[200px]">
+              <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -336,7 +336,7 @@ export default function OutdoorLivingSpaces() {
               </div>
             </div>
             <div className="p-2 flex items-center">
-              <div className="relative w-full h-[200px]">
+              <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -346,7 +346,7 @@ export default function OutdoorLivingSpaces() {
               </div>
             </div>
             <div className="p-2 flex items-center">
-            <div className="relative w-full h-[200px]">
+            <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
