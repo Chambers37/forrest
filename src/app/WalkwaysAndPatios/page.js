@@ -15,27 +15,27 @@ export default function WalkwaysAndPatios() {
     }, [])
 
   const images = [
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/img3.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/FrontWalkwayBefore.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/FrontWalkwayAfter.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/Walkway1.png",
+    "/images/hardscaping/WalkwaysAndPatios/PatioWithBorder.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/SlabWalkway.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/BlueStonePatio.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/WalkwayWithMulch.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/CurvedWalkway.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/pool-deck.png",
   ];
 
   const enlargedImages = [
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/img3.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/FrontWalkwayBefore.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/FrontWalkwayAfter.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/Walkway1.png",
+    "/images/hardscaping/WalkwaysAndPatios/PatioWithBorder.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/SlabWalkway.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/BlueStonePatio.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/WalkwayWithMulch.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/CurvedWalkway.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/pool-deck.png",
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -63,7 +63,7 @@ export default function WalkwaysAndPatios() {
       <section className="w-full">
         <div className="relative w-full h-[400px]">
           <Image
-            src='/images/services-banner-cropped.png'
+            src="/images/hardscaping/WalkwaysAndPatios/WalkwayWithMulch2.jpg"
             fill
             alt='Pool Deck and Retaining Wall'
             className="object-cover"
@@ -85,34 +85,45 @@ export default function WalkwaysAndPatios() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="bg-transparent text-4xl p-2"><h1>Walkways And Patios</h1></div>
-            <div className="bg-transparent text-lg p-2">Our team installs pavors to the highest standards based upon ABCD and EFGH Guidelines. Along with having over 30 years of practical experience, we will happily stand behind our work and give you a product that stands the test of time. Let us handle everything from the removal, grading, and sitework.</div>
-            <div className="bg-transparent text-3xl p-2">mini title</div>
-            <div className="bg-transparent text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
-          </div>
-
-          {/* Image Section */}
-          <div className="flex justify-center">
-            <div className="w-full aspect-[16/9] relative">
-              <Image
-                src="/images/service-landscape.png"
-                fill
-                alt="test"
-                className="object-cover rounded-lg p-5"
-              />
+            <div className="font-medium text-4xl p-2">
+              <h1>
+                Walkways & Patios
+              </h1>
+            </div>
+            <div className="text-lg p-2">
+              <p>
+                Our team installs pavers to the highest standards based upon CHMA and ICPI industry standard guidelines. Along with having over 30 years of practical experience, we’ll happily stand behind our work and give you a product that will stand the test of time.
+              </p>
+            </div>
+            <div className="text-lg p-2">
+              <p>
+                Let us handle everything from design to final completion of your walk or patio, including final grading, sod and plant instillations to create a space uniquely yours.
+              </p>
             </div>
           </div>
+
+           {/* Image Section */}
+            <div className="flex justify-center">
+              <div className="w-full aspect-[16/9] relative">
+                <Image
+                  src="/images/hardscaping/WalkwaysAndPatios/PatioWithLights.jpg"
+                  fill
+                  alt="test"
+                  className="object-cover rounded-lg p-5"
+                />
+              </div>
+            </div>
         </section>
 
-        <div className="mb-5 fade-hidden">
+        {/* <div className="mb-5 fade-hidden">
           <div className="bg-transparent text-3xl p-2">mini title 2</div>
           <div className="bg-transparent text-lg p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit qui aut tempore nemo modi pariatur ad, cum ab aliquid nobis? In soluta reprehenderit vitae iure repudiandae voluptatem sunt atque dolores.</div>
-        </div>
+        </div> */}
 
         <div>
 
           {/* Image Gallery */}
-          <section className="w-full fade-hidden">
+          <section className="w-full fade-hidden mt-5">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
               {images.map((srcUrl, i) => (
                 <div key={i} className="flex justify-center">

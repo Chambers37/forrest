@@ -13,29 +13,23 @@ export default function PoolDecks() {
   
         return () => observer.disconnect();
     }, [])
-
+    
   const images = [
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/img3.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
+    "/images/hardscaping/PoolDecks/PoolDeckBefore.jpg",
+    "/images/hardscaping/PoolDecks/PoolDeckAfter.jpg",
+    "/images/hardscaping/PoolDecks/PoolDeckWalkway.jpg",
+    "/images/hardscaping/PoolDecks/LargePoolDeck.png",
+    "/images/hardscaping/PoolDecks/PoolAndWall.jpg",
+    "/images/hardscaping/PoolDecks/PoolDeck.jpg",
   ];
 
   const enlargedImages = [
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/img3.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
+    "/images/hardscaping/PoolDecks/PoolDeckBefore.jpg",
+    "/images/hardscaping/PoolDecks/PoolDeckAfter.jpg",
+    "/images/hardscaping/PoolDecks/PoolDeckWalkway.jpg",
+    "/images/hardscaping/PoolDecks/LargePoolDeck.png",
+    "/images/hardscaping/PoolDecks/PoolAndWall.jpg",
+    "/images/hardscaping/PoolDecks/PoolDeck.jpg",
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -63,7 +57,7 @@ export default function PoolDecks() {
       <section className="w-full">
         <div className="relative w-full h-[400px]">
           <Image
-            src='/images/services-banner-cropped.png'
+            src='/images/finished-pool-deck.png'
             fill
             alt='Pool Deck and Retaining Wall'
             className="object-cover"
@@ -85,34 +79,50 @@ export default function PoolDecks() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="bg-red-300 text-4xl p-2"><h1>Pool Decks</h1></div>
-            <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
-            <div className="bg-red-300 text-3xl p-2">mini title</div>
-            <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
+            <div className="font-medium text-4xl p-2">
+              <h1>
+                Pool Decks
+              </h1>
+            </div>
+            <div className="text-lg p-2">
+              <p>
+                Getting a new pool? You can trust our team to finish around new pool installations, as well as refurbishing and repurposing existing pool surrounds.
+              </p>
+            </div>
+            <div className="text-lg p-2">
+              <p>
+                We are accustomed to building things to the highest codes and standards, insuring the proper and correct installation.
+              </p>
+            </div>
+            <div className="text-lg p-2">
+              <p>
+                Using the highest quality materials and most innovative methods, we can build a space suited to your ideal summer space.
+              </p>
+            </div>
           </div>
 
           {/* Image Section */}
-          <div className="flex justify-center">
-            <div className="w-full aspect-[16/9] relative">
-              <Image
-                src="/images/hardscaping/pool-deck-16x9.png"
-                fill
-                alt="test"
-                className="object-cover rounded-lg p-5"
-              />
+            <div className="flex justify-center">
+              <div className="w-full aspect-[16/9] relative">
+                <Image
+                  src="/images/hardscaping/pooldecks/FullPoolDeck.jpg"
+                  fill
+                  alt="test"
+                  className="object-cover rounded-lg p-5"
+                />
+              </div>
             </div>
-          </div>
         </section>
 
-        <div className="mb-5 fade-hidden">
+        {/* <div className="mb-5 fade-hidden">
           <div className="bg-red-300 text-3xl p-2">mini title 2</div>
           <div className="bg-blue-300 text-lg p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit qui aut tempore nemo modi pariatur ad, cum ab aliquid nobis? In soluta reprehenderit vitae iure repudiandae voluptatem sunt atque dolores.</div>
-        </div>
+        </div> */}
 
         <div>
 
           {/* Image Gallery */}
-          <section className="w-full fade-hidden">
+          <section className="w-full fade-hidden mt-5">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
               {images.map((srcUrl, i) => (
                 <div key={i} className="flex justify-center">
