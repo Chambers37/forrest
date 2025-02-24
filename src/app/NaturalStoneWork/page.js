@@ -15,27 +15,21 @@ export default function NaturalStoneWork() {
     }, [])
 
   const images = [
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/img3.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
+    '/images/hardscaping/NaturalStoneWork/bluestone_walkway.jpg',
+    '/images/hardscaping/NaturalStoneWork/stone_path.jpg',
+    '/images/hardscaping/NaturalStoneWork/brick_courtyard.jpg',
+    '/images/hardscaping/NaturalStoneWork/before_and_after_walkway.jpg',
+    '/images/hardscaping/NaturalStoneWork/stone_facade.jpg',
+    '/images/hardscaping/NaturalStoneWork/rear_patio_with_steps.jpg',
   ];
 
   const enlargedImages = [
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/img3.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
+    '/images/hardscaping/NaturalStoneWork/bluestone_walkway.jpg',
+    '/images/hardscaping/NaturalStoneWork/stone_path.jpg',
+    '/images/hardscaping/NaturalStoneWork/brick_courtyard.jpg',
+    '/images/hardscaping/NaturalStoneWork/before_and_after_walkway.jpg',
+    '/images/hardscaping/NaturalStoneWork/stone_facade.jpg',
+    '/images/hardscaping/NaturalStoneWork/rear_patio_with_steps.jpg',
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -63,7 +57,7 @@ export default function NaturalStoneWork() {
       <section className="w-full">
         <div className="relative w-full h-[400px]">
           <Image
-            src='/images/services-banner-cropped.png'
+            src='/images/hardscaping/NaturalStoneWork/banner.png'
             fill
             alt='Pool Deck and Retaining Wall'
             className="object-cover"
@@ -88,18 +82,24 @@ export default function NaturalStoneWork() {
             <div className="text-4xl p-2"><h1>Natural Stone Work</h1></div>
             <div className="text-lg p-2">
               <p>
-                Like the look of natural stones in your garden space? Trust our experienced masons to continue the old-world traditions of proper and permeant stonework. 
+                Enhance your outdoor space with the timeless beauty and durability of natural stone. Whether you're looking to create a rustic garden path, an elegant patio, or a sturdy retaining wall, our skilled masons bring generations of craftsmanship to every project. We specialize in traditional techniques that ensure your stonework not only looks stunning but also stands the test of time.
+              </p>
+              <p className="mt-5">
+              We offer expert installation of:
               </p>
             </div>
             <div>
-              <ul>
+              <ul className="list-disc pl-5">
                 <li>Stucco</li>
                 <li>Full bed stonework</li>
                 <li>Veneer stonework</li>
                 <li>Brick work</li>
-                <li>Traditional bluestone </li>
-                <li>Traditional bluestone </li>
+                <li>Traditional bluestone</li>
+                <li>Natural flagstone</li>
               </ul>
+              <p className="mt-5">
+                From intricate stone facades to custom walkways, we take pride in blending artistry with structural integrity, ensuring a seamless and lasting addition to your landscape.
+              </p>
             </div>
           </div>
 
@@ -107,7 +107,7 @@ export default function NaturalStoneWork() {
           <div className="flex justify-center">
             <div className="w-full aspect-[16/9] relative">
               <Image
-                src="/images/service-landscape.png"
+                src="/images/hardscaping/NaturalStoneWork/main_bricks.jpg"
                 fill
                 alt="test"
                 className="object-cover rounded-lg p-5"
