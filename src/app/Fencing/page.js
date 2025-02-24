@@ -15,23 +15,21 @@ export default function Fencing() {
     }, [])
 
   const images = [
-    "/images/hardscaping/fencing/CedarFencing.jpg",
     "/images/hardscaping/fencing/AluminumFence2.jpg",
     "/images/hardscaping/fencing/AluminumFence3.jpg",
     "/images/hardscaping/fencing/AluminumFence4.jpg",
-    // "/images/better-pool-banner.jpg",
-    // "/images/services-banner.jpg",
-    // "/images/better-pool-banner.jpg",
+    "/images/hardscaping/fencing/Deck_railing.jpg",
+    "/images/hardscaping/fencing/White_Vinyl.jpg",
+    "/images/hardscaping/fencing/Steps_Railing.jpg",
   ];
 
   const enlargedImages = [
-    "/images/hardscaping/fencing/CedarFencing.jpg",
     "/images/hardscaping/fencing/AluminumFence2.jpg",
     "/images/hardscaping/fencing/AluminumFence3.jpg",
     "/images/hardscaping/fencing/AluminumFence4.jpg",
-    // "/images/better-pool-banner.jpg",
-    // "/images/services-banner.jpg",
-    // "/images/better-pool-banner.jpg",
+    "/images/hardscaping/fencing/Deck_railing.jpg",
+    "/images/hardscaping/fencing/White_Vinyl.jpg",
+    "/images/hardscaping/fencing/Steps_Railing.jpg",
   ];
 
   const [isOpen, setIsOpen] = useState(false);
