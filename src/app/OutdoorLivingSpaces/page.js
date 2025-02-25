@@ -63,7 +63,7 @@ export default function OutdoorLivingSpaces() {
       <section className="w-full">
         <div className="relative w-full h-[400px]">
           <Image
-            src='/images/services-banner-cropped.png'
+            src='/images/hardscaping/outdoor_living_spaces/firepits/firepit_and_chair.png'
             fill
             alt='Pool Deck and Retaining Wall'
             className="object-cover"
@@ -87,12 +87,12 @@ export default function OutdoorLivingSpaces() {
           <div>
             <div className="text-center text-4xl p-2">
               <h1>
-                Outdoor Living Spaces
+                outdoor_living_spaces
               </h1>
             </div>
             <div className="text-lg p-2 text-center">
               <p className="md:px-20">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quia tempore esse cumque quo vero doloremque possimus quod! Fuga fugiat non blanditiis. Voluptas iure tempora ipsum qui possimus nobis! Voluptatibus.
+                Transform your backyard into a stunning, functional retreat designed for relaxation, entertainment, and family gatherings. Our team works closely with you to create a custom outdoor living space tailored to your needs and lifestyle. Whether you're envisioning a cozy firepit, a shaded pergola, or a fully equipped outdoor kitchen, we bring creativity and craftsmanship to every project. Explore the possibilities and get inspired to design the outdoor oasis of your dreams.
               </p>
             </div>
           </div>
@@ -109,42 +109,34 @@ export default function OutdoorLivingSpaces() {
               </h1>
             </div>
           </div>
-          <div className="grid sm:grid-cols-1 md:grid-cols-4">
-            <div className="p-2">
-              <div className="text-center md:text-left">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quo. Nesciunt error ullam debitis cupiditate odio veniam sunt quisquam cum ipsa atque, voluptas neque iste perspiciatis laudantium. Iste, ex mollitia?
-                </p>
+          <div className="grid sm:grid-cols-1">
+          <div className="grid sm:grid-cols-1 md:grid-cols-3">
+              <div className="p-2 ">
+                <div className="text-center md:text-left">
+                  <p>
+                    Create the perfect spot for summer nights spent roasting marshmallows and making memories. Our expert team designs and builds custom firepits that seamlessly blend with your outdoor aesthetic, offering warmth, ambiance, and a welcoming gathering space.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="p-2 flex items-center">
-              <div className="relative w-full h-[300px]">
-                <Image
-                  src='/images/services-banner-cropped.png'
-                  fill
-                  alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
-                />
+              <div className="p-2 flex items-center">
+                <div className="relative w-full h-[300px]">
+                  <Image
+                    src='/images/hardscaping/outdoor_living_spaces/firepits/firepit_with_wall.jpg'
+                    fill
+                    alt='Pool Deck and Retaining Wall'
+                    className="object-cover"
+                  />
+                </div>
               </div>
-            </div>
-            <div className="p-2 flex items-center">
-              <div className="relative w-full h-[300px]">
-                <Image
-                  src='/images/services-banner-cropped.png'
-                  fill
-                  alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
-                />
-              </div>
-            </div>
-            <div className="p-2 flex items-center">
-            <div className="relative w-full h-[300px]">
-                <Image
-                  src='/images/services-banner-cropped.png'
-                  fill
-                  alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
-                />
+              <div className="p-2 flex items-center">
+                <div className="relative w-full h-[300px]">
+                  <Image
+                    src='/images/hardscaping/outdoor_living_spaces/firepits/firepit_and_chair.png'
+                    fill
+                    alt='Pool Deck and Retaining Wall'
+                    className="object-cover"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -161,42 +153,44 @@ export default function OutdoorLivingSpaces() {
               </h1>
             </div>
           </div>
-          <div className="grid sm:grid-cols-1 md:grid-cols-4">
-            <div className="p-2">
-              <div className="text-center md:text-left">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quo. Nesciunt error ullam debitis cupiditate odio veniam sunt quisquam cum ipsa atque, voluptas neque iste perspiciatis laudantium. Iste, ex mollitia?
-                </p>
+          <div className="grid sm:grid-cols-1">
+            <div className="grid sm:grid-cols-1 md:grid-cols-4">
+              <div className="p-2">
+                <div className="text-center md:text-left">
+                  <p>
+                    Need relief from the summer sun? Let us install a beautiful pavilion with a fully enclosed roof for maximum shade, or a stylish pergola with open latticework for partial coverage. These structures add both charm and function, creating the perfect space to unwind outdoors.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="p-2 flex items-center">
-              <div className="relative w-full h-[300px]">
-                <Image
-                  src='/images/services-banner-cropped.png'
-                  fill
-                  alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
-                />
+              <div className="p-2 flex items-center">
+                <div className="relative w-full h-[300px]">
+                  <Image
+                    src='/images/hardscaping/outdoor_living_spaces/pavilions/brown_pavilion.jpg'
+                    fill
+                    alt='Pool Deck and Retaining Wall'
+                    className="object-cover"
+                  />
+                </div>
               </div>
-            </div>
-            <div className="p-2 flex items-center">
-              <div className="relative w-full h-[300px]">
-                <Image
-                  src='/images/services-banner-cropped.png'
-                  fill
-                  alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
-                />
+              <div className="p-2 flex items-center">
+                <div className="relative w-full h-[300px]">
+                  <Image
+                    src='/images/hardscaping/outdoor_living_spaces/pavilions/pavilion_side.jpg'
+                    fill
+                    alt='Pool Deck and Retaining Wall'
+                    className="object-cover"
+                  />
+                </div>
               </div>
-            </div>
-            <div className="p-2 flex items-center">
-              <div className="relative w-full h-[300px]">
-                <Image
-                  src='/images/services-banner-cropped.png'
-                  fill
-                  alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
-                />
+              <div className="p-2 flex items-center">
+                <div className="relative w-full h-[300px]">
+                  <Image
+                    src='/images/hardscaping/outdoor_living_spaces/pavilions/inside_pavilion.jpg'
+                    fill
+                    alt='Pool Deck and Retaining Wall'
+                    className="object-cover"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -217,14 +211,14 @@ export default function OutdoorLivingSpaces() {
             <div className="p-2">
               <div className="text-center md:text-left">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quo. Nesciunt error ullam debitis cupiditate odio veniam sunt quisquam cum ipsa atque, voluptas neque iste perspiciatis laudantium. Iste, ex mollitia?
+                  Take your entertaining to the next level with a custom outdoor kitchen or dining area. Whether you're hosting intimate dinners or large family gatherings, we design and build spaces that fit your vision—complete with countertops, grills, and even outdoor pizza ovens for that perfect homemade pizza experience.
                 </p>
               </div>
             </div>
             <div className="p-2 flex items-center">
               <div className="relative w-full h-[300px]">
                 <Image
-                  src='/images/services-banner-cropped.png'
+                  src='/images/hardscaping/outdoor_living_spaces/firepits/firepit_and_chair.png'
                   fill
                   alt='Pool Deck and Retaining Wall'
                   className="object-cover"
@@ -234,7 +228,7 @@ export default function OutdoorLivingSpaces() {
             <div className="p-2 flex items-center">
               <div className="relative w-full h-[300px]">
                 <Image
-                  src='/images/services-banner-cropped.png'
+                  src='/images/hardscaping/outdoor_living_spaces/firepits/firepit_and_chair.png'
                   fill
                   alt='Pool Deck and Retaining Wall'
                   className="object-cover"
@@ -244,7 +238,7 @@ export default function OutdoorLivingSpaces() {
             <div className="p-2 flex items-center">
             <div className="relative w-full h-[300px]">
                 <Image
-                  src='/images/services-banner-cropped.png'
+                  src='/images/hardscaping/outdoor_living_spaces/firepits/firepit_and_chair.png'
                   fill
                   alt='Pool Deck and Retaining Wall'
                   className="object-cover"
@@ -269,14 +263,14 @@ export default function OutdoorLivingSpaces() {
             <div className="p-2">
               <div className="text-center md:text-left">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quo. Nesciunt error ullam debitis cupiditate odio veniam sunt quisquam cum ipsa atque, voluptas neque iste perspiciatis laudantium. Iste, ex mollitia?
+                  Using high-quality PVC and composite decking materials, we create custom decks that are as durable as they are beautiful. Enhance your space with aluminum, cable, or drink railings for a polished look that elevates both safety and style.
                 </p>
               </div>
             </div>
             <div className="p-2 flex items-center">
               <div className="relative w-full h-[300px]">
                 <Image
-                  src='/images/services-banner-cropped.png'
+                  src='/images/hardscaping/outdoor_living_spaces/firepits/firepit_and_chair.png'
                   fill
                   alt='Pool Deck and Retaining Wall'
                   className="object-cover"
@@ -286,7 +280,7 @@ export default function OutdoorLivingSpaces() {
             <div className="p-2 flex items-center">
               <div className="relative w-full h-[300px]">
                 <Image
-                  src='/images/services-banner-cropped.png'
+                  src='/images/hardscaping/outdoor_living_spaces/firepits/firepit_and_chair.png'
                   fill
                   alt='Pool Deck and Retaining Wall'
                   className="object-cover"
@@ -296,7 +290,7 @@ export default function OutdoorLivingSpaces() {
             <div className="p-2 flex items-center">
             <div className="relative w-full h-[300px]">
                 <Image
-                  src='/images/services-banner-cropped.png'
+                  src='/images/hardscaping/outdoor_living_spaces/firepits/firepit_and_chair.png'
                   fill
                   alt='Pool Deck and Retaining Wall'
                   className="object-cover"
@@ -321,14 +315,17 @@ export default function OutdoorLivingSpaces() {
             <div className="p-2">
               <div className="text-center md:text-left">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quo. Nesciunt error ullam debitis cupiditate odio veniam sunt quisquam cum ipsa atque, voluptas neque iste perspiciatis laudantium. Iste, ex mollitia?
+                  Enjoy your outdoor space long after the sun sets with professional low-voltage lighting solutions. From wireless controllers to app-controlled RGB color-changing lights, we add both safety and ambiance. Our expertise allows us to seamlessly integrate lighting into retaining walls, patios, decks, and landscape features, ensuring your outdoor space shines—day or night.
+                </p>
+                <p className="mt-2">
+                  Let us bring your vision to life with expertly crafted outdoor spaces that enhance the beauty, functionality, and value of your home.
                 </p>
               </div>
             </div>
             <div className="p-2 flex items-center">
               <div className="relative w-full h-[300px]">
                 <Image
-                  src='/images/services-banner-cropped.png'
+                  src='/images/hardscaping/outdoor_living_spaces/firepits/firepit_and_chair.png'
                   fill
                   alt='Pool Deck and Retaining Wall'
                   className="object-cover"
@@ -338,7 +335,7 @@ export default function OutdoorLivingSpaces() {
             <div className="p-2 flex items-center">
               <div className="relative w-full h-[300px]">
                 <Image
-                  src='/images/services-banner-cropped.png'
+                  src='/images/hardscaping/outdoor_living_spaces/firepits/firepit_and_chair.png'
                   fill
                   alt='Pool Deck and Retaining Wall'
                   className="object-cover"
@@ -348,7 +345,7 @@ export default function OutdoorLivingSpaces() {
             <div className="p-2 flex items-center">
             <div className="relative w-full h-[300px]">
                 <Image
-                  src='/images/services-banner-cropped.png'
+                  src='/images/hardscaping/outdoor_living_spaces/firepits/firepit_and_chair.png'
                   fill
                   alt='Pool Deck and Retaining Wall'
                   className="object-cover"
