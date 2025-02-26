@@ -50,7 +50,7 @@ export default function Services() {
             <div className="grid justify-center">
               <Link href={'/Hardscaping'}>
                 <Image 
-                  src='/images/design-rendering.png'
+                  src='/images/hardscaping/3DDesignRendering/design-rendering.png'
                   width={200}
                   height={200}
                   alt='test'
