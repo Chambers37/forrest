@@ -19,19 +19,17 @@ export default function RetainingWalls() {
     "/images/hardscaping/RetainingWalls/BleachersWallBack.jpg",
     "/images/hardscaping/RetainingWalls/SmallWall.jpg",
     "/images/hardscaping/RetainingWalls/LargeGrayWall.jpg",
-    // "/images/better-pool-banner.jpg",
+    "/images/hardscaping/RetainingWalls/pool_wall.jpg",
     // "/images/services-banner.jpg",
     // "/images/better-pool-banner.jpg",
   ];
 
   const enlargedImages = [
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/img3.jpg",
-    "/images/services-banner.jpg",
-    // "/images/better-pool-banner.jpg",
+    "/images/hardscaping/RetainingWalls/BleachersWallFront.jpg",
+    "/images/hardscaping/RetainingWalls/BleachersWallBack.jpg",
+    "/images/hardscaping/RetainingWalls/SmallWall.jpg",
+    "/images/hardscaping/RetainingWalls/LargeGrayWall.jpg",
+    "/images/hardscaping/RetainingWalls/pool_wall.jpg",
     // "/images/services-banner.jpg",
     // "/images/better-pool-banner.jpg",
   ];
@@ -100,7 +98,7 @@ export default function RetainingWalls() {
           <div className="flex justify-center">
             <div className="w-full aspect-[16/9] relative">
               <Image
-                src="/images/hardscaping/RetainingWalls/WallWithPipe.jpg"
+                src="/images/hardscaping/RetainingWalls/main_wall.png"
                 fill
                 alt="test"
                 className="object-cover rounded-lg p-5"
