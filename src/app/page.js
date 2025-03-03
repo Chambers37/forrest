@@ -57,8 +57,8 @@ export default function Homepage() {
       <QuoteForm />
 
       {/* services */}
-      <section className="flex bg-gradient-to-r from-greenWhite via-lightGreen
-               to-darkerGreen p-7">
+      <section className="flex bg-gradient-to-r from-greenWhite
+               to-lightGreen p-7">
 
         <div className="fade-hidden w-full px-8">
           <p className="p-2 text-2xl font-medium text-darkGreen"><Link href="/Services">Our Services</Link></p>

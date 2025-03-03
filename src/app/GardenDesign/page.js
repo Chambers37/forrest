@@ -85,10 +85,12 @@ export default function GardenDesign() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="bg-red-300 text-4xl p-2"><h1>Garden Design</h1></div>
-            <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
-            <div className="bg-red-300 text-3xl p-2">mini title</div>
-            <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
+            <div className="text-4xl p-2"><h1>Garden Design</h1></div>
+            <div className="text-lg p-2">
+              <p>
+                Backed by decades of experience and an unwavering passion for crafting stunning landscapes, Matt and his team collaborate closely with you to bring your vision to life through detailed 2D and 3D designs. We guide you in selecting the perfect plants to ensure vibrant color throughout every season, tailoring our recommendations to your unique taste. By carefully considering your site’s specific conditions, we create a sustainable, healthy garden space that not only looks beautiful but thrives over time.
+              </p>
+            </div>
           </div>
 
           {/* Image Section */}
@@ -103,12 +105,7 @@ export default function GardenDesign() {
             </div>
           </div>
         </section>
-
-        <div className="mb-5 fade-hidden">
-          <div className="bg-red-300 text-3xl p-2">mini title 2</div>
-          <div className="bg-blue-300 text-lg p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit qui aut tempore nemo modi pariatur ad, cum ab aliquid nobis? In soluta reprehenderit vitae iure repudiandae voluptatem sunt atque dolores.</div>
-        </div>
-
+        
         <div>
 
           {/* Image Gallery */}
