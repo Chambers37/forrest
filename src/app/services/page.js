@@ -65,7 +65,7 @@ export default function Services() {
               <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/DesignRendering'}>3D Design Rendering</Link>
               <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/WalkwaysAndPatios'}>Walkways & Patios</Link>
               <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/PoolDecks'}>Pool Decks</Link>
-              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Fencing'}>Fencing</Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Fencing'}>Fencing & Railing</Link>
               <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/RetainingWalls'}>Retaining Walls</Link>
               <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/NaturalStoneWork'}>Natural Stone Work</Link>
               <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/OutdoorLivingSpaces'}>Outdoor Living Spaces</Link>
@@ -91,7 +91,7 @@ export default function Services() {
             <ul className="grid grid-cols-1 gap-3 pt-5">
               <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/GardenDesign'}>Garden Design</Link>
               <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/NewPlantInstallations'}>New Plant Installations</Link>
-              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/DrainageAndGradingSolutions'}>Drainage & Grading Solutions</Link>
+              {/* <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/DrainageAndGradingSolutions'}>Drainage & Grading Solutions</Link> */}
               <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/SeasonalServices'}>Seasonal Services</Link>
             </ul>
           </div>

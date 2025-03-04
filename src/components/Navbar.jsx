@@ -48,7 +48,7 @@ export default function Navbar() {
         <NavItem href="/Services" pathname={pathname}>Our Services</NavItem>
         <NavItem href="/quote" pathname={pathname}>Request A Quote</NavItem>
         <NavItem href="/Portfolio" pathname={pathname}>Portfolio</NavItem>
-        <NavItem href="/About" pathname={pathname}>About Us</NavItem>
+        <NavItem href="/about" pathname={pathname}>About Us</NavItem>
       </nav>
 
       

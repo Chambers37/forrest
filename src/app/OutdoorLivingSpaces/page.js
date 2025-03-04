@@ -81,10 +81,36 @@ export default function OutdoorLivingSpaces() {
                 Outdoor Living Spaces
               </h1>
             </div>
-            <div className="text-lg p-2 text-center">
+            <div className="text-lg p-2 text-center mb-3">
               <p className="md:px-20">
                 Transform your backyard into a stunning, functional retreat designed for relaxation, entertainment, and family gatherings. Our team works closely with you to create a custom outdoor living space tailored to your needs and lifestyle. Whether you're envisioning a cozy firepit, a shaded pergola, or a fully equipped outdoor kitchen, we bring creativity and craftsmanship to every project. Explore the possibilities and get inspired to design the outdoor oasis of your dreams.
               </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="relative w-full h-[300px]">
+                <Image 
+                  src='/images/hardscaping/outdoor_living_spaces/top_of_page/patio_and_firepit.jpg'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+              <div className="relative w-full h-[300px]">
+                <Image 
+                  src='/images/hardscaping/outdoor_living_spaces/top_of_page/pool_with_lounge_area.jpg'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
+              <div className="relative w-full h-[300px]">
+                <Image 
+                  src='/images/hardscaping/outdoor_living_spaces/top_of_page/large_pool_surround.jpg'
+                  fill
+                  alt='Pool Deck and Retaining Wall'
+                  className="object-cover"
+                />
+              </div>
             </div>
           </div>
         </section>

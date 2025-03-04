@@ -15,27 +15,15 @@ export default function GardenDesign() {
     }, [])
 
   const images = [
-    "/images/testing.gif",
-    "/images/services-banner.jpg",
-    "/images/testing.gif",
-    "/images/services-banner.jpg",
-    "/images/img3.jpg",
-    "/images/services-banner.jpg",
-    "/images/testing.gif",
-    "/images/services-banner.jpg",
-    "/images/testing.gif",
+    "/images/landscape/new_plant_installations/best/front-lawn-with-walk.jpg",
+    "/images/landscape/new_plant_installations/best/front-bed-with-maple.jpg",
+    "/images/landscape/new_plant_installations/best/curbside-plantings.jpg",
   ];
 
   const enlargedImages = [
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/img3.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
+    "/images/landscape/new_plant_installations/best/front-lawn-with-walk.jpg",
+    "/images/landscape/new_plant_installations/best/front-bed-with-maple.jpg",
+    "/images/landscape/new_plant_installations/best/curbside-plantings.jpg",
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -63,7 +51,7 @@ export default function GardenDesign() {
       <section className="w-full">
         <div className="relative w-full h-[400px]">
           <Image
-            src='/images/services-banner-cropped.png'
+            src='/images/landscape/new_plant_installations/best/brick-garden-top-of-page.jpg'
             fill
             alt='Pool Deck and Retaining Wall'
             className="object-cover"
@@ -97,7 +85,7 @@ export default function GardenDesign() {
           <div className="flex justify-center">
             <div className="w-full aspect-[16/9] relative">
               <Image
-                src="/images/testing.gif"
+                src="/images/landscape/new_plant_installations/best/front-steps-with-garden-beds.jpg"
                 fill
                 alt="test"
                 className="object-cover rounded-lg p-5"

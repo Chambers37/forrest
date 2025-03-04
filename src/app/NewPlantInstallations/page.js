@@ -14,28 +14,16 @@ export default function NewPlantInstallations() {
         return () => observer.disconnect();
     }, [])
 
-  const images = [
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/img3.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-  ];
+    const images = [
+      "/images/landscape/new_plant_installations/best/front-lawn-with-walk.jpg",
+      "/images/landscape/new_plant_installations/best/front-bed-with-maple.jpg",
+      "/images/landscape/new_plant_installations/best/curbside-plantings.jpg",
+    ];
 
   const enlargedImages = [
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/img3.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
-    "/images/services-banner.jpg",
-    "/images/better-pool-banner.jpg",
+    "/images/landscape/new_plant_installations/best/front-lawn-with-walk.jpg",
+    "/images/landscape/new_plant_installations/best/front-bed-with-maple.jpg",
+    "/images/landscape/new_plant_installations/best/curbside-plantings.jpg",
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -63,7 +51,7 @@ export default function NewPlantInstallations() {
       <section className="w-full">
         <div className="relative w-full h-[400px]">
           <Image
-            src='/images/services-banner-cropped.png'
+            src='/images/landscape/new_plant_installations/best/brick-garden-top-of-page.jpg'
             fill
             alt='Pool Deck and Retaining Wall'
             className="object-cover"
@@ -85,17 +73,29 @@ export default function NewPlantInstallations() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="bg-red-300 text-4xl p-2"><h1>New Plant Installations</h1></div>
-            <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
-            <div className="bg-red-300 text-3xl p-2">mini title</div>
-            <div className="bg-blue-300 text-lg p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate.</div>
+            <div className=" text-4xl p-2">
+              <h1>
+                New Plant Installations
+              </h1>
+            </div>
+            <div className=" text-lg p-2">
+              <p>
+                Drawing on our extensive experience and a deep-rooted passion for horticulture, we craft gardens that are vibrant and ever-changing throughout the year. 
+              </p>
+              <p className="mt-4">
+                Our expert team meticulously selects the perfect combination of plants suited to your local climate and soil conditions, ensuring that your garden bursts into color with each passing season. Imagine a landscape that greets you with delicate spring blossoms, transforms into a lush and lively oasis during the summer, displays the warm hues of autumn, and even offers a serene, understated charm in the winter.
+              </p>
+              <p className="mt-4">
+                We take pride in creating outdoor spaces that do more than just exist—they tell a story. Our approach combines innovative design with sustainable practices to produce a garden that is both beautiful and resilient. With attention to detail in every planting decision and landscape element, we ensure that your garden becomes a unique sanctuary that not only delights you but also impresses neighbors, family, and friends alike. Let us help you transform your outdoor space into a living masterpiece that evolves gracefully with the seasons.
+              </p>
+            </div>
           </div>
 
           {/* Image Section */}
           <div className="flex justify-center">
             <div className="w-full aspect-[16/9] relative">
               <Image
-                src="/images/service-landscape.png"
+                src="/images/landscape/new_plant_installations/best/front-steps-with-garden-beds.jpg"
                 fill
                 alt="test"
                 className="object-cover rounded-lg p-5"
@@ -103,11 +103,6 @@ export default function NewPlantInstallations() {
             </div>
           </div>
         </section>
-
-        <div className="mb-5 fade-hidden">
-          <div className="bg-red-300 text-3xl p-2">mini title 2</div>
-          <div className="bg-blue-300 text-lg p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit qui aut tempore nemo modi pariatur ad, cum ab aliquid nobis? In soluta reprehenderit vitae iure repudiandae voluptatem sunt atque dolores.</div>
-        </div>
 
         <div>
 

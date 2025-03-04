@@ -15,27 +15,33 @@ export default function WalkwaysAndPatios() {
     }, [])
 
   const images = [
-    "/images/hardscaping/WalkwaysAndPatios/FrontWalkwayBefore.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/brick_walk_and_steps.jpg",
     "/images/hardscaping/WalkwaysAndPatios/FrontWalkwayAfter.jpg",
     "/images/hardscaping/WalkwaysAndPatios/Walkway1.png",
     "/images/hardscaping/WalkwaysAndPatios/PatioWithBorder.jpg",
     "/images/hardscaping/WalkwaysAndPatios/SlabWalkway.jpg",
-    "/images/hardscaping/WalkwaysAndPatios/BlueStonePatio.jpg",
-    "/images/hardscaping/WalkwaysAndPatios/WalkwayWithMulch.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/square_patio_slab.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/patio_and_curved_walkway_with_mulch.jpg",
     "/images/hardscaping/WalkwaysAndPatios/CurvedWalkway.jpg",
     "/images/hardscaping/WalkwaysAndPatios/pool-deck.png",
+    "/images/hardscaping/WalkwaysAndPatios/walk_with_border.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/two_tone_walk_and_steps.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/stone_patio.jpg",
   ];
 
   const enlargedImages = [
-    "/images/hardscaping/WalkwaysAndPatios/FrontWalkwayBefore.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/brick_walk_and_steps.jpg",
     "/images/hardscaping/WalkwaysAndPatios/FrontWalkwayAfter.jpg",
     "/images/hardscaping/WalkwaysAndPatios/Walkway1.png",
     "/images/hardscaping/WalkwaysAndPatios/PatioWithBorder.jpg",
     "/images/hardscaping/WalkwaysAndPatios/SlabWalkway.jpg",
-    "/images/hardscaping/WalkwaysAndPatios/BlueStonePatio.jpg",
-    "/images/hardscaping/WalkwaysAndPatios/WalkwayWithMulch.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/square_patio_slab.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/patio_and_curved_walkway_with_mulch.jpg",
     "/images/hardscaping/WalkwaysAndPatios/CurvedWalkway.jpg",
     "/images/hardscaping/WalkwaysAndPatios/pool-deck.png",
+    "/images/hardscaping/WalkwaysAndPatios/walk_with_border.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/two_tone_walk_and_steps.jpg",
+    "/images/hardscaping/WalkwaysAndPatios/stone_patio.jpg",
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -92,13 +98,16 @@ export default function WalkwaysAndPatios() {
             </div>
             <div className="text-lg p-2">
               <p>
-                Our team installs pavers to the highest standards based upon CHMA and ICPI industry standard guidelines. Along with having over 30 years of practical experience, we’ll happily stand behind our work and give you a product that will stand the test of time.
+                Our team takes pride in installing pavers with meticulous attention to detail, strictly following the latest CHMA and ICPI industry guidelines. With over 30 years of hands-on experience, we’ve honed our craft to ensure that every project we undertake not only looks stunning but also stands the test of time. By combining proven techniques with top-quality materials, we’re confident in our ability to deliver a surface that enhances your outdoor living space while increasing your property’s value. We firmly stand behind our work, giving you the peace of mind that your investment is in the hands of professionals dedicated to excellence.
               </p>
             </div>
             <div className="text-lg p-2">
               <p>
-                Let us handle everything from design to final completion of your walk or patio, including final grading, sod and plant instillations to create a space uniquely yours.
+                From the very first design consultation all the way through to the final touches, we handle every aspect of your walkway or patio installation. Our comprehensive approach includes careful planning, precise grading, and expert sod and plant installations—ensuring your new outdoor area is both functional and visually captivating. 
               </p>
+              <p className="mt-4">
+                Whether you prefer a cozy gathering spot, an expansive entertainment area, or a stunning walkway that creates an inviting entrance, our team works closely with you to create a space that reflects your personal style. Let us transform your vision into a reality, delivering an outdoor living environment you’ll love for years to come.
+              </p>  
             </div>
           </div>
 

@@ -54,7 +54,7 @@ export default function Landscaping() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="flex flex-col items-center">
                   <Link
-                    href={'/WalkwaysAndPatios'}
+                    href={'/GardenDesign'}
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
@@ -67,16 +67,16 @@ export default function Landscaping() {
                   </Link>
                   <div className="w-full text-center">
                     <Link
-                      href={'/WalkwaysAndPatios'}>
+                      href={'/GardenDesign'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                          Walkways & Patios
+                          Garden Design
                         </h1>
                     </Link>
                   </div>
                 </div>
                 <div className="flex flex-col items-center">
                   <Link
-                    href={'/PoolDecks'}
+                    href={'/NewPlantInstallations'}
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
@@ -89,16 +89,16 @@ export default function Landscaping() {
                   </Link>
                   <div className="w-full text-center">
                     <Link
-                      href={'/PoolDecks'}>
+                      href={'/NewPlantInstallations'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                          Pool Decks
+                          New Plant Installations
                         </h1>
                     </Link>
                   </div>
                 </div>
-                <div className="flex flex-col items-center">
+                {/* <div className="flex flex-col items-center">
                   <Link
-                    href={'/FencingAndRetainingWalls'}
+                    href={'/DrainageAndGradingSolutions'}
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
@@ -111,16 +111,16 @@ export default function Landscaping() {
                   </Link>
                   <div className="w-full text-center">
                     <Link
-                      href={'/FencingAndRetainingWalls'}>
+                      href={'/DrainageAndGradingSolutions'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                          Fencing & Retaining Walls
+                          Drainage And Grading Solutions
                         </h1>
                     </Link>
                   </div>
-                </div>
+                </div> */}
                 <div className="flex flex-col items-center">
                   <Link
-                    href={'/NaturalStoneWork'}
+                    href={'/SeasonalServices'}
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
@@ -133,9 +133,9 @@ export default function Landscaping() {
                   </Link>
                   <div className="w-full text-center">
                     <Link
-                      href={'/NaturalStoneWork'}>
+                      href={'/SeasonalServices'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                        Natural Stone Work
+                        Seasonal Services
                         </h1>
                     </Link>
                   </div>

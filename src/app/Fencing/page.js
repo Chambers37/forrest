@@ -79,10 +79,10 @@ export default function Fencing() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="text-4xl p-2"><h1>Fencing</h1></div>
+            <div className="text-4xl p-2"><h1>Fencing & Railing</h1></div>
             <div className="text-lg p-2">
               <p>
-                Looking to define your space? We offer a range of fencing solutions, including vinyl privacy fencing, aluminum pool fencing, cedar, pressure-treated wood, and iron fencing and railings. Whether your property is large or small, we’ll design and install a fence that’s both stylish and functional.
+                Looking to define your space? We offer a range of fencing and railing solutions, including vinyl privacy fencing, aluminum pool fencing, cedar, pressure-treated wood, and iron fencing and railings. Whether your property is large or small, we’ll design and install a fence that’s both stylish and functional.
               </p>
             </div>
             <div className="text-lg p-2">

@@ -146,7 +146,7 @@ export default function Hardscaping() {
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
-                      src={'/images/img1.jpg'} 
+                      src={'/images/hardscaping/RetainingWalls/main_wall.png'} 
                       fill
                       className="object-cover"
                       alt='test'
@@ -168,7 +168,7 @@ export default function Hardscaping() {
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
-                      src={'/images/img1.jpg'} 
+                      src={'/images/hardscaping/NaturalStoneWork/rear_patio_with_steps.jpg'} 
                       fill
                       className="object-cover"
                       alt='test'
@@ -184,28 +184,33 @@ export default function Hardscaping() {
                     </Link>
                   </div>
                 </div>
-                <div className="flex flex-col items-center">
+            </div>
+          </section>
+
+          <section>
+            <div>
+              <div className="flex flex-col items-center">
+                <Link
+                  href={'/OutdoorLivingSpaces'}
+                  className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
+                >                    
+                  <Image 
+                    src={'/images/hardscaping/outdoor_living_spaces/top_of_page/patio_and_firepit.jpg'} 
+                    fill
+                    className="object-cover"
+                    alt='test'
+                  />
+                  
+                </Link>
+                <div className="w-full text-center">
                   <Link
-                    href={'/OutdoorLivingSpaces'}
-                    className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
-                  >                    
-                    <Image 
-                      src={'/images/img1.jpg'} 
-                      fill
-                      className="object-cover"
-                      alt='test'
-                    />
-                    
+                    href={'/OutdoorLivingSpaces'}>
+                      <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
+                      Outdoor Living Spaces
+                      </h1>
                   </Link>
-                  <div className="w-full text-center">
-                    <Link
-                      href={'/OutdoorLivingSpaces'}>
-                        <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                        Outdoor Living Spaces
-                        </h1>
-                    </Link>
-                  </div>
                 </div>
+              </div>
             </div>
           </section>
 
