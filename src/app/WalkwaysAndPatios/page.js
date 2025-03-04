@@ -81,7 +81,7 @@ export default function WalkwaysAndPatios() {
         
         {/* Back to Services Button */}
         <section className="flex justify-center my-4 fade-hidden">
-          <Link href='/Services'>
+          <Link href='/services'>
             <button className="text-lg text-darkGreen bg-transparent underline hover:outline hover:outline-black hover:outline-1 rounded px-1 py-1">
               Back To Services
             </button>

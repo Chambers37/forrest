@@ -31,7 +31,7 @@ export default function Hardscaping() {
         
         {/* Back to Services Button */}
         <section className="flex justify-center my-4 mb-1 fade-hidden">
-          <Link href='/Services'>
+          <Link href='/services'>
             <button className="text-lg text-darkGreen bg-transparent underline hover:outline hover:outline-black hover:outline-1 rounded px-1 py-1">
               Back To Services
             </button>
@@ -80,7 +80,7 @@ export default function Hardscaping() {
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
-                      src={'/images/hardscaping/walkways.png'} 
+                      src={'/images/hardscaping/WalkwaysAndPatios/Walkway1.png'} 
                       fill
                       className="object-cover"
                       alt='test'
