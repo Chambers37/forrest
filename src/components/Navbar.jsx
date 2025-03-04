@@ -45,9 +45,9 @@ export default function Navbar() {
         ${menuOpen ? 'block' : 'hidden md:flex'}`}
       >
         <NavItem href="/" pathname={pathname}>Home</NavItem>
-        <NavItem href="/Services" pathname={pathname}>Our Services</NavItem>
+        <NavItem href="/services" pathname={pathname}>Our Services</NavItem>
         <NavItem href="/quote" pathname={pathname}>Request A Quote</NavItem>
-        <NavItem href="/Portfolio" pathname={pathname}>Portfolio</NavItem>
+        <NavItem href="/portfolio" pathname={pathname}>Portfolio</NavItem>
         <NavItem href="/about" pathname={pathname}>About Us</NavItem>
       </nav>
 
