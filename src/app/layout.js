@@ -1,6 +1,8 @@
-import Navbar from "../components/Navbar"
+import Navbar from "../components/Navbar";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/react"
 import '../styles/globals.css';
+
 
 export const metadata = {
   title: 'Forrest Hardscape and Landscape',
@@ -14,6 +16,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="flex-grow pt-[90px]">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
