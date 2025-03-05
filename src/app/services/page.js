@@ -53,7 +53,7 @@ export default function Services() {
                   src='/images/hardscaping/3DDesignRendering/design-rendering.png'
                   width={200}
                   height={200}
-                  alt='test'
+                  alt='Hardscaping services category photo'
                   className="hover:opacity-80"
                 />
               </Link>
@@ -79,10 +79,10 @@ export default function Services() {
                   href={'/Landscaping'}
                 >
                   <Image 
-                    src='/images/landscaping-category.png'
+                    src='/images/Landscaping-category.png'
                     width={200}
                     height={200}
-                    alt='test'
+                    alt='Landscaping services category photo'
                     className="hover:opacity-80"
                   />
                 </Link>
