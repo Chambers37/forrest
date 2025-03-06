@@ -54,20 +54,22 @@ export default function Homepage() {
                to-lightGreen p-7">
 
         <div className="fade-hidden w-full px-8">
-          <p className="p-2 text-2xl font-medium text-darkGreen"><Link href="/Services">Our Services</Link></p>
-          <h1 className="hover:text-black transition duration-300 p-4 text-6xl font-medium text-darkGreen"><Link href="/Hardscaping">Hardscaping Services</Link></h1>
-          <hr className="m-1 border-black"></hr>
-          <h1 className="hover:text-black transition duration-300 p-4 text-6xl font-medium text-darkGreen"><Link href="/WalkwaysAndPatios">Walkways & Patios</Link></h1>
-          <hr className="m-1 border-black"></hr>
-          <h1 className="hover:text-black transition duration-300 p-4 text-6xl font-medium text-darkGreen"><Link href="/NaturalStoneWork">Natural Stone Work</Link></h1>
-          <hr className="m-1 border-black"></hr>
-          <h1 className="hover:text-black transition duration-300 p-4 text-6xl font-medium text-darkGreen"><Link href="/OutdoorLivingSpaces">Outdoor Living Spaces</Link></h1>
-          <hr className="m-1 border-black"></hr>
-          <h1 className="hover:text-black transition duration-300 p-4 text-6xl font-medium text-darkGreen"><Link href="/Landscaping">Landscaping Services</Link></h1>
-          <hr className="m-1 border-black"></hr>
-          <Link href="/Services">
-            <button className="min-w-[150px] w-1/4 bg-darkGreen hover:text-black hover:bg-lightGreen font-medium rounded-full text-white p-4 mt-6 mb-5 transition duration-300">View All Services</button>
-          </Link>
+          <p className="text-center md:text-left p-2 text-2xl font-medium text-darkGreen"><Link href="/Services">Our Services</Link></p>
+          <h1 className="text-center md:text-left text-4xl hover:text-black transition duration-300 md:p-4 md:text-6xl font-medium text-darkGreen"><Link href="/Hardscaping">Hardscaping Services</Link></h1>
+          <hr className="m-2 border-black"></hr>
+          <h1 className="text-center md:text-left text-4xl hover:text-black transition duration-300 md:p-4 md:text-6xl font-medium text-darkGreen"><Link href="/WalkwaysAndPatios">Walkways & Patios</Link></h1>
+          <hr className="m-2 border-black"></hr>
+          <h1 className="text-center md:text-left text-4xl hover:text-black transition duration-300 md:p-4 md:text-6xl font-medium text-darkGreen"><Link href="/NaturalStoneWork">Natural Stone Work</Link></h1>
+          <hr className="m-2 border-black"></hr>
+          <h1 className="text-center md:text-left text-4xl hover:text-black transition duration-300 md:p-4 md:text-6xl font-medium text-darkGreen"><Link href="/OutdoorLivingSpaces">Outdoor Living Spaces</Link></h1>
+          <hr className="m-2 border-black"></hr>
+          <h1 className="text-center md:text-left text-4xl hover:text-black transition duration-300 md:p-4 md:text-6xl font-medium text-darkGreen"><Link href="/Landscaping">Landscaping Services</Link></h1>
+          <hr className="m-2 border-black"></hr>
+          <div className="text-center md:text-left">
+            <Link href="/Services">
+              <button className="min-w-[175px] max-w-[300px] w-1/2 bg-darkGreen hover:text-black hover:bg-lightGreen font-medium rounded-full text-white p-4 mt-6 mb-5 transition duration-300">View All Services</button>
+            </Link>
+          </div>
         </div>
 
       </section>
@@ -96,24 +98,24 @@ export default function Homepage() {
       {/** Why Us */}
       <section>
         <div className="fade-hidden grid grid-cols-1 md:grid-cols-2 pt-10">
-          <div className="self-center pl-20">
-            <h1 className="text-6xl text-darkGreen">Why Choose Us</h1>
+          <div className="text-center md:self-center md:pl-20 md:pr-10">
+            <h1 className="mb-5 md:mb-0 text-6xl text-darkGreen">Why Choose Us</h1>
           </div>
-          <div className="pr-20 text-lg mx-auto max-w-[680px]">
-            <p>Forrest Hardscape & Landscape is a full-service company servicing the greater Chester County region.</p>
+          <div className="text-center md:text-left px-10 md:pr-20 md:pl-10 text-lg mx-auto max-w-[680px]">
+            <p className="indent-8">Forrest Hardscape & Landscape is a full-service company servicing the greater Chester County region.</p>
             <p className="mb-6">Forrest Hardscape & Landscape is a full-service company servicing the greater Chester County region.</p>
-            <p>With 18 years of experience in the horticultural industry, Matt and his team, work with homeowners and businesses to design, install, and maintain landscape and hardscape projects, both big and small.</p>
+            <p className="indent-8">With 18 years of experience in the horticultural industry, Matt and his team, work with homeowners and businesses to design, install, and maintain landscape and hardscape projects, both big and small.</p>
           </div>
         </div>
       </section>
           <hr className="col-span-2 border-darkGreen m-10 mx-20"></hr>
       <section>
         <div>
-          <div className="fade-hidden text-3xl justify-center gap-10 md:gap-20 lg:gap-40 mx-20 flex col-span-1 md:col-span-2">
-            <div><p className="text-darkGreen">On Time, Every Time</p></div>
-            <div><p className="text-darkGreen">Experienced Team Members</p></div>
-            <div><p className="text-darkGreen">High Quality Materials</p></div>
-            <div><p className="text-darkGreen">Trusted and Insured</p></div>
+          <div className="fade-hidden text-3xl justify-center gap-6 md:gap-20 lg:gap-40 mx-5 md:mx-20 grid grid-cols-2 md:grid-cols-4">
+            <div><p className="text-center text-darkGreen">On Time, Every Time</p></div>
+            <div><p className="text-center text-darkGreen">Experienced Team Members</p></div>
+            <div><p className="text-center text-darkGreen">High Quality Materials</p></div>
+            <div><p className="text-center text-darkGreen">Trusted and Insured</p></div>
           </div>
         </div>
       </section>
