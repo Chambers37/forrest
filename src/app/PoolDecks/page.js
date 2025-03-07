@@ -105,7 +105,7 @@ export default function PoolDecks() {
             <div className="flex justify-center">
               <div className="w-full aspect-[16/9] relative">
                 <Image
-                  src="/images/hardscaping/pooldecks/FullPoolDeck.jpg"
+                  src="/images/hardscaping/Pooldecks/FullPoolDeck.jpg"
                   fill
                   alt="test"
                   className="object-cover rounded-lg p-5"
