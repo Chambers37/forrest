@@ -15,21 +15,21 @@ export default function Fencing() {
     }, [])
 
   const images = [
-    "/images/hardscaping/fencing/AluminumFence2.jpg",
-    "/images/hardscaping/fencing/AluminumFence3.jpg",
-    "/images/hardscaping/fencing/AluminumFence4.jpg",
-    "/images/hardscaping/fencing/Deck_railing.jpg",
-    "/images/hardscaping/fencing/White_Vinyl.jpg",
-    "/images/hardscaping/fencing/Steps_Railing.jpg",
+    "/images/hardscaping/Fencing/AluminumFence2.jpg",
+    "/images/hardscaping/Fencing/AluminumFence3.jpg",
+    "/images/hardscaping/Fencing/AluminumFence4.jpg",
+    "/images/hardscaping/Fencing/Deck_railing.jpg",
+    "/images/hardscaping/Fencing/White_Vinyl.jpg",
+    "/images/hardscaping/Fencing/Steps_Railing.jpg",
   ];
 
   const enlargedImages = [
-    "/images/hardscaping/fencing/AluminumFence2.jpg",
-    "/images/hardscaping/fencing/AluminumFence3.jpg",
-    "/images/hardscaping/fencing/AluminumFence4.jpg",
-    "/images/hardscaping/fencing/Deck_railing.jpg",
-    "/images/hardscaping/fencing/White_Vinyl.jpg",
-    "/images/hardscaping/fencing/Steps_Railing.jpg",
+    "/images/hardscaping/Fencing/AluminumFence2.jpg",
+    "/images/hardscaping/Fencing/AluminumFence3.jpg",
+    "/images/hardscaping/Fencing/AluminumFence4.jpg",
+    "/images/hardscaping/Fencing/Deck_railing.jpg",
+    "/images/hardscaping/Fencing/White_Vinyl.jpg",
+    "/images/hardscaping/Fencing/Steps_Railing.jpg",
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -57,7 +57,7 @@ export default function Fencing() {
       <section className="w-full">
         <div className="relative w-full h-[400px]">
           <Image
-            src="/images/hardscaping/fencing/CedarFencing.jpg"
+            src="/images/hardscaping/Fencing/CedarFencing.jpg"
             fill
             alt='Pool Deck and Retaining Wall'
             className="object-cover"
@@ -96,7 +96,7 @@ export default function Fencing() {
           <div className="flex justify-center">
             <div className="w-full aspect-[16/9] relative">
               <Image
-                src="/images/hardscaping/fencing/AluminumFence1.jpg"
+                src="/images/hardscaping/Fencing/AluminumFence1.jpg"
                 fill
                 alt="test"
                 className="object-cover rounded-lg p-5"
