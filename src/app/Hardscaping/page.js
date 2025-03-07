@@ -102,7 +102,7 @@ export default function Hardscaping() {
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
-                      src={'/images/hardscaping/pool-deck.png'} 
+                      src={'/images/hardscaping/PoolDecks/FullPoolDeck.jpg'} 
                       fill
                       className="object-cover"
                       alt='test'
@@ -124,7 +124,7 @@ export default function Hardscaping() {
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
-                      src={"/images/hardscaping/fencing/CedarFencing.jpg"} 
+                      src={"/images/hardscaping/Fencing/CedarFencing.jpg"} 
                       fill
                       className="object-cover"
                       alt='test'
