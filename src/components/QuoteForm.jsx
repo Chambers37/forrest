@@ -48,9 +48,9 @@ export default function QuoteForm() {
 
         <div className="grid items-center bg-greenWhite fade-hidden w-full justify-center">
           <div className="mx-auto max-w-[680px] text-center">
-            <p className="text-center text-darkGreen text-6xl">
+            <p className="text-center text-darkGreen text-5xl md:text-6xl md:pb-10">
             Contact us today <br /> to create your <br /> dream outdoor <br /> living space!</p>
-            <p className="text-center text-darkGreen text-xl px-10 md:px-20 pt-4 pb-20">Let us know some information about you and the project or area you are looking to transform. We will reach out to you shortly & we look forward to working with you!
+            <p className="text-center text-darkGreen text-xl px-10 md:px-20 py-4 md:pb-20">Let us know some information about you and the project or area you are looking to transform. We will reach out to you shortly & we look forward to working with you!
             </p>
           </div>
         </div>
@@ -58,7 +58,7 @@ export default function QuoteForm() {
         {/*Quote Form*/}
         <div className="bg-greenWhite fade-hidden flex w-full mx-auto p-3 items-center justify-center">
 
-          <form onSubmit={handleSubmit} className="max-w-lg w-full text-2xl grid grid-cols-1 md:grid-cols-2 gap-7 m-20">
+          <form onSubmit={handleSubmit} className="max-w-lg w-full text-2xl grid grid-cols-1 md:grid-cols-2 gap-7 m-5 md:m-10">
             
             <div>
               <label htmlFor="first-name" className="text-darkGreen">
@@ -165,7 +165,7 @@ export default function QuoteForm() {
               <textarea 
                 name="message" 
                 placeholder="Write your message here" 
-                className="hover:bg-white mt-2 h-[12vh] bg-transparent border-2 border-solid transition duration-300 border-darkGreen p-2 text-sm"
+                className="hover:bg-white mt-2 h-[15vh] bg-transparent border-2 border-solid transition duration-300 border-darkGreen p-2 text-sm"
                 value={formData.message}
                 onChange={handleChange}
               />
