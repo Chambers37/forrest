@@ -10,7 +10,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="h-[90px] flex fixed z-50 top-0 w-full justify-between bg-greenWhite pt-4 pb-1 shadow-lg">
+    <div className="h-[90px] flex items-center fixed z-50 top-0 w-full justify-between bg-greenWhite px-4 shadow-lg">
 
       {/* Logo */}
       <Link href="/">
@@ -19,20 +19,20 @@ export default function Navbar() {
           width={300}
           height={96}
           alt="Forrest Hardscape and Landscape"
-          className="pr-4 h-[72px] w-[225px] object-contain block ml-2 md:ml-3 lg:ml-5"
+          className="h-[72px] w-[225px] object-contain mt-3"
         />
       </Link>
 
       {/* Call Button */}
-      <Link href="tel:6103296293" className="block md:hidden">
-        <button className="hover:bg-darkGreen hover:border-white hover:text-greenWhite hover:scale-110 transition duration-300 self-end rounded-lg bg-lightGreen border-lightGreen border-solid border-2 px-3 md:mr-5 py-2">
+      {/* <Link href="tel:6103296293" className="sm:hidden">
+        <button className="hover:bg-darkGreen hover:border-white hover:text-greenWhite hover:scale-110 transition duration-300 rounded-lg bg-lightGreen border-lightGreen border-2 px-3 py-2">
           Call Today
         </button>
-      </Link>
+      </Link> */}
 
       {/* Mobile Menu Button */}
       <button
-        className="md:hidden text-green-800 text-3xl mr-1 focus:outline-none"
+        className="md:hidden text-green-800 text-5xl focus:outline-none"
         onClick={() => setMenuOpen(!menuOpen)}
       >
         {menuOpen ? '✖' : '☰'}
@@ -63,7 +63,7 @@ function NavItem({ href, pathname, setMenuOpen, children }) {
       href={href}
       className={`text-l font-Merriweather hover:scale-110 font-bold italic transition duration-200 
       ${pathname === href ? 'text-black' : 'text-green-800 hover:text-lightGreen'}`}
-      onClick={() => setMenuOpen(false)} 
+      onClick={() => setMenuOpen(false)}
     >
       {children}
     </Link>
