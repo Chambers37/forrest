@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import '../styles/globals.css';
 
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
         <main className="flex-grow pt-[90px]">{children}</main>
         <Footer />
         <Analytics />
+        <SpeedInsights/>
       </body>
     </html>
   );
