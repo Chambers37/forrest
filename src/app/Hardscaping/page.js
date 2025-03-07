@@ -184,12 +184,7 @@ export default function Hardscaping() {
                     </Link>
                   </div>
                 </div>
-            </div>
-          </section>
-
-          <section>
-            <div>
-              <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center">
                 <Link
                   href={'/OutdoorLivingSpaces'}
                   className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
