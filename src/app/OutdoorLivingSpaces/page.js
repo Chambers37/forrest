@@ -141,7 +141,7 @@ export default function OutdoorLivingSpaces() {
                     src='/images/hardscaping/outdoor_living_spaces/firepits/firepit_with_wall.jpg'
                     fill
                     alt='Pool Deck and Retaining Wall'
-                    className="object-cover"
+                    className="object-cover hover:opacity-70"
                   />
                 </div>
               </div>
@@ -151,7 +151,7 @@ export default function OutdoorLivingSpaces() {
                     src='/images/hardscaping/outdoor_living_spaces/firepits/firepit_and_chair.png'
                     fill
                     alt='Pool Deck and Retaining Wall'
-                    className="object-cover"
+                    className="object-cover hover:opacity-70"
                   />
                 </div>
               </div>
@@ -185,7 +185,7 @@ export default function OutdoorLivingSpaces() {
                     src='/images/hardscaping/outdoor_living_spaces/pavilions/brown_pavilion.jpg'
                     fill
                     alt='Pool Deck and Retaining Wall'
-                    className="object-cover"
+                    className="object-cover hover:opacity-70"
                   />
                 </div>
               </div>
@@ -195,7 +195,7 @@ export default function OutdoorLivingSpaces() {
                     src='/images/hardscaping/outdoor_living_spaces/pavilions/pavilion_side.jpg'
                     fill
                     alt='Pool Deck and Retaining Wall'
-                    className="object-cover"
+                    className="object-cover hover:opacity-70"
                   />
                 </div>
               </div>
@@ -205,7 +205,7 @@ export default function OutdoorLivingSpaces() {
                     src='/images/hardscaping/outdoor_living_spaces/pavilions/inside_pavilion.jpg'
                     fill
                     alt='Pool Deck and Retaining Wall'
-                    className="object-cover"
+                    className="object-cover hover:opacity-70"
                   />
                 </div>
               </div>
@@ -238,7 +238,7 @@ export default function OutdoorLivingSpaces() {
                   src='/images/hardscaping/outdoor_living_spaces/outdoor_kitchen/outdoor_kitchen.jpg'
                   fill
                   alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
+                  className="object-cover hover:opacity-70"
                 />
               </div>
             </div>
@@ -270,7 +270,7 @@ export default function OutdoorLivingSpaces() {
                   src='/images/hardscaping/outdoor_living_spaces/decks/pooldeck.jpg'
                   fill
                   alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
+                  className="object-cover hover:opacity-70"
                 />
               </div>
             </div>
@@ -280,7 +280,7 @@ export default function OutdoorLivingSpaces() {
                   src='/images/hardscaping/outdoor_living_spaces/decks/deck_stairs.jpg'
                   fill
                   alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
+                  className="object-cover hover:opacity-70"
                 />
               </div>
             </div>
@@ -290,7 +290,7 @@ export default function OutdoorLivingSpaces() {
                   src='/images/hardscaping/outdoor_living_spaces/decks/finished_deck.png'
                   fill
                   alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
+                  className="object-cover hover:opacity-70"
                 />
               </div>
             </div>
@@ -325,7 +325,7 @@ export default function OutdoorLivingSpaces() {
                   src='/images/hardscaping/outdoor_living_spaces/lighting/walkway_lights.jpg'
                   fill
                   alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
+                  className="object-cover hover:opacity-70"
                 />
               </div>
             </div>
@@ -335,7 +335,7 @@ export default function OutdoorLivingSpaces() {
                   src='/images/hardscaping/outdoor_living_spaces/lighting/nighttime_pool_lighting.jpg'
                   fill
                   alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
+                  className="object-cover hover:opacity-70"
                 />
               </div>
             </div>
@@ -345,7 +345,7 @@ export default function OutdoorLivingSpaces() {
                   src='/images/hardscaping/outdoor_living_spaces/lighting/patio_lights.png'
                   fill
                   alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
+                  className="object-cover hover:opacity-70"
                 />
               </div>
             </div>
