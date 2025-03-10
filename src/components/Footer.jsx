@@ -8,8 +8,8 @@ export default function Footer() {
       <div className="bg-greenWhite grid grid-cols-1 md:grid-cols-3">
         <div className="flex justify-center items-center w-full md:pl-20">
           <div className="text-center text-darkGreen text-2xl font-medium">
-            <p className="pt-3">Get In Touch today to design your </p>
-            <p className="pb-3">outdoor oasis!</p>
+            <p className="pt-3">Get In Touch Today To Design Your </p>
+            <p className="pb-3">Outdoor Oasis!</p>
           </div>
         </div>
         <div className="grid justify-center items-center">
