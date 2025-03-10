@@ -109,7 +109,7 @@ export default function SeasonalServices() {
               </h1>
             </div>
           </div>
-          <div className="grid sm:grid-cols-1 md:grid-cols-4">
+          <div className="grid sm:grid-cols-1 md:grid-cols-3">
             <div className="p-2">
               <div className="text-center md:text-left">
                 <p>
@@ -129,16 +129,6 @@ export default function SeasonalServices() {
             </div>
             <div className="p-2 flex items-center">
               <div className="relative w-full h-[300px]">
-                <Image
-                  src='/images/services-banner-cropped.png'
-                  fill
-                  alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
-                />
-              </div>
-            </div>
-            <div className="p-2 flex items-center">
-            <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -162,7 +152,7 @@ export default function SeasonalServices() {
               </h1>
             </div>
           </div>
-          <div className="grid sm:grid-cols-1 md:grid-cols-4">
+          <div className="grid sm:grid-cols-1 md:grid-cols-3">
             <div className="p-2">
               <div className="text-center md:text-left">
                 <p>
@@ -182,16 +172,6 @@ export default function SeasonalServices() {
             </div>
             <div className="p-2 flex items-center">
               <div className="relative w-full h-[300px]">
-                <Image
-                  src='/images/services-banner-cropped.png'
-                  fill
-                  alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
-                />
-              </div>
-            </div>
-            <div className="p-2 flex items-center">
-            <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -214,22 +194,12 @@ export default function SeasonalServices() {
               </h1>
             </div>
           </div>
-          <div className="grid sm:grid-cols-1 md:grid-cols-4">
+          <div className="grid sm:grid-cols-1 md:grid-cols-3">
             <div className="p-2">
               <div className="text-center md:text-left">
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quo. Nesciunt error ullam debitis cupiditate odio veniam sunt quisquam cum ipsa atque, voluptas neque iste perspiciatis laudantium. Iste, ex mollitia?
                 </p>
-              </div>
-            </div>
-            <div className="p-2 flex items-center">
-              <div className="relative w-full h-[300px]">
-                <Image
-                  src='/images/services-banner-cropped.png'
-                  fill
-                  alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
-                />
               </div>
             </div>
             <div className="p-2 flex items-center">
@@ -266,7 +236,7 @@ export default function SeasonalServices() {
               </h1>
             </div>
           </div>
-          <div className="grid sm:grid-cols-1 md:grid-cols-4">
+          <div className="grid sm:grid-cols-1 md:grid-cols-3">
             <div className="p-2">
               <div className="text-center md:text-left">
                 <p>
@@ -286,16 +256,6 @@ export default function SeasonalServices() {
             </div>
             <div className="p-2 flex items-center">
               <div className="relative w-full h-[300px]">
-                <Image
-                  src='/images/services-banner-cropped.png'
-                  fill
-                  alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
-                />
-              </div>
-            </div>
-            <div className="p-2 flex items-center">
-            <div className="relative w-full h-[300px]">
                 <Image
                   src='/images/services-banner-cropped.png'
                   fill
@@ -306,58 +266,6 @@ export default function SeasonalServices() {
             </div>
           </div>
         </section>
-
-        {/* <hr className="border-2 fade-hidden mb-3 border-darkGreen"/> */}
-
-        {/* Outdoor Lighting */}
-        {/* <section className="flex flex-col fade-hidden mb-3">
-          <div>
-            <div>
-              <h1 className="text-2xl font-medium pl-2 text-center md:text-left">
-                Outdoor Lighting
-              </h1>
-            </div>
-          </div>
-          <div className="grid sm:grid-cols-1 md:grid-cols-4">
-            <div className="p-2">
-              <div className="text-center md:text-left">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quo. Nesciunt error ullam debitis cupiditate odio veniam sunt quisquam cum ipsa atque, voluptas neque iste perspiciatis laudantium. Iste, ex mollitia?
-                </p>
-              </div>
-            </div>
-            <div className="p-2 flex items-center">
-              <div className="relative w-full h-[300px]">
-                <Image
-                  src='/images/services-banner-cropped.png'
-                  fill
-                  alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
-                />
-              </div>
-            </div>
-            <div className="p-2 flex items-center">
-              <div className="relative w-full h-[300px]">
-                <Image
-                  src='/images/services-banner-cropped.png'
-                  fill
-                  alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
-                />
-              </div>
-            </div>
-            <div className="p-2 flex items-center">
-            <div className="relative w-full h-[300px]">
-                <Image
-                  src='/images/services-banner-cropped.png'
-                  fill
-                  alt='Pool Deck and Retaining Wall'
-                  className="object-cover"
-                />
-              </div>
-            </div>
-          </div>
-        </section> */}
       </div>
     </div>
   );
