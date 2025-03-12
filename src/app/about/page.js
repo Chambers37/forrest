@@ -6,7 +6,7 @@ export default function About() {
 
       {/* Image Banner */}
         <section className="relative">
-          <div className="relative w-full max-w-[4000px] h-[300px] overflow-hidden">
+          <div className="relative w-full max-w-[4000px] h-[175px] md:h-[300px] overflow-hidden">
             <Image
               src='/images/services-banner-cropped.png'
               fill
@@ -21,19 +21,18 @@ export default function About() {
 
       {/* About Us Text */}
       <section className="flex flex-col justify-center">
-        <div className="mt-5 text-center  justify-center mx-auto max-w-screen-2xl grid grid-cols-1 md:grid-cols-2">
+        <div className="mt-5 text-center justify-center mx-auto max-w-screen-2xl grid grid-cols-1 md:grid-cols-2">
           <div className="flex justify-center w-full">
-            <div className="text-8xl text-darkGreen w-4/5 flex justify-center font-medium items-center pt-4">
+            <div className="text-4xl md:text-8xl text-darkGreen w-4/5 flex justify-center font-medium items-center pt-4">
               <h1>About Us</h1>
             </div>
           </div>
-            <div className="py-4">
-              <div className="px-3 pb-7 mr-10">Forrest Hardscape & Landscape is a dedicated team of skilled professionals with a deep-rooted passion for transforming outdoor spaces, bringing generations of expertise in hardscaping, landscaping, and horticultural craftsmanship to every project.
-              </div>
-              <div className="px-3 pb-7 mr-10">With over <strong>100</strong> years of combined experience, we are committed to quality, precision, and customer satisfaction, the team works collaboratively to design, build, and maintain stunning landscapes that enhance the beauty, functionality, and value of residential and commercial properties across Chester County and beyond.
-              </div>
-              <div></div>
+          <div className="py-4">
+            <div className="px-5 pb-7 md:mr-10">Forrest Hardscape & Landscape is a dedicated team of skilled professionals with a deep-rooted passion for transforming outdoor spaces, bringing generations of expertise in hardscaping, landscaping, and horticultural craftsmanship to every project.
             </div>
+            <div className="px-5 pb-7 md:mr-10">With over <strong>100</strong> years of combined experience, we are committed to quality, precision, and customer satisfaction, the team works collaboratively to design, build, and maintain stunning landscapes that enhance the beauty, functionality, and value of residential and commercial properties across Chester County and beyond.
+            </div>
+          </div>
         </div>
         {/* Images */}
         <div>
@@ -44,6 +43,7 @@ export default function About() {
               width={400}
               height={500}
               alt='test'
+              className="w-80 h-80 sm:w-100 sm:h-100 md:w-80 md:h-96 object-cover"
             />
           </div>
           <div className="flex justify-center py-2 md:justify-center">
@@ -52,6 +52,7 @@ export default function About() {
               width={400}
               height={500}
               alt='test'
+              className="w-80 h-80 sm:w-60 sm:h-80 md:w-80 md:h-96 object-cover"
             />
           </div>
           <div className="flex justify-center py-2 md:justify-start">
@@ -60,6 +61,7 @@ export default function About() {
               width={400}
               height={500}
               alt='test'
+              className="w-80 h-80 sm:w-60 sm:h-80 md:w-80 md:h-96 object-cover"
             />
           </div>
           </div>
@@ -73,13 +75,14 @@ export default function About() {
           <div className="text-center text-5xl text-darkGreen font-medium pt-10">
             <h1>Meet The Team</h1>
           </div>
-          <div className="text-center text-xl text-darkGreen font-medium pt-5">
-            <p>Matt and his team have a combined 35+ years <br /> of experience in the landscape field!</p>
+          <div className="text-center text-xl text-darkGreen font-medium pt-5 px-5">
+            <p>Matt and his team have a combined</p>
+            <p>35+ years of experience in the landscape field!</p>
           </div>
         </div>
 
         {/* Team Photos */}
-        <div className="my-8 grid grid-cols-1 md:grid-cols-3 justify-center mx-auto max-w-screen-2xl gap-6"> 
+        <div className="my-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center mx-5 lg:mx-auto max-w-screen-2xl gap-6"> 
           {/* Matt Siter */}
           <div className="flex flex-col h-full bg-white shadow-2xl rounded-3xl">
             <div className="h-[400px] flex justify-center">
@@ -97,7 +100,7 @@ export default function About() {
               </h1>
               <h2 className="text-center font-medium">Owner / Operator</h2>
               <hr className="my-4 border-black" />
-              <p className="indent-8 text-xl mb-4 pr-6 flex-grow">
+              <p className="md:indent-8 text-xl mb-4 text-center md:text-left md:pr-6 flex-grow">
                 Matt Siter is the owner of Forrest Hardscape & Landscape. Born and raised in Chester County, Matt is the fourth generation of his family to be involved in the horticultural field. He has been laying bricks, digging shrubs, and planting trees since he could hold a shovel.
               </p>
               <p className="indent-8 text-xl pr-6">
