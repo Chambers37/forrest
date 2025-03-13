@@ -15,21 +15,21 @@ export default function PoolDecks() {
     }, [])
     
   const images = [
-    "/images/hardscaping/PoolDecks/PoolDeckBefore.jpg",
-    "/images/hardscaping/PoolDecks/PoolDeckAfter.jpg",
-    "/images/hardscaping/PoolDecks/PoolDeckWalkway.jpg",
-    "/images/hardscaping/PoolDecks/LargePoolDeck.png",
-    "/images/hardscaping/PoolDecks/PoolAndWall.jpg",
     "/images/hardscaping/PoolDecks/PoolDeck.jpg",
+    "/images/hardscaping/PoolDecks/PoolDeckAfter.jpg",
+    "/images/hardscaping/PoolDecks/PoolAndWall.jpg",
+    "/images/hardscaping/PoolDecks/LargePoolDeck.png",
+    "/images/hardscaping/PoolDecks/PoolDeckWalkway.jpg",
+    "/images/hardscaping/PoolDecks/Pool_Deck.jpg",
   ];
 
   const enlargedImages = [
-    "/images/hardscaping/PoolDecks/PoolDeckBefore.jpg",
-    "/images/hardscaping/PoolDecks/PoolDeckAfter.jpg",
-    "/images/hardscaping/PoolDecks/PoolDeckWalkway.jpg",
-    "/images/hardscaping/PoolDecks/LargePoolDeck.png",
-    "/images/hardscaping/PoolDecks/PoolAndWall.jpg",
     "/images/hardscaping/PoolDecks/PoolDeck.jpg",
+    "/images/hardscaping/PoolDecks/PoolDeckAfter.jpg",
+    "/images/hardscaping/PoolDecks/PoolAndWall.jpg",
+    "/images/hardscaping/PoolDecks/LargePoolDeck.png",
+    "/images/hardscaping/PoolDecks/PoolDeckWalkway.jpg",
+    "/images/hardscaping/PoolDecks/Pool_Deck.jpg",
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -86,17 +86,17 @@ export default function PoolDecks() {
             </div>
             <div className="text-lg p-2">
               <p>
-                Getting a new pool? You can trust our team to finish around new pool installations, as well as refurbishing and repurposing existing pool surrounds.
+                Getting a new pool is just the beginning—our team is here to deliver the perfect finish for both new installations and existing pool surrounds. We combine premium materials with innovative methods to create a poolside area that's not only beautiful but built to last.
               </p>
             </div>
             <div className="text-lg p-2">
               <p>
-                We are accustomed to building things to the highest codes and standards, insuring the proper and correct installation.
+                We work to the highest codes and standards, ensuring every detail is installed correctly. From crisp, modern finishes to custom touches that enhance the overall ambiance, our skilled professionals pay close attention to every aspect of your project.
               </p>
             </div>
             <div className="text-lg p-2">
               <p>
-                Using the highest quality materials and most innovative methods, we can build a space suited to your ideal summer space.
+                Whether you’re looking to refresh an existing space or complete a brand-new pool installation, we design and build a poolside environment that becomes a true summer retreat. Enjoy a space that invites relaxation and entertains guests, all while boosting your home’s curb appeal. Trust our experience and craftsmanship to create the ideal outdoor oasis that fits your vision and stands the test of time.
               </p>
             </div>
           </div>
