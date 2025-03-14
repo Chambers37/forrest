@@ -46,7 +46,7 @@ export default function Services() {
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 max-w-screen-lg w-full mx-auto">
           
           {/* Hardscaping */}
-          <div className="text-center">
+          <div className="text-center mb-10 md:mb-0">
             <div className="grid justify-center">
               <Link href={'/Hardscaping'}>
                 <Image 
