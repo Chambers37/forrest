@@ -15,15 +15,15 @@ export default function GardenDesign() {
     }, [])
 
   const images = [
-    "/images/landscape/new_plant_installations/best/front-lawn-with-walk.jpg",
-    "/images/landscape/new_plant_installations/best/front-bed-with-maple.jpg",
-    "/images/landscape/new_plant_installations/best/curbside-plantings.jpg",
+    '/images/landscape/garden-design/curved_shrub_bed.jpg',
+    '/images/landscape/garden-design/flower_bed_planning.jpg',
+    '/images/landscape/garden-design/mulched_flower_bed.jpg'
   ];
 
   const enlargedImages = [
-    "/images/landscape/new_plant_installations/best/front-lawn-with-walk.jpg",
-    "/images/landscape/new_plant_installations/best/front-bed-with-maple.jpg",
-    "/images/landscape/new_plant_installations/best/curbside-plantings.jpg",
+    '/images/landscape/garden-design/curved_shrub_bed.jpg',
+    '/images/landscape/garden-design/flower_bed_planning.jpg',
+    '/images/landscape/garden-design/mulched_flower_bed.jpg'
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -49,9 +49,9 @@ export default function GardenDesign() {
   return (
     <div>
       <section className="w-full">
-        <div className="relative w-full h-[400px]">
+        <div className="relative w-full h-[300px]">
           <Image
-            src='/images/landscape/new_plant_installations/best/brick-garden-top-of-page.jpg'
+            src='/images/landscape/garden-design/hillside_design.jpg'
             fill
             alt='Pool Deck and Retaining Wall'
             className="object-cover"
@@ -73,10 +73,13 @@ export default function GardenDesign() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="text-4xl p-2"><h1>Garden Design</h1></div>
+            <div className="text-4xl p-2 text-center md:text-left"><h1>Garden Design</h1></div>
             <div className="text-lg p-2">
-              <p>
-                Backed by decades of experience and an unwavering passion for crafting stunning landscapes, Matt and his team collaborate closely with you to bring your vision to life through detailed 2D and 3D designs. We guide you in selecting the perfect plants to ensure vibrant color throughout every season, tailoring our recommendations to your unique taste. By carefully considering your site’s specific conditions, we create a sustainable, healthy garden space that not only looks beautiful but thrives over time.
+              <p className="text-center md:text-left md:indent-8">
+                Backed by decades of experience and an unwavering passion for creating breathtaking landscapes, Matt and his team work closely with you to transform your vision into reality. Through meticulous 2D and 3D designs, we capture every detail of your dream garden, ensuring that every element is thoughtfully planned and executed. Our collaborative process puts your unique style and preferences at the forefront, allowing us to deliver a landscape that is as functional as it is beautiful.
+              </p>
+              <p className="mt-5 text-center md:text-left md:indent-8">
+               We also guide you through the selection of the perfect plants to guarantee vibrant color throughout the seasons. By carefully considering your site’s specific conditions and tailoring our recommendations to your taste, we craft a sustainable, thriving garden space that not only captivates the eye but continues to flourish over time. Whether you’re seeking a serene retreat or a dynamic outdoor environment, our team is dedicated to bringing your vision to life with precision and care.
               </p>
             </div>
           </div>
@@ -85,7 +88,7 @@ export default function GardenDesign() {
           <div className="flex justify-center">
             <div className="w-full aspect-[16/9] relative">
               <Image
-                src="/images/landscape/new_plant_installations/best/front-steps-with-garden-beds.jpg"
+                src='/images/landscape/garden-design/garden_design_3d.jpg'
                 fill
                 alt="test"
                 className="object-cover rounded-lg p-5"
@@ -100,7 +103,7 @@ export default function GardenDesign() {
           <section className="w-full fade-hidden">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
               {images.map((srcUrl, i) => (
-                <div key={i} className="flex justify-center">
+                <div key={i} className="flex justify-center ">
                   <button
                     onClick={() => openModal(i)}
                     className="w-[400px] h-[400px] relative hover:opacity-60 hover:cursor-zoom-in transition duration-500"
