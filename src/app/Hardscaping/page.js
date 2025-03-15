@@ -135,7 +135,7 @@ export default function Hardscaping() {
                     <Link
                       href={'/Fencing'}>
                         <h1 className="text-xl font-medium text-darkGreen py-2 hover:underline">
-                          Fencing
+                          Fencing & Railing
                         </h1>
                     </Link>
                   </div>
