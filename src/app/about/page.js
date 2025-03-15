@@ -103,7 +103,7 @@ export default function About() {
               <p className="md:indent-8 text-xl mb-4 text-center md:text-left md:pr-6 flex-grow">
                 Matt Siter is the owner of Forrest Hardscape & Landscape. Born and raised in Chester County, Matt is the fourth generation of his family to be involved in the horticultural field. He has been laying bricks, digging shrubs, and planting trees since he could hold a shovel.
               </p>
-              <p className="indent-8 text-xl pr-6">
+              <p className="md:indent-8 text-xl pr-6">
                 After graduating from Downingtown West High School, Matt attended Delaware Valley College (now Delaware Valley University) in Doylestown, Pennsylvania. He graduated with a bachelor’s degree in Ornamental Horticulture with a concentration in Landscape Contracting & Management in 2014. Throughout high school, college and afterwards, Matt gained experience working for multiple nurseries and landscape companies, where he learned to manage multiple crews and complete large scale projects. In 2019, he started his own hardscape and landscape company, Forrest Hardscape.
               </p>
             </div>
@@ -126,10 +126,10 @@ export default function About() {
               </h1>
               <h2 className="text-center font-medium">Owner / Operator</h2>
               <hr className="my-4 border-black" />
-              <p className="indent-8 text-xl mb-4 pr-6">
+              <p className="md:indent-8 text-xl mb-4 pr-6">
                 Matt Siter is the owner of Forrest Hardscape & Landscape. Born and raised in Chester County, Matt is the fourth generation of his family to be involved in the horticultural field. He has been laying bricks, digging shrubs, and planting trees since he could hold a shovel.
               </p>
-              <p className="indent-8 text-xl pr-6">
+              <p className="md:indent-8 text-xl pr-6">
                 After graduating from Downingtown West High School, Matt attended Delaware Valley College (now Delaware Valley University) Hardscape.
               </p>
             </div>
@@ -152,10 +152,10 @@ export default function About() {
               </h1>
               <h2 className="text-center font-medium">Owner / Operator</h2>
               <hr className="my-4 border-black" />
-              <p className="indent-8 text-xl mb-4 pr-6">
+              <p className="md:indent-8 text-xl mb-4 pr-6">
                 Matt Siter is the owner of Forrest Hardscape & Landscape. Born and raised in Chester County, Matt is the fourth generation of his family to be involved in the horticultural field. He has been laying bricks, digging shrubs, and planting trees since he could hold a shovel.
               </p>
-              <p className="indent-8 text-xl pr-6">
+              <p className="md:indent-8 text-xl pr-6">
                 After graduating from Downingtown West High School, Matt attended Delaware Valley College (now Delaware Valley University) Hardscape.
               </p>
             </div>
@@ -178,10 +178,10 @@ export default function About() {
               </h1>
               <h2 className="text-center font-medium">Owner / Operator</h2>
               <hr className="my-4 border-black" />
-              <p className="indent-8 text-xl mb-4 pr-6 flex-grow">
+              <p className="md:indent-8 text-xl mb-4 pr-6 flex-grow">
                 Matt Siter is the owner of Forrest Hardscape & Landscape. Born and raised in Chester County, Matt is the fourth generation of his family to be involved in the horticultural field. He has been laying bricks, digging shrubs, and planting trees since he could hold a shovel.
               </p>
-              <p className="indent-8 text-xl pr-6">
+              <p className="md:indent-8 text-xl pr-6">
                 After graduating from Downingtown West High School, Matt attended Delaware Valley College (now Delaware Valley University) in Doylestown, Pennsylvania. He graduated with a bachelor’s degree in Ornamental Horticulture with a concentration in Landscape Contracting & Management in 2014. Throughout high school, college and afterwards, Matt gained experience working for multiple nurseries and landscape companies, where he learned to manage multiple crews and complete large scale projects. In 2019, he started his own hardscape and landscape company, Forrest Hardscape.
               </p>
             </div>
