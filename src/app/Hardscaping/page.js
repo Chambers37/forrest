@@ -19,7 +19,7 @@ export default function Hardscaping() {
       <section className="w-full">
         <div className="relative w-full h-[350px]">
           <Image
-            src='/images/services-banner-cropped.png'
+            src='/images/hardscaping/PoolDecks/PoolDeckWalkway.jpg'
             fill
             alt='Pool Deck and Retaining Wall'
             className="object-cover"
