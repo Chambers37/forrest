@@ -55,7 +55,7 @@ export default function Fencing() {
   return (
     <div>
       <section className="w-full">
-        <div className="relative w-full h-[400px]">
+        <div className="relative w-full h-[300px]">
           <Image
             src="/images/hardscaping/Fencing/CedarFencing.jpg"
             fill
