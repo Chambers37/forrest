@@ -16,7 +16,7 @@ export default function DesignRendering() {
 
   const images = [
     "/images/hardscaping/3DDesignRendering/3DPatio.jpg",
-    "/images/hardscaping/3DDesignRendering/3dPoolDeck1.jpg",
+    "/images/hardscaping/3DDesignRendering/3dPoolDeck.jpg",
     "/images/hardscaping/3DDesignRendering/3dPoolDeck2.jpg",
     // "/images/services-banner.jpg",
     // "/images/img3.jpg",
@@ -28,7 +28,7 @@ export default function DesignRendering() {
 
   const enlargedImages = [
     "/images/hardscaping/3DDesignRendering/3DPatio.jpg",
-    "/images/hardscaping/3DDesignRendering/3dPoolDeck1.jpg",
+    "/images/hardscaping/3DDesignRendering/3dPoolDeck.jpg",
     "/images/hardscaping/3DDesignRendering/3dPoolDeck2.jpg",
     // "/images/services-banner.jpg",
     // "/images/img3.jpg",
@@ -63,7 +63,7 @@ export default function DesignRendering() {
       <section className="w-full">
         <div className="relative w-full max-w-[4000px] h-[300px] overflow-hidden">
           <Image
-            src='/images/services-banner-cropped.png'
+            src='/images/hardscaping/3DDesignRendering/dinnger_and_seating_area.jpg'
             fill
             alt='Pool Deck and Retaining Wall'
             className="object-cover"
@@ -85,12 +85,12 @@ export default function DesignRendering() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="font-medium text-4xl p-2">
+            <div className="text-center md:text-left font-medium text-4xl p-2">
               <h1>
                 3D Design Rendering
               </h1>
             </div>
-            <div className="text-lg p-2">
+            <div className="text-center md:text-left md:indent-8 p-2">
               <p>
                 Have a dream for your outdoor living space but need help seeing it come to life? Our team uses Uvision, a realistic 3D Landscape Creator software. After we discuss your vision and take a look at the space, we create a lifelike design plan that you will be able to virtually walk though before our work begins.
               </p>
@@ -100,7 +100,7 @@ export default function DesignRendering() {
                 mini title
               </p>
             </div> */}
-            <div className="text-lg p-2">
+            <div className="text-center md:text-left md:indent-8 p-2">
               <p>
                 Want to adjust the pavers, or choose a different color stone? We can easily change the options so you can truly visualize what would look best in your space! Our team wants to help you bring your dream outdoor space to life!
               </p>
