@@ -77,27 +77,29 @@ export default function NaturalStoneWork() {
         </section>
 
         {/* Service Detail Section */}
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
+        <section className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="text-4xl p-2"><h1>Natural Stone Work</h1></div>
+            <div className="text-center lg:text-left text-4xl p-2">
+              <h1>Natural Stone Work</h1>
+            </div>
             <div className="text-lg p-2">
-              <p>
+              <p className="text-center lg:text-left lg:indent-8">
                 Enhance your outdoor space with the timeless beauty and durability of natural stone. Whether you're looking to create a rustic garden path, an elegant patio, or a sturdy retaining wall, our skilled masons bring generations of craftsmanship to every project. We specialize in traditional techniques that ensure your stonework not only looks stunning but also stands the test of time.
               </p>
-              <p className="mt-5">
+              <p className="text-center lg:text-left mt-5">
               We offer expert installation of:
               </p>
             </div>
-            <div>
-              <ul className="list-disc pl-5">
+            <div className="text-center lg:text-left text-lg">
+              <ul className="list-disc list-inside lg:list-outside lg:ml-8">
                 <li>Stucco</li>
-                <li>Full bed stonework</li>
-                <li>Veneer stonework</li>
                 <li>Brick work</li>
-                <li>Traditional bluestone</li>
+                <li>Veneer stonework</li>
                 <li>Natural flagstone</li>
+                <li>Full bed stonework</li>
+                <li>Traditional bluestone</li>
               </ul>
-              <p className="mt-5">
+              <p className="text-center lg:text-left lg:indent-8 mt-5">
                 From intricate stone facades to custom walkways, we take pride in blending artistry with structural integrity, ensuring a seamless and lasting addition to your landscape.
               </p>
             </div>
@@ -125,7 +127,7 @@ export default function NaturalStoneWork() {
 
           {/* Image Gallery */}
           <section className="w-full fade-hidden mt-5">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
               {images.map((srcUrl, i) => (
                 <div key={i} className="flex justify-center">
                   <button

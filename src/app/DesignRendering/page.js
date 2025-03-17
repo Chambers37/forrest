@@ -17,25 +17,13 @@ export default function DesignRendering() {
   const images = [
     "/images/hardscaping/3DDesignRendering/3DPatio.jpg",
     "/images/hardscaping/3DDesignRendering/3dPoolDeck.jpg",
-    "/images/hardscaping/3DDesignRendering/3dPoolDeck2.jpg",
-    // "/images/services-banner.jpg",
-    // "/images/img3.jpg",
-    // "/images/services-banner.jpg",
-    // "/images/testing.gif",
-    // "/images/services-banner.jpg",
-    // "/images/testing.gif",
+    "/images/hardscaping/3DDesignRendering/3dPoolDeck1.jpg",
   ];
 
   const enlargedImages = [
     "/images/hardscaping/3DDesignRendering/3DPatio.jpg",
     "/images/hardscaping/3DDesignRendering/3dPoolDeck.jpg",
-    "/images/hardscaping/3DDesignRendering/3dPoolDeck2.jpg",
-    // "/images/services-banner.jpg",
-    // "/images/img3.jpg",
-    // "/images/services-banner.jpg",
-    // "/images/testing.gif",
-    // "/images/services-banner.jpg",
-    // "/images/testing.gif",
+    "/images/hardscaping/3DDesignRendering/3dPoolDeck1.jpg",
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -92,7 +80,7 @@ export default function DesignRendering() {
             </div>
             <div className="text-center md:text-left md:indent-8 p-2">
               <p>
-                Have a dream for your outdoor living space but need help seeing it come to life? Our team uses Uvision, a realistic 3D Landscape Creator software. After we discuss your vision and take a look at the space, we create a lifelike design plan that you will be able to virtually walk though before our work begins.
+                Have a dream for your outdoor living space but need help visualizing it before construction begins? Our team utilizes Uvision, a state-of-the-art 3D Landscape Creator software to bring your ideas to life. After discussing your vision and evaluating the space, we craft a realistic, immersive design that allows you to virtually walk through your future outdoor oasis before any work begins.
               </p>
             </div>
             {/* <div className="text-3xl p-2">
@@ -102,7 +90,7 @@ export default function DesignRendering() {
             </div> */}
             <div className="text-center md:text-left md:indent-8 p-2">
               <p>
-                Want to adjust the pavers, or choose a different color stone? We can easily change the options so you can truly visualize what would look best in your space! Our team wants to help you bring your dream outdoor space to life!
+                Want to swap out pavers, explore different stone colors, or tweak the layout? No problem! Our flexible design process makes it easy to experiment with different options, ensuring you find the perfect look for your space. We’re here to turn your dream outdoor living space into reality—one detail at a time.
               </p>
             </div>
           </div>

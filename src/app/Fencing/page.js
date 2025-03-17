@@ -79,13 +79,15 @@ export default function Fencing() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="text-4xl p-2"><h1>Fencing & Railing</h1></div>
-            <div className="text-lg p-2">
+            <div className="text-center md:text-left text-4xl p-2">
+              <h1>Fencing & Railing</h1>
+            </div>
+            <div className="text-center md:text-left md:indent-8 text-lg p-2">
               <p>
                 Looking to define your space? We offer a range of fencing and railing solutions, including vinyl privacy fencing, aluminum pool fencing, cedar, pressure-treated wood, and iron fencing and railings. Whether your property is large or small, we’ll design and install a fence that’s both stylish and functional.
               </p>
             </div>
-            <div className="text-lg p-2">
+            <div className="text-center md:text-left md:indent-8 text-lg p-2">
               <p>
                 Our expert team ensures every fence is built with durability and craftsmanship in mind, enhancing security while complementing your landscape. From classic to modern designs, we tailor each installation to suit your needs, providing a seamless blend of privacy, safety, and curb appeal. Let us help you create a boundary that stands the test of time.
               </p>

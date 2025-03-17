@@ -91,21 +91,21 @@ export default function WalkwaysAndPatios() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="font-medium text-4xl p-2">
+            <div className="text-center md:text-left font-medium text-4xl p-2">
               <h1>
                 Walkways & Patios
               </h1>
             </div>
-            <div className="text-lg p-2">
+            <div className="text-center md:text-left md:indent-8 text-lg p-2">
               <p>
                 Our team takes pride in installing pavers with meticulous attention to detail, strictly following the latest CHMA and ICPI industry guidelines. With over 30 years of hands-on experience, we’ve honed our craft to ensure that every project we undertake not only looks stunning but also stands the test of time. By combining proven techniques with top-quality materials, we’re confident in our ability to deliver a surface that enhances your outdoor living space while increasing your property’s value. We firmly stand behind our work, giving you the peace of mind that your investment is in the hands of professionals dedicated to excellence.
               </p>
             </div>
-            <div className="text-lg p-2">
+            <div className="text-center md:text-left md:indent-8 text-lg p-2">
               <p>
                 From the very first design consultation all the way through to the final touches, we handle every aspect of your walkway or patio installation. Our comprehensive approach includes careful planning, precise grading, and expert sod and plant installations—ensuring your new outdoor area is both functional and visually captivating. 
               </p>
-              <p className="mt-4">
+              <p className="text-center md:text-left md:indent-8 mt-4">
                 Whether you prefer a cozy gathering spot, an expansive entertainment area, or a stunning walkway that creates an inviting entrance, our team works closely with you to create a space that reflects your personal style. Let us transform your vision into a reality, delivering an outdoor living environment you’ll love for years to come.
               </p>  
             </div>
