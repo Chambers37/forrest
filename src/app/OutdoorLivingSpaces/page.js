@@ -86,7 +86,7 @@ export default function OutdoorLivingSpaces() {
                 Transform your backyard into a stunning, functional retreat designed for relaxation, entertainment, and family gatherings. Our team works closely with you to create a custom outdoor living space tailored to your needs and lifestyle. Whether you're envisioning a cozy firepit, a shaded pergola, or a fully equipped outdoor kitchen, we bring creativity and craftsmanship to every project. Explore the possibilities and get inspired to design the outdoor oasis of your dreams.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               <div className="relative w-full h-[300px]">
                 <Image 
                   src='/images/hardscaping/outdoor_living_spaces/top_of_page/patio_and_firepit.jpg'
@@ -130,7 +130,7 @@ export default function OutdoorLivingSpaces() {
           <div className="grid sm:grid-cols-1 md:grid-cols-3">
               <div className="p-2 ">
                 <div className="text-center md:text-left">
-                  <p>
+                  <p className="md:indent-8">
                     Create the perfect spot for summer nights spent roasting marshmallows and making memories. Our expert team designs and builds custom firepits that seamlessly blend with your outdoor aesthetic, offering warmth, ambiance, and a welcoming gathering space.
                   </p>
                 </div>
@@ -174,7 +174,7 @@ export default function OutdoorLivingSpaces() {
             <div className="grid sm:grid-cols-1 md:grid-cols-4">
               <div className="p-2">
                 <div className="text-center md:text-left">
-                  <p>
+                  <p className="md:indent-8">
                     Need relief from the summer sun? Let us install a beautiful pavilion with a fully enclosed roof for maximum shade, or a stylish pergola with open latticework for partial coverage. These structures add both charm and function, creating the perfect space to unwind outdoors.
                   </p>
                 </div>
@@ -225,9 +225,9 @@ export default function OutdoorLivingSpaces() {
             </div>
           </div>
           <div className="grid sm:grid-cols-1 md:grid-cols-2">
-            <div className="p-2 max-w-md">
+            <div className="p-2 md:max-w-md">
               <div className="text-center md:text-left">
-                <p>
+                <p className="md:indent-8">
                   Take your entertaining to the next level with a custom outdoor kitchen or dining area. Whether you're hosting intimate dinners or large family gatherings, we design and build spaces that fit your vision—complete with countertops, grills, and even outdoor pizza ovens for that perfect homemade pizza experience.
                 </p>
               </div>
@@ -259,7 +259,7 @@ export default function OutdoorLivingSpaces() {
           <div className="grid sm:grid-cols-1 md:grid-cols-4">
             <div className="p-2">
               <div className="text-center md:text-left">
-                <p>
+                <p className="md:indent-8">
                   Using high-quality PVC and composite decking materials, we create custom decks that are as durable as they are beautiful. Enhance your space with aluminum, cable, or drink railings for a polished look that elevates both safety and style.
                 </p>
               </div>
@@ -311,10 +311,10 @@ export default function OutdoorLivingSpaces() {
           <div className="grid sm:grid-cols-1 md:grid-cols-4">
             <div className="p-2">
               <div className="text-center md:text-left">
-                <p>
+                <p className="md:indent-8">
                   Enjoy your outdoor space long after the sun sets with professional low-voltage lighting solutions. From wireless controllers to app-controlled RGB color-changing lights, we add both safety and ambiance. Our expertise allows us to seamlessly integrate lighting into retaining walls, patios, decks, and landscape features, ensuring your outdoor space shines—day or night.
                 </p>
-                <p className="mt-2">
+                <p className="mt-2 md:indent-8">
                   Let us bring your vision to life with expertly crafted outdoor spaces that enhance the beauty, functionality, and value of your home.
                 </p>
               </div>

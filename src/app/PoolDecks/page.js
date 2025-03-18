@@ -123,7 +123,7 @@ export default function PoolDecks() {
 
           {/* Image Gallery */}
           <section className="w-full fade-hidden mt-5">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
               {images.map((srcUrl, i) => (
                 <div key={i} className="flex justify-center">
                   <button
