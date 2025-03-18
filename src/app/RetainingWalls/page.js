@@ -20,8 +20,6 @@ export default function RetainingWalls() {
     "/images/hardscaping/RetainingWalls/SmallWall.jpg",
     "/images/hardscaping/RetainingWalls/LargeGrayWall.jpg",
     "/images/hardscaping/RetainingWalls/pool_wall.jpg",
-    // "/images/services-banner.jpg",
-    // "/images/better-pool-banner.jpg",
   ];
 
   const enlargedImages = [
@@ -30,8 +28,6 @@ export default function RetainingWalls() {
     "/images/hardscaping/RetainingWalls/SmallWall.jpg",
     "/images/hardscaping/RetainingWalls/LargeGrayWall.jpg",
     "/images/hardscaping/RetainingWalls/pool_wall.jpg",
-    // "/images/services-banner.jpg",
-    // "/images/better-pool-banner.jpg",
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -81,13 +77,15 @@ export default function RetainingWalls() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="text-4xl p-2"><h1>Retaining Walls</h1></div>
-            <div className="text-lg p-2">
+            <div className="text-center md:text-left text-4xl p-2">
+              <h1>Retaining Walls</h1>
+            </div>
+            <div className="text-center md:text-left md:indent-8 text-lg p-2">
               <p>
                 Retaining walls are an essential solution for maximizing your outdoor space, creating new elevations, and leveling your lawn. We design and build retaining walls that are not only highly functional but also enhance the beauty of your landscape, all while meeting the highest industry standards. 
               </p>
             </div>
-            <div className="text-lg p-2">
+            <div className="text-center md:text-left md:indent-8 text-lg p-2">
               <p>
                 With expert craftsmanship and durable materials, our retaining walls provide long-lasting stability and seamless integration with your outdoor environment. Whether you need structural support, erosion control, or a visually striking feature, we customize every project to suit your property’s unique needs, ensuring both strength and style. 
               </p>
@@ -121,7 +119,7 @@ export default function RetainingWalls() {
 
           {/* Image Gallery */}
           <section className="w-full fade-hidden mt-5">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
               {images.map((srcUrl, i) => (
                 <div key={i} className="flex justify-center">
                   <button

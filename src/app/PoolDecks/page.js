@@ -79,22 +79,22 @@ export default function PoolDecks() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="font-medium text-4xl p-2">
+            <div className="text-center md:text-left font-medium text-4xl p-2">
               <h1>
                 Pool Decks
               </h1>
             </div>
-            <div className="text-lg p-2">
+            <div className="text-center md:text-left md:indent-8 text-lg p-2">
               <p>
                 Getting a new pool is just the beginning—our team is here to deliver the perfect finish for both new installations and existing pool surrounds. We combine premium materials with innovative methods to create a poolside area that's not only beautiful but built to last.
               </p>
             </div>
-            <div className="text-lg p-2">
+            <div className="text-center md:text-left md:indent-8 text-lg p-2">
               <p>
                 We work to the highest codes and standards, ensuring every detail is installed correctly. From crisp, modern finishes to custom touches that enhance the overall ambiance, our skilled professionals pay close attention to every aspect of your project.
               </p>
             </div>
-            <div className="text-lg p-2">
+            <div className="text-center md:text-left md:indent-8 text-lg p-2">
               <p>
                 Whether you’re looking to refresh an existing space or complete a brand-new pool installation, we design and build a poolside environment that becomes a true summer retreat. Enjoy a space that invites relaxation and entertains guests, all while boosting your home’s curb appeal. Trust our experience and craftsmanship to create the ideal outdoor oasis that fits your vision and stands the test of time.
               </p>
@@ -123,7 +123,7 @@ export default function PoolDecks() {
 
           {/* Image Gallery */}
           <section className="w-full fade-hidden mt-5">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
               {images.map((srcUrl, i) => (
                 <div key={i} className="flex justify-center">
                   <button
