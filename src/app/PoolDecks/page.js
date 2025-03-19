@@ -55,7 +55,7 @@ export default function PoolDecks() {
   return (
     <div>
       <section className="w-full">
-        <div className="relative w-full h-[300px]">
+        <div className="relative w-full h-[175px] md:h-[300px]">
           <Image
             src='/images/finished-pool-deck.png'
             fill
