@@ -107,7 +107,7 @@ export default function PoolDecks() {
                 <Image
                   src="/images/hardscaping/PoolDecks/FullPoolDeck.jpg"
                   fill
-                  alt="test"
+                  alt='fix me'
                   className="object-cover rounded-lg p-5"
                 />
               </div>

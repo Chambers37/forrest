@@ -42,7 +42,7 @@ export default function About() {
               src='/images/service-landscape.png'
               width={400}
               height={500}
-              alt='test'
+              alt='fix me'
               className="w-80 h-80 sm:w-100 sm:h-100 md:w-80 md:h-96 object-cover"
             />
           </div>
@@ -51,7 +51,7 @@ export default function About() {
               src='/images/testing.gif'
               width={400}
               height={500}
-              alt='test'
+              alt='fix me'
               className="w-80 h-80 sm:w-60 sm:h-80 md:w-80 md:h-96 object-cover"
             />
           </div>
@@ -60,7 +60,7 @@ export default function About() {
               src='/images/service-landscape.png'
               width={400}
               height={500}
-              alt='test'
+              alt='fix me'
               className="w-80 h-80 sm:w-60 sm:h-80 md:w-80 md:h-96 object-cover"
             />
           </div>

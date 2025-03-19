@@ -107,7 +107,7 @@ export default function Job2() {
               <Image
                 src="/images/service-landscape.png"
                 fill
-                alt="test"
+                alt='fix me'
                 className="object-cover rounded-lg p-5"
               />
             </div>

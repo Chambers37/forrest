@@ -111,7 +111,7 @@ export default function NaturalStoneWork() {
               <Image
                 src="/images/hardscaping/NaturalStoneWork/main_bricks.jpg"
                 fill
-                alt="test"
+                alt='fix me'
                 className="object-cover rounded-lg p-5"
               />
             </div>

@@ -98,7 +98,7 @@ export default function RetainingWalls() {
               <Image
                 src="/images/hardscaping/RetainingWalls/main_wall.png"
                 fill
-                alt="test"
+                alt='fix me'
                 className="object-cover rounded-lg p-5"
               />
             </div>

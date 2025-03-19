@@ -61,7 +61,7 @@ export default function Hardscaping() {
                       src={"/images/hardscaping/3DDesignRendering/3dDiningArea.jpg"} 
                       fill
                       className="object-cover"
-                      alt='test'
+                      alt='fix me'
                     />
                     
                   </Link>
@@ -83,7 +83,7 @@ export default function Hardscaping() {
                       src={'/images/hardscaping/WalkwaysAndPatios/Walkway1.png'} 
                       fill
                       className="object-cover"
-                      alt='test'
+                      alt='fix me'
                     />
                     
                   </Link>
@@ -105,7 +105,7 @@ export default function Hardscaping() {
                       src={'/images/hardscaping/PoolDecks/FullPoolDeck.jpg'} 
                       fill
                       className="object-cover"
-                      alt='test'
+                      alt='fix me'
                     />
                     
                   </Link>
@@ -127,7 +127,7 @@ export default function Hardscaping() {
                       src={"/images/hardscaping/Fencing/CedarFencing.jpg"} 
                       fill
                       className="object-cover"
-                      alt='test'
+                      alt='fix me'
                     />
                     
                   </Link>
@@ -149,7 +149,7 @@ export default function Hardscaping() {
                       src={'/images/hardscaping/RetainingWalls/main_wall.png'} 
                       fill
                       className="object-cover"
-                      alt='test'
+                      alt='fix me'
                     />
                     
                   </Link>
@@ -171,7 +171,7 @@ export default function Hardscaping() {
                       src={'/images/hardscaping/NaturalStoneWork/rear_patio_with_steps.jpg'} 
                       fill
                       className="object-cover"
-                      alt='test'
+                      alt='fix me'
                     />
                     
                   </Link>
@@ -193,7 +193,7 @@ export default function Hardscaping() {
                     src={'/images/hardscaping/outdoor_living_spaces/top_of_page/patio_and_firepit.jpg'} 
                     fill
                     className="object-cover"
-                    alt='test'
+                    alt='fix me'
                   />
                   
                 </Link>
