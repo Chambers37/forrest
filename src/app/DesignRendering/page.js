@@ -101,7 +101,7 @@ export default function DesignRendering() {
                 <Image
                   src="/images/hardscaping/3DDesignRendering/3dDiningArea.jpg"
                   fill
-                  alt="test"
+                  alt='fix me'
                   className="object-cover rounded-lg p-5"
                 />
               </div>

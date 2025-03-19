@@ -117,7 +117,7 @@ export default function WalkwaysAndPatios() {
                 <Image
                   src="/images/hardscaping/WalkwaysAndPatios/PatioWithLights.jpg"
                   fill
-                  alt="test"
+                  alt='fix me'
                   className="object-cover rounded-lg p-5"
                 />
               </div>

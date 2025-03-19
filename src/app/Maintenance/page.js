@@ -61,7 +61,7 @@ export default function Maintenance() {
                       src={'/images/img1.jpg'} 
                       fill
                       className="object-cover"
-                      alt='test'
+                      alt='fix me'
                     />
                     
                   </Link>
@@ -83,7 +83,7 @@ export default function Maintenance() {
                       src={'/images/img1.jpg'} 
                       fill
                       className="object-cover"
-                      alt='test'
+                      alt='fix me'
                     />
                     
                   </Link>
