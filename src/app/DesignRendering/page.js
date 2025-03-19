@@ -49,7 +49,7 @@ export default function DesignRendering() {
   return (
     <div>
       <section className="w-full">
-        <div className="relative w-full max-w-[4000px] h-[300px] overflow-hidden">
+        <div className="relative w-full max-w-[4000px] h-[175px] md:h-[300px] overflow-hidden">
           <Image
             src='/images/hardscaping/3DDesignRendering/dinnger_and_seating_area.jpg'
             fill
@@ -101,7 +101,7 @@ export default function DesignRendering() {
                 <Image
                   src="/images/hardscaping/3DDesignRendering/3dDiningArea.jpg"
                   fill
-                  alt="test"
+                  alt='fix me'
                   className="object-cover rounded-lg p-5"
                 />
               </div>

@@ -49,7 +49,7 @@ export default function NewPlantInstallations() {
   return (
     <div>
       <section className="w-full">
-        <div className="relative w-full h-[300px]">
+        <div className="relative w-full h-[175px] md:h-[300px]">
           <Image
             src='/images/landscape/new_plant_installations/best/brick-garden-top-of-page.jpg'
             fill
@@ -73,19 +73,19 @@ export default function NewPlantInstallations() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className=" text-4xl p-2">
+            <div className="text-center md:text-left text-4xl p-2">
               <h1>
                 New Plant Installations
               </h1>
             </div>
-            <div className=" text-lg p-2">
+            <div className="text-center md:text-left md:indent-8 text-lg p-2">
               <p>
                 Drawing on our extensive experience and a deep-rooted passion for horticulture, we craft gardens that are vibrant and ever-changing throughout the year. 
               </p>
-              <p className="mt-4">
+              <p className="text-center md:text-left md:indent-8 mt-4">
                 Our expert team meticulously selects the perfect combination of plants suited to your local climate and soil conditions, ensuring that your garden bursts into color with each passing season. Imagine a landscape that greets you with delicate spring blossoms, transforms into a lush and lively oasis during the summer, displays the warm hues of autumn, and even offers a serene, understated charm in the winter.
               </p>
-              <p className="mt-4">
+              <p className="text-center md:text-left md:indent-8 mt-4">
                 We take pride in creating outdoor spaces that do more than just exist—they tell a story. Our approach combines innovative design with sustainable practices to produce a garden that is both beautiful and resilient. With attention to detail in every planting decision and landscape element, we ensure that your garden becomes a unique sanctuary that not only delights you but also impresses neighbors, family, and friends alike. Let us help you transform your outdoor space into a living masterpiece that evolves gracefully with the seasons.
               </p>
             </div>
@@ -97,7 +97,7 @@ export default function NewPlantInstallations() {
               <Image
                 src="/images/landscape/new_plant_installations/best/front-steps-with-garden-beds.jpg"
                 fill
-                alt="test"
+                alt='fix me'
                 className="object-cover rounded-lg p-5"
               />
             </div>
@@ -108,7 +108,7 @@ export default function NewPlantInstallations() {
 
           {/* Image Gallery */}
           <section className="w-full fade-hidden">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
               {images.map((srcUrl, i) => (
                 <div key={i} className="flex justify-center">
                   <button

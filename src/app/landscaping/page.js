@@ -19,7 +19,7 @@ export default function Landscaping() {
       <section className="w-full">
         <div className="relative w-full h-[350px]">
           <Image
-            src='/images/services-banner-cropped.png'
+            src='/images/landscape/landscape-banner.jpg'
             fill
             alt='Pool Deck and Retaining Wall'
             className="object-cover"
@@ -41,7 +41,7 @@ export default function Landscaping() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 gap-6 w-full fade-hidden">
           <div>
-            <div className="text-6xl p-2 text-center mb-6 mt-0 font-medium text-darkGreen">
+            <div className="text-4xl md:text-6xl p-2 text-center mb-6 mt-0 font-medium text-darkGreen">
               <h1>Landscaping Services</h1>
             </div>
           </div>
@@ -58,10 +58,10 @@ export default function Landscaping() {
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
-                      src={'/images/img1.jpg'} 
+                      src={'/images/landscape/garden-design/hillside_design.jpg'} 
                       fill
                       className="object-cover"
-                      alt='test'
+                      alt='fix me'
                     />
                     
                   </Link>
@@ -80,10 +80,10 @@ export default function Landscaping() {
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
-                      src={'/images/img1.jpg'} 
+                      src={'/images/landscape/new_plant_installations/best/brick-garden-top-of-page.jpg'} 
                       fill
                       className="object-cover"
-                      alt='test'
+                      alt='fix me'
                     />
                     
                   </Link>
@@ -105,7 +105,7 @@ export default function Landscaping() {
                       src={'/images/img1.jpg'} 
                       fill
                       className="object-cover"
-                      alt='test'
+                      alt='fix me'
                     />
                     
                   </Link>
@@ -124,10 +124,10 @@ export default function Landscaping() {
                     className="w-full max-w-[350px] aspect-square relative hover:opacity-80"
                   >                    
                     <Image 
-                      src={'/images/img1.jpg'} 
+                      src={'/images/landscape/seasonal_services/mulch/mulched_spring_bed.jpg'} 
                       fill
                       className="object-cover"
-                      alt='test'
+                      alt='fix me'
                     />
                     
                   </Link>

@@ -67,7 +67,7 @@ export default function WalkwaysAndPatios() {
   return (
     <div>
       <section className="w-full">
-        <div className="relative w-full h-[300px]">
+        <div className="relative w-full h-[175px] md:h-[300px]">
           <Image
             src="/images/hardscaping/WalkwaysAndPatios/WalkwayWithMulch2.jpg"
             fill
@@ -117,7 +117,7 @@ export default function WalkwaysAndPatios() {
                 <Image
                   src="/images/hardscaping/WalkwaysAndPatios/PatioWithLights.jpg"
                   fill
-                  alt="test"
+                  alt='fix me'
                   className="object-cover rounded-lg p-5"
                 />
               </div>

@@ -61,7 +61,7 @@ export default function Job2() {
   return (
     <div>
       <section className="w-full">
-        <div className="relative w-full h-[300px]">
+        <div className="relative w-full h-[175px] md:h-[300px]">
           <Image
             src='/images/services-banner-cropped.png'
             fill
@@ -107,7 +107,7 @@ export default function Job2() {
               <Image
                 src="/images/service-landscape.png"
                 fill
-                alt="test"
+                alt='fix me'
                 className="object-cover rounded-lg p-5"
               />
             </div>

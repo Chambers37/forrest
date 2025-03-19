@@ -49,7 +49,7 @@ export default function GardenDesign() {
   return (
     <div>
       <section className="w-full">
-        <div className="relative w-full h-[300px]">
+        <div className="relative w-full h-[175px] md:h-[300px]">
           <Image
             src='/images/landscape/garden-design/hillside_design.jpg'
             fill
@@ -73,7 +73,11 @@ export default function GardenDesign() {
         {/* Service Detail Section */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full fade-hidden">
           <div>
-            <div className="text-4xl p-2 text-center md:text-left"><h1>Garden Design</h1></div>
+            <div className="text-4xl p-2 text-center md:text-left">
+              <h1>
+                Garden Design
+              </h1>
+            </div>
             <div className="text-lg p-2">
               <p className="text-center md:text-left md:indent-8">
                 Backed by decades of experience and an unwavering passion for creating breathtaking landscapes, Matt and his team work closely with you to transform your vision into reality. Through meticulous 2D and 3D designs, we capture every detail of your dream garden, ensuring that every element is thoughtfully planned and executed. Our collaborative process puts your unique style and preferences at the forefront, allowing us to deliver a landscape that is as functional as it is beautiful.
@@ -90,7 +94,7 @@ export default function GardenDesign() {
               <Image
                 src='/images/landscape/garden-design/garden_design_3d.jpg'
                 fill
-                alt="test"
+                alt='fix me'
                 className="object-cover rounded-lg p-5"
               />
             </div>
@@ -101,7 +105,7 @@ export default function GardenDesign() {
 
           {/* Image Gallery */}
           <section className="w-full fade-hidden">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
               {images.map((srcUrl, i) => (
                 <div key={i} className="flex justify-center ">
                   <button

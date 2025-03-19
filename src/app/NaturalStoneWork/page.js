@@ -55,7 +55,7 @@ export default function NaturalStoneWork() {
   return (
     <div>
       <section className="w-full">
-        <div className="relative w-full h-[300px]">
+        <div className="relative w-full h-[175px] md:h-[300px]">
           <Image
             src='/images/hardscaping/NaturalStoneWork/banner.png'
             fill
@@ -111,7 +111,7 @@ export default function NaturalStoneWork() {
               <Image
                 src="/images/hardscaping/NaturalStoneWork/main_bricks.jpg"
                 fill
-                alt="test"
+                alt='fix me'
                 className="object-cover rounded-lg p-5"
               />
             </div>

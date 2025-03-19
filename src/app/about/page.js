@@ -30,6 +30,7 @@ export default function About() {
     //       </h1>
     //     </section>
 
+// <<<<<<< about-us-redo
     //   {/* About Us Text */}
     //   <section className="flex flex-col justify-center">
     //     <div className="mt-5 text-center justify-center mx-auto max-w-screen-2xl grid grid-cols-1 md:grid-cols-2">
@@ -78,6 +79,56 @@ export default function About() {
     //       </div>
     //     </div>
     //   </section>
+// =======
+//       {/* About Us Text */}
+//       <section className="flex flex-col justify-center">
+//         <div className="mt-5 text-center justify-center mx-auto max-w-screen-2xl grid grid-cols-1 md:grid-cols-2">
+//           <div className="flex justify-center w-full">
+//             <div className="text-4xl md:text-8xl text-darkGreen w-4/5 flex justify-center font-medium items-center pt-4">
+//               <h1>About Us</h1>
+//             </div>
+//           </div>
+//           <div className="py-4">
+//             <div className="px-5 pb-7 md:mr-10">Forrest Hardscape & Landscape is a dedicated team of skilled professionals with a deep-rooted passion for transforming outdoor spaces, bringing generations of expertise in hardscaping, landscaping, and horticultural craftsmanship to every project.
+//             </div>
+//             <div className="px-5 pb-7 md:mr-10">With over <strong>100</strong> years of combined experience, we are committed to quality, precision, and customer satisfaction, the team works collaboratively to design, build, and maintain stunning landscapes that enhance the beauty, functionality, and value of residential and commercial properties across Chester County and beyond.
+//             </div>
+//           </div>
+//         </div>
+//         {/* Images */}
+//         <div>
+//           <div className="grid grid-cols-1 gap-3 mx-2 sm:grid-cols-3">
+//           <div className="flex justify-center py-2 md:justify-end">
+//             <Image
+//               src='/images/service-landscape.png'
+//               width={400}
+//               height={500}
+//               alt='fix me'
+//               className="w-80 h-80 sm:w-100 sm:h-100 md:w-80 md:h-96 object-cover"
+//             />
+//           </div>
+//           <div className="flex justify-center py-2 md:justify-center">
+//             <Image
+//               src='/images/testing.gif'
+//               width={400}
+//               height={500}
+//               alt='fix me'
+//               className="w-80 h-80 sm:w-60 sm:h-80 md:w-80 md:h-96 object-cover"
+//             />
+//           </div>
+//           <div className="flex justify-center py-2 md:justify-start">
+//             <Image
+//               src='/images/service-landscape.png'
+//               width={400}
+//               height={500}
+//               alt='fix me'
+//               className="w-80 h-80 sm:w-60 sm:h-80 md:w-80 md:h-96 object-cover"
+//             />
+//           </div>
+//           </div>
+//         </div>
+//       </section>
+// >>>>>>> main
 
 
     //   {/* Meet The Team */}

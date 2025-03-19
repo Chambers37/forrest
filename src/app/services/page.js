@@ -19,7 +19,7 @@ export default function Services() {
 
       {/* Image Banner */}
       <section className="relative">
-        <div className="relative w-full max-w-[4000px] h-[300px] overflow-hidden">
+        <div className="relative w-full max-w-[4000px] h-[175px] md:h-[300px] overflow-hidden">
           <Image
             src='/images/services-banner-cropped.png'
             fill
@@ -59,16 +59,48 @@ export default function Services() {
               </Link>
             </div>
             <div>
-              <Link href={'/Hardscaping'}><p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen hover:scale-105">Hardscaping</p></Link>
+              <Link href={'/Hardscaping'}>
+                <p className="text-darkGreen font-bold text-3xl underline hover:text-lightGreen hover:scale-105">
+                  Hardscaping
+                </p>
+              </Link>
             </div>
             <ul className="grid grid-cols-1 gap-3 pt-5">
-              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/DesignRendering'}>3D Design Rendering</Link>
-              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/WalkwaysAndPatios'}>Walkways & Patios</Link>
-              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/PoolDecks'}>Pool Decks</Link>
-              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Fencing'}>Fencing & Railing</Link>
-              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/RetainingWalls'}>Retaining Walls</Link>
-              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/NaturalStoneWork'}>Natural Stone Work</Link>
-              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/OutdoorLivingSpaces'}>Outdoor Living Spaces</Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/DesignRendering'}>
+                <p>
+                  3D Design Rendering
+                </p>
+              </Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/WalkwaysAndPatios'}>
+                <p>
+                  Walkways & Patios
+                </p>
+              </Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/PoolDecks'}>
+                <p>
+                  Pool Decks
+                </p>
+              </Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/Fencing'}>
+                <p>
+                  Fencing & Railing
+                </p>
+              </Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/RetainingWalls'}>
+                <p>
+                  Retaining Walls
+                </p>
+              </Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/NaturalStoneWork'}>
+                <p>
+                  Natural Stone Work
+                </p>
+              </Link>
+              <Link className="hover:font-bold hover:underline hover:text-black text-lg hover:text-lightGreen" href={'/OutdoorLivingSpaces'}>
+                <p>
+                  Outdoor Living Spaces
+                </p>
+              </Link>
             </ul>
           </div>
 
@@ -106,7 +138,7 @@ export default function Services() {
                   src='/images/maintenance-category.png'
                   width={200}
                   height={200}
-                  alt='test'
+                  alt='fix me'
                   className="hover:opacity-80"
                 />
               </Link>
