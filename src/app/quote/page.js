@@ -20,7 +20,7 @@ export default function Quote() {
     <div>
       {/* Quote Banner */}
       <section className="relative">
-        <div className="relative w-full max-w-[4000px] h-[300px] overflow-hidden">
+        <div className="relative w-full max-w-[4000px] h-[175px] md:h-[300px] overflow-hidden">
           <Image
             src='/images/services-banner-cropped.png'
             fill

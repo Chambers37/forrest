@@ -49,7 +49,7 @@ export default function GardenDesign() {
   return (
     <div>
       <section className="w-full">
-        <div className="relative w-full h-[300px]">
+        <div className="relative w-full h-[175px] md:h-[300px]">
           <Image
             src='/images/landscape/garden-design/hillside_design.jpg'
             fill
