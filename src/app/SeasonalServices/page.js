@@ -70,14 +70,14 @@ export default function SeasonalServices() {
         {/* Service Detail Section */}
         <section className="w-full fade-hidden mb-10">
           <div>
-            <div className="text-center text-4xl p-2">
+            <div className="text-center text-4xl md:text-6xl p-2 font-medium text-darkerGreen">
               <h1>
                 Seasonal Services
               </h1>
             </div>
             <div className="text-lg p-2 text-center">
-              <p className="md:px-20">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quae eius possimus saepe veritatis, totam ipsum cumque repellendus quo accusamus temporibus dicta! Ad labore magnam, voluptatibus veniam officiis voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quia tempore esse cumque quo vero doloremque possimus quod! Fuga fugiat non blanditiis. Voluptas iure tempora ipsum qui possimus nobis! Voluptatibus.
+              <p className="md:px-20 text-2xl">
+                Keeping your landscape looking its best requires care throughout the year. Our team provides seasonal services to maintain the beauty and health of your outdoor space, ensuring it thrives in every season. From spring revitalization to summer maintenance and fall cleanup, we take care of your property so you can enjoy it year-round.
               </p>
             </div>
           </div>
@@ -90,15 +90,15 @@ export default function SeasonalServices() {
           <div>
             <div>
               <h1 className="text-2xl font-medium pl-2 text-center md:text-left">
-                Mulching
+                Spring Cleanup & Mulching
               </h1>
             </div>
           </div>
           <div className="grid sm:grid-cols-1 md:grid-cols-3">
             <div className="p-2">
               <div className="text-center md:text-left">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quo. Nesciunt error ullam debitis cupiditate odio veniam sunt quisquam cum ipsa atque, voluptas neque iste perspiciatis laudantium. Iste, ex mollitia?
+                <p className="text-center md:text-left md:indent-8">
+                  Spring is a time of renewal, and a well-prepared landscape sets the stage for months of outdoor enjoyment. Our team will refresh your property by cutting back perennials as needed, trimming shrubs at the right seasonal time, edging garden beds, and clearing winter debris. We also provide professional mulching to enhance the appearance of your landscape while promoting soil health and moisture retention.
                 </p>
               </div>
             </div>
@@ -139,8 +139,8 @@ export default function SeasonalServices() {
           <div className="grid sm:grid-cols-1 md:grid-cols-3">
             <div className="p-2">
               <div className="text-center md:text-left">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quo. Nesciunt error ullam debitis cupiditate odio veniam sunt quisquam cum ipsa atque, voluptas neque iste perspiciatis laudantium. Iste, ex mollitia?
+                <p className="text-center md:text-left md:indent-8">
+                  Proper pruning keeps your plants and trees healthy, vibrant, and well-shaped throughout the growing season. With a degree in Ornamental Horticulture, Matt and his team carefully trim plants at the right time and in the right way, ensuring they flourish. By considering factors like bloom timing and environmental conditions, we promote strong, long-lasting growth while preserving the natural beauty of your landscape.
                 </p>
               </div>
             </div>
@@ -182,8 +182,8 @@ export default function SeasonalServices() {
           <div className="grid sm:grid-cols-1 md:grid-cols-3">
             <div className="p-2">
               <div className="text-center md:text-left">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quo. Nesciunt error ullam debitis cupiditate odio veniam sunt quisquam cum ipsa atque, voluptas neque iste perspiciatis laudantium. Iste, ex mollitia?
+                <p className="text-center md:text-left md:indent-8">
+                  Prepare your property for winter with our comprehensive fall cleanup services. We handle seasonal perennial cutbacks and bulk leaf removal, ensuring your landscape remains tidy and well-maintained. Our team is equipped to haul away and dispose of unwanted leaves, whether you need a full-property cleanup or a curbside pickup service.
                 </p>
               </div>
             </div>
