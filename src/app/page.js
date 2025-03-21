@@ -54,7 +54,7 @@ export default function Homepage() {
                to-lightGreen p-7">
 
         <div className="fade-hidden w-full px-8">
-          <p className="text-center md:text-left p-2 text-2xl font-medium text-darkGreen"><Link href="/Services">Our Services</Link></p>
+          <p className="text-center md:text-left p-2 text-2xl font-medium text-darkGreen"><Link href="/services">Our Services</Link></p>
           <h1 className="text-center md:text-left text-4xl hover:text-black transition duration-300 md:p-4 md:text-6xl font-medium text-darkGreen"><Link href="/Hardscaping">Hardscaping Services</Link></h1>
           <hr className="m-2 border-black"></hr>
           <h1 className="text-center md:text-left text-4xl hover:text-black transition duration-300 md:p-4 md:text-6xl font-medium text-darkGreen"><Link href="/WalkwaysAndPatios">Walkways & Patios</Link></h1>
@@ -66,7 +66,7 @@ export default function Homepage() {
           <h1 className="text-center md:text-left text-4xl hover:text-black transition duration-300 md:p-4 md:text-6xl font-medium text-darkGreen"><Link href="/Landscaping">Landscaping Services</Link></h1>
           <hr className="m-2 border-black"></hr>
           <div className="text-center md:text-left">
-            <Link href="/Services">
+            <Link href="/services">
               <button className="min-w-[175px] max-w-[300px] w-1/2 bg-darkGreen hover:text-black hover:bg-lightGreen font-medium rounded-full text-white p-4 mt-6 mb-5 transition duration-300">View All Services</button>
             </Link>
           </div>
