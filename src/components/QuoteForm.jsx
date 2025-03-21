@@ -172,7 +172,7 @@ export default function QuoteForm() {
             </div>
 
             <div className="col-span-1 md:col-span-2">
-              <button className="mt-10 bg-lightGreen rounded-full hover:bg-darkGreen hover:text-white transition duration-400 w-full p-2 font-medium">
+              <button className="mt-10 hover:bg-lightGreen rounded-full bg-darkGreen hover:text-black text-white transition duration-400 w-full p-2 font-medium">
                 Submit
               </button>
             </div>
