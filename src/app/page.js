@@ -102,8 +102,7 @@ export default function Homepage() {
             <h1 className="mb-5 md:mb-0 text-6xl text-darkGreen">Why Choose Us</h1>
           </div>
           <div className="text-center md:text-left px-10 md:pr-20 md:pl-10 text-lg mx-auto max-w-[680px]">
-            <p className="md:indent-8">Forrest Hardscape & Landscape is a full-service company servicing the greater Chester County region.</p>
-            <p className="mb-6">Forrest Hardscape & Landscape is a full-service company servicing the greater Chester County region.</p>
+            <p className="md:indent-8 mb-4">Forrest Hardscape & Landscape is a full-service company servicing the greater Chester County region. Our team is committed to enhancing outdoor spaces with both function and beauty, tailored to fit each client’s unique vision.</p>
             <p className="md:indent-8">With 18 years of experience in the horticultural industry, Matt and his team, work with homeowners and businesses to design, install, and maintain landscape and hardscape projects, both big and small.</p>
           </div>
         </div>
