@@ -2,6 +2,7 @@ import { useState } from "react";
 
 export default function QuoteForm() {
 
+  const [submitStatus, setSubmitStatus] = useState('idle')
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -18,6 +19,7 @@ export default function QuoteForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setSubmitStatus('sending');
 
     try {
       const response = await fetch("/api/send-email", {
@@ -25,6 +27,11 @@ export default function QuoteForm() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || 'Failed to send email.')
+      }
 
       setFormData({
         firstName: "",
@@ -35,9 +42,14 @@ export default function QuoteForm() {
         serviceType: "",
         message: "",
       });
+
+      setSubmitStatus('sent');
+      setTimeout(() => setSubmitStatus('idle'), 3000)
+
     } catch (error) {
       console.error("Error:", error);
-      alert("Failed to send email.");
+      alert(error.message || "Failed to send email.");
+      setSubmitStatus('idle');
     }
   };
 
@@ -172,8 +184,13 @@ export default function QuoteForm() {
             </div>
 
             <div className="col-span-1 md:col-span-2">
-              <button className="mt-10 hover:bg-lightGreen rounded-full bg-darkGreen hover:text-black text-white transition duration-400 w-full p-2 font-medium">
-                Submit
+              <button 
+                type="submit"
+                className="mt-10 hover:bg-lightGreen rounded-full bg-darkGreen hover:text-black text-white transition duration-400 w-full p-2 font-medium disabled:opacity-50 disabled:cursor-not-allowed"
+                disabled={submitStatus === 'sending'}
+              >
+                {submitStatus === 'sending' ? 'Sending...' : 
+                submitStatus === 'sent' ? 'Sent!' : 'Submit'}
               </button>
             </div>
             
