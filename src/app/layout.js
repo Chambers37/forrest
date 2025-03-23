@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="min-h-screen">
       <body className="flex flex-col min-h-screen">
         <Navbar />
-        <main className="flex-grow pt-[90px]">{children}</main>
+        <main className="flex-grow pt-[60px] sm:pt-[90px]">{children}</main>
         <Footer />
         <Analytics />
         <SpeedInsights/>

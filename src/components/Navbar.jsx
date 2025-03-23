@@ -10,7 +10,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="h-[90px] flex items-center fixed z-50 top-0 w-full justify-between bg-greenWhite px-4 shadow-lg">
+    <div className="h-[60px] sm:h-[90px] flex items-center fixed z-50 top-0 w-full justify-between bg-greenWhite px-3 sm:px-4 shadow-lg">
 
       {/* Logo */}
       <Link href="/">
@@ -19,7 +19,7 @@ export default function Navbar() {
           width={300}
           height={96}
           alt="Forrest Hardscape and Landscape"
-          className="h-[72px] w-[225px] object-contain mt-3"
+          className="h-[60px] sm:h-[72px] w-[175px] sm:w-[225px] object-contain mt-3"
         />
       </Link>
 
