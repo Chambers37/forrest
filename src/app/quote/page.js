@@ -28,7 +28,7 @@ export default function Quote() {
             className="object-cover"
           />
         </div>
-        <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-bold text-5xl md:text-7xl text-center">
+        <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-bold text-4xl md:text-7xl text-center">
           Get Your<br />Quote Today
         </h1>
       </section>

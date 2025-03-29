@@ -40,7 +40,7 @@ export default function Navbar() {
 
       {/* Navbar Links (Desktop + Mobile) */}
       <nav
-        className={`absolute top-[90px] left-0 w-full bg-greenWhite flex flex-col items-center space-y-4 py-5 shadow-lg 
+        className={`absolute top-[58px] left-0 w-full bg-greenWhite flex flex-col items-center space-y-4 py-5 shadow-lg 
         md:relative md:flex-row md:space-y-0 md:top-0 md:w-auto md:space-x-3 md:mr-5 md:pb-1 md:shadow-none
         ${menuOpen ? 'block' : 'hidden md:flex'}`}
       >
