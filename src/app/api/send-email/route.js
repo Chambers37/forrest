@@ -8,7 +8,7 @@ export async function POST(req) {
     const { firstName, lastName, city, email, phone, serviceType, message } = body;
 
     const response = await resend.emails.send({
-      from: 'onboarding@resend.dev',
+      from: 'quotes@forresthardscape.com',
       to: 'chambers3737@gmail.com',
       subject: 'New Quote Request',
       text: `
