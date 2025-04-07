@@ -65,7 +65,7 @@ export default function DrainageAndGradingSolutions() {
           <Image
             src='/images/services-banner-cropped.png'
             fill
-            alt='Pool Deck and Retaining Wall'
+            alt='Open field with well landscaped grass'
             className="object-cover"
           />
         </div>
