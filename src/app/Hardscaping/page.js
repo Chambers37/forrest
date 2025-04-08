@@ -61,7 +61,7 @@ export default function Hardscaping() {
                       src={"/images/hardscaping/3DDesignRendering/3dDiningArea.jpg"} 
                       fill
                       className="object-cover"
-                      alt='fix me'
+                      alt='Outdoor Dining Area with fire pit'
                     />
                     
                   </Link>
