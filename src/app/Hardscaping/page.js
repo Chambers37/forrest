@@ -83,7 +83,7 @@ export default function Hardscaping() {
                       src={'/images/hardscaping/WalkwaysAndPatios/Walkway1.png'} 
                       fill
                       className="object-cover"
-                      alt='fix me'
+                      alt='Stone walkway with flower beds on each side'
                     />
                     
                   </Link>
