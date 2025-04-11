@@ -127,7 +127,7 @@ export default function Hardscaping() {
                       src={"/images/hardscaping/Fencing/CedarFencing.jpg"} 
                       fill
                       className="object-cover"
-                      alt='fix me'
+                      alt='Beautiful Cedar Fence'
                     />
                     
                   </Link>
