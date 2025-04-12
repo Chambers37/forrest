@@ -149,7 +149,7 @@ export default function Hardscaping() {
                       src={'/images/hardscaping/RetainingWalls/main_wall.png'} 
                       fill
                       className="object-cover"
-                      alt='fix me'
+                      alt='Stunning Natural Stone Wall'
                     />
                     
                   </Link>
