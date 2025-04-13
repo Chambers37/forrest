@@ -105,7 +105,7 @@ export default function Hardscaping() {
                       src={'/images/hardscaping/PoolDecks/FullPoolDeck.jpg'} 
                       fill
                       className="object-cover"
-                      alt='fix me test'
+                      alt='Beautiful pool deck with natural stone retaining wall and elevated seating area'
                     />
                     
                   </Link>
