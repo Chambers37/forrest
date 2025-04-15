@@ -193,7 +193,7 @@ export default function Hardscaping() {
                     src={'/images/hardscaping/outdoor_living_spaces/top_of_page/patio_and_firepit.jpg'} 
                     fill
                     className="object-cover"
-                    alt='beautiful outdoor living space with fire pit and seating area'
+                    alt='beautiful outdoor living space with fire pit and seating space'
                   />
                   
                 </Link>
