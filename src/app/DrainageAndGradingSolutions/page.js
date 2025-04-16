@@ -97,7 +97,7 @@ export default function DrainageAndGradingSolutions() {
               <Image
                 src="/images/service-landscape.png"
                 fill
-                alt='fix me'
+                alt='Open field with well landscaped grass'
                 className="object-cover rounded-lg p-5"
               />
             </div>
