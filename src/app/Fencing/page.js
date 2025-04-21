@@ -100,7 +100,7 @@ export default function Fencing() {
               <Image
                 src="/images/hardscaping/Fencing/AluminumFence1.jpg"
                 fill
-                alt='fix me'
+                alt='Beautiful black Aluminum Fence behind pool and deck'
                 className="object-cover rounded-lg p-5"
               />
             </div>
